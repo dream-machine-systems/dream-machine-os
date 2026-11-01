@@ -2,7 +2,7 @@
 id: runbook
 title: Deployment Runbook
 book_ref: "Deployment Runbook (CH 13 to 19)"
-spec_status: DRAFT
+spec_status: STABLE
 build: v0.9.5
 related: [01-identity-bios, 02-operating-system, 03-processor, 04-security-auditing, 07-social-api, 09-love-protocol, 10-hardened-infrastructure, 11-wisdom-nodes, 12-data-sovereignty]
 audit: https://www.dreammachine.systems/audit
