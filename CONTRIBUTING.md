@@ -46,6 +46,7 @@ The repository uses the tiers of the book's dependency index:
 
 - English, Markdown, one module per directory, YAML front matter as in the existing modules.
 - A new module or a status change updates `modules/status.json`, the table in `modules/README.md` and the front matter together. Check with `node scripts/check-module-status.mjs`.
+- A status change of a directory, the runbook or the toolkit updates `spec-status.json`, the map in `directories/README.md` and the front matter together. Check with `node scripts/check-spec-status.mjs`.
 - Glossary, audit, error codes and the deck mapping are data. Check every change with `node scripts/check-data.mjs`.
 - Markdown is linted on every PR. Check locally with `npx markdownlint-cli2@0.18.1`.
 - The spec mirrors the tagged book build. Anything the book does not contain needs an RFC first (see [`modules/README.md`](modules/README.md#scope-rule)).
