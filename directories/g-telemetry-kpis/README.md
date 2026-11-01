@@ -2,7 +2,7 @@
 id: dir-g-telemetry-kpis
 title: System Telemetry & KPIs
 book_ref: "Directory G (System Telemetry & KPIs)"
-spec_status: DRAFT
+spec_status: STABLE
 build: v0.9.5
 related: [02-operating-system, 03-processor, 07-social-api, 09-love-protocol]
 audit: https://www.dreammachine.systems/audit
