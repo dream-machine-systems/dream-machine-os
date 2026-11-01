@@ -1,6 +1,6 @@
 # Error Codes
 
-[`registry.json`](registry.json) is the single register of every bug, malware and incident the book names: 81 codes. Modules list the codes they own in section 5; deck cards and glossary entries point here.
+[`registry.json`](registry.json) is the single register of every bug, malware and incident the book names: 89 codes. Modules list the codes they own in section 5; deck cards and glossary entries point here.
 
 ## Entry format
 

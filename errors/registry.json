@@ -294,6 +294,86 @@
       "summary": null
     },
     {
+      "code": "ERR_BUFFER_OVERFLOW",
+      "name": "ERR_BUFFER_OVERFLOW",
+      "hex": null,
+      "module": null,
+      "also": [],
+      "book_ref": "CH 24.1",
+      "glossary": null,
+      "summary": "Catastrophizing: Processing a microscopic typo as a Sev-1, unrecoverable motherboard fire."
+    },
+    {
+      "code": "ERR_COMPILATION_STUCK",
+      "name": "ERR_COMPILATION_STUCK",
+      "hex": null,
+      "module": null,
+      "also": [],
+      "book_ref": "CH 24.1",
+      "glossary": null,
+      "summary": "Perfectionism: Infinite loop blocking deployment due to microscopic syntax errors."
+    },
+    {
+      "code": "ERR_HIGH_LATENCY",
+      "name": "ERR_HIGH_LATENCY",
+      "hex": null,
+      "module": null,
+      "also": [],
+      "book_ref": "CH 24.1",
+      "glossary": null,
+      "summary": "Procrastination: Significant ping. Refusing to execute a script out of pure dread."
+    },
+    {
+      "code": "ERR_IDLE_GUILT",
+      "name": "ERR_IDLE_GUILT",
+      "hex": null,
+      "module": null,
+      "also": [],
+      "book_ref": "CH 24.1",
+      "glossary": null,
+      "summary": "Productivity Malware: Assuming the system is only valid when actively compiling tasks."
+    },
+    {
+      "code": "ERR_NETWORK_ENVY",
+      "name": "ERR_NETWORK_ENVY",
+      "hex": null,
+      "module": null,
+      "also": [],
+      "book_ref": "CH 24.1",
+      "glossary": null,
+      "summary": "Comparison: Scraping the highly edited front-end of an external server to judge your own messy backend."
+    },
+    {
+      "code": "ERR_OPEN_PORT",
+      "name": "ERR_OPEN_PORT",
+      "hex": null,
+      "module": null,
+      "also": [],
+      "book_ref": "CH 24.1",
+      "glossary": null,
+      "summary": "People Pleasing: ACL collapse. Allowing unauthorized traffic to drain the internal battery."
+    },
+    {
+      "code": "ERR_READ_ONLY",
+      "name": "ERR_READ_ONLY",
+      "hex": null,
+      "module": null,
+      "also": [],
+      "book_ref": "CH 24.1",
+      "glossary": null,
+      "summary": "Victimhood: Critical permissions error. Assuming the local node has zero write-access to its own hard drive."
+    },
+    {
+      "code": "ERR_ROOT_ACCESS_DENIED",
+      "name": "ERR_ROOT_ACCESS_DENIED",
+      "hex": null,
+      "module": null,
+      "also": [],
+      "book_ref": "CH 24.1",
+      "glossary": null,
+      "summary": "Imposter Syndrome: System rejects valid Admin credentials and runs in guest mode."
+    },
+    {
       "code": "FALSE_GROWTH_MINDSET",
       "name": "False Growth Mindset",
       "hex": null,
