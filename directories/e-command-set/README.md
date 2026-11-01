@@ -2,7 +2,7 @@
 id: dir-e-command-set
 title: Practical Command Set (Exercise Repo)
 book_ref: "Directory E (Practical Command Set: Exercise Repo)"
-spec_status: DRAFT
+spec_status: STABLE
 build: v0.9.5
 related: [01-identity-bios, 02-operating-system, 03-processor, 04-security-auditing, 07-social-api, 08-cognitive-downclock, 09-love-protocol, 10-hardened-infrastructure, 11-wisdom-nodes, 12-data-sovereignty]
 audit: https://www.dreammachine.systems/audit

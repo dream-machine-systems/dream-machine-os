@@ -8,9 +8,9 @@ The book closes with eleven System Directories, A to K. Modules specify the twel
 | B | System Glossary (A-Z Index) | I | [`glossary/`](../glossary/) | – | – |
 | C | Technical Specification: Love Protocol | I | [`modules/09-love-protocol`](../modules/09-love-protocol/): sections C.3 to C.7 are procedures 3.1 to 3.6 | – | [ch9](https://www.dreammachine.systems/briefings/ch9) |
 | D | Theoretical Sandbox: End-of-Lifecycle Theories (Receiver Hypothesis) | I | [d-theoretical-sandbox](d-theoretical-sandbox/) | `STABLE` | [dird](https://www.dreammachine.systems/briefings/dird) |
-| E | Practical Command Set (Exercise Repo) | II | [e-command-set](e-command-set/): index of all drills with objective and module; the operational syntax stays in the book | `DRAFT` | – |
-| F | Troubleshooting Guide (System Error Logs) | II | [f-troubleshooting-guide](f-troubleshooting-guide/): runbook for incidents `0x01` to `0x09` and the Incident Response Matrix; codes in [`errors/registry.json`](../errors/registry.json) | `DRAFT` | – |
-| G | System Telemetry & KPIs | II | [g-telemetry-kpis](g-telemetry-kpis/): the ten KPIs and the Public Payload Schema; personal KPI values never enter a public repository (G.2) | `DRAFT` | – |
+| E | Practical Command Set (Exercise Repo) | II | [e-command-set](e-command-set/): index of all drills with objective and module; the operational syntax stays in the book | `STABLE` | – |
+| F | Troubleshooting Guide (System Error Logs) | II | [f-troubleshooting-guide](f-troubleshooting-guide/): runbook for incidents `0x01` to `0x09` and the Incident Response Matrix; codes in [`errors/registry.json`](../errors/registry.json) | `STABLE` | – |
+| G | System Telemetry & KPIs | II | [g-telemetry-kpis](g-telemetry-kpis/): the ten KPIs and the Public Payload Schema; personal KPI values never enter a public repository (G.2) | `STABLE` | – |
 | H | System Peripherals & Utilities (Hardware & Software) | III | Website: [dreammachine.systems/docs/bom](https://www.dreammachine.systems/docs/bom/) | – | – |
 | I | Resource Repositories (Third-Party Libraries) | III | Website: [dreammachine.systems/docs/bom](https://www.dreammachine.systems/docs/bom/) | – | – |
 | J | Visual Schematics (The Carbon/Silicon Synthesis) | III | Book only. The illustrations are third-party works and not licensed for this repository; marks and logos: [`TRADEMARKS.md`](../TRADEMARKS.md) | – | – |
