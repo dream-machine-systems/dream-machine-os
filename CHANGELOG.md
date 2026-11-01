@@ -17,6 +17,7 @@ All notable changes to the specification. Versions track the build of *The Dream
 - Governance: `CONTRIBUTING.md`, `GOVERNANCE.md`, `CODE_OF_CONDUCT.md`, `SAFETY.md`, `TRADEMARKS.md`, `COMMERCIAL-USE.md`, `CLA.md` (draft).
 - Issue forms (Errata, Evidence, RFC), PR template, `CODEOWNERS`.
 - `glossary/`, `audit/`, `rfcs/` as entry points.
+- Labels as code (`.github/labels.json`, synced by CI) and a release workflow that publishes each tag with its CHANGELOG section.
 - `modules/status.json`: machine-readable module status, read by dreammachine.systems/source. CI check `scripts/check-module-status.mjs` keeps it in sync with `modules/README.md` and the module front matter.
 
 ### Removed
@@ -30,6 +31,8 @@ All notable changes to the specification. Versions track the build of *The Dream
 ### Changed
 
 - README: Anti-Amnesia patch (Stateless API vs. Stateful DB), 10-bit / 1-billion-bit constants, compassion parameter in the handshake CLI.
+
+Last version under Apache 2.0. It stays available under that license at tag `v0.2.0-ALPHA`.
 
 ## [0.1.0-ALPHA] – 2026-01-17
 

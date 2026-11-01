@@ -1,7 +1,7 @@
 name: RFC (Request for Comments)
 description: New module, new patch or a change to core logic.
 title: "[RFC] "
-labels: ["type:rfc"]
+labels: ["type:rfc", "status:triage"]
 body:
   - type: textarea
     id: problem
