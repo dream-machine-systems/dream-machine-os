@@ -89,7 +89,7 @@ Codes are defined once in [`errors/registry.json`](../../errors/registry.json). 
 | --- | --- | --- | --- |
 | `BIOHACKER_TRAP` | Biohacker Trap | CH 6.2.4 | Obsessive physiological optimization (light exposure, supplements, sleep scores) used to bypass emotional integration. |
 | `GUILT_BUG` | Productivity Malware (Guilt Bug) | CH 6.7.1 | Idle time triggers guilt or anxiety; the system cannot run the System Idle process without an output metric. |
-| `HARDWARE_BROWNOUT` | Hardware Brownout | CH 6.4.1 | An energy deficit of the hardware misdiagnosed as a personality or software flaw. |
+| `HARDWARE_BROWNOUT` | Hardware Brownout | CH 6.4.1 | [glossary](../../glossary/hardware-brownout.md) |
 | `KUNDALINI_SYNDROME` | Kundalini Syndrome | CH 6.5.1 | [glossary](../../glossary/kundalini-syndrome.md) |
 | `SOFTWARE_PATCH_FALLACY` | Software Patch Fallacy | CH 6.6 | [glossary](../../glossary/software-patch-fallacy.md) |
 | `SOMATIC_BYPASSING` | Somatic Bypassing | CH 6.6 | [glossary](../../glossary/somatic-bypassing.md) |

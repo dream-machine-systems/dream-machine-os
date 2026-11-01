@@ -1,8 +1,8 @@
 ---
 term: "SOMATIC TECHNICAL DEBT"
 category: "Hardware & Telemetry"
-modules: []
-error_code: null
+modules: ["08"]
+error_code: "SOMATIC_TECHNICAL_DEBT"
 book_ref: "Directory B"
 short: "The biological cost of Hustle-Culture."
 ---

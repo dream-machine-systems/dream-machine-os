@@ -75,7 +75,7 @@ Codes are defined once in [`errors/registry.json`](../../errors/registry.json). 
 | `CALCULATION_FALLACY` | Calculation Fallacy | CH 8.1.6; CH 1.3.1 | Attempting to out-compute zero-latency algorithms with the 10-bit conscious processor. |
 | `CLOSED_DOOR` | Closed Door | CH 8.2.2 | Under stress the Boardroom door shuts; the conscious mind solves a crisis with only the data on its own projector. |
 | `PREDICTION_ERROR` | Prediction Error | CH 8.1.3 | [glossary](../../glossary/prediction-error.md) |
-| `SOMATIC_TECHNICAL_DEBT` | Somatic Technical Debt | CH 8.0 | The biological cost of using bandwidth upgrades as a productivity hack (hustle culture). |
+| `SOMATIC_TECHNICAL_DEBT` | Somatic Technical Debt | CH 8.0 | [glossary](../../glossary/somatic-technical-debt.md) |
 | `USER_ILLUSION` | User Illusion | CH 8.1.5 | The 10-bit conscious mind tries to analyse a broadband emotional signal and mistakes its summary for the whole stream. |
 | `ZIP_FILE_ERROR` | Zip-File Error | CH 8.3 | [glossary](../../glossary/zip-file-error.md) |
 

@@ -66,6 +66,9 @@ for (const file of readdirSync(join(root, 'glossary')).filter((f) => f.endsWith(
   if (HTML.test(fm[2])) fail(`${where}: HTML in the definition, use Markdown`);
   glossary.set(id, meta);
 }
+// Term name without a trailing parenthesis, for matching registry names to glossary terms.
+const norm = (t) => t.replace(/\s*\([^)]*\)\s*$/, '').replace(/[^A-Za-z0-9]+/g, ' ').trim().toUpperCase();
+const termIndex = new Map([...glossary].map(([id, g]) => [norm(g.term ?? ''), id]));
 
 // 2. Error registry.
 const registry = readJson('errors/registry.json');
@@ -91,8 +94,10 @@ if (registry) {
       if (!g) fail(`${where}: glossary/${e.glossary}.md does not exist`);
       else if (g.error_code !== e.code) fail(`${where}: glossary/${e.glossary}.md must have error_code "${e.code}"`);
       if (e.summary !== null) fail(`${where}: summary must be null when a glossary entry exists`);
-    } else if (typeof e.summary !== 'string' || !e.summary.trim()) {
-      fail(`${where}: summary required when there is no glossary entry`);
+    } else {
+      if (typeof e.summary !== 'string' || !e.summary.trim()) fail(`${where}: summary required when there is no glossary entry`);
+      const twin = termIndex.get(norm(e.name ?? ''));
+      if (twin) fail(`${where}: glossary/${twin}.md defines this term, set glossary to "${twin}"`);
     }
   }
   if (new Set(hexes).size !== hexes.length) fail('errors/registry.json: duplicate hex code');

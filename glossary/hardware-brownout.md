@@ -1,8 +1,8 @@
 ---
 term: "HARDWARE BROWNOUT"
 category: "Hardware & Telemetry"
-modules: []
-error_code: null
+modules: ["06"]
+error_code: "HARDWARE_BROWNOUT"
 book_ref: "Directory B"
 short: "A severe biological energy deficit mistakenly diagnosed as a cognitive software flaw."
 ---
