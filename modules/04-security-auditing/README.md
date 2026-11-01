@@ -2,7 +2,7 @@
 id: 04-security-auditing
 title: Security Auditing (Shadow Work)
 book_ref: "CH 4 (Security Auditing: Shadow Work)"
-spec_status: DRAFT
+spec_status: STABLE
 build: v0.9.5
 depends_on: [03-processor, 06-hardware-calibration]
 audit: https://www.dreammachine.systems/audit
@@ -14,27 +14,35 @@ audit: https://www.dreammachine.systems/audit
 
 ## 1. Abstract
 
-Security Auditing decrypts quarantined legacy code. The Shadow is a set of emergency patches installed during the Alpha Build to survive a system shock. They keep running as Logic Bombs, the Ego Firewall and Projection. The module processes them somatically, not intellectually.
+Security Auditing decrypts quarantined legacy code. The Shadow is a set of emergency patches installed during the Alpha Build to survive a system shock. They fire as Logic Bombs and Projection, while the Ego Firewall spends energy keeping them locked away. The module processes them somatically, not intellectually. If opening the logs overheats the system, pausing the scan is the correct protocol; reading one line of code today is sufficient (CH 4.0).
 
 ## 2. Core Logic
 
-- **Required dependencies:** Frankl Buffer (module 03) and Hardware Calibration (module 06, minimum SEC 6.2 breath protocols and SEC 6.6.2 somatic discharge). Without them, abort (CH 4.0).
-- **Data Lake vs. Relational Database:** The persona is the searchable database; the Shadow lives in the unstructured Data Lake (CH 4.1.1).
-- **Deprecation, not deletion:** `rm -rf` on pain is not supported. Legacy patches are deprecated, not wiped (CH 4.1.2).
-- **Ego Firewall:** Rigid rules that block incoming data and drain resources by constant self-monitoring (CH 4.2).
+- **Required dependencies:** Frankl Buffer (module 03) and Hardware Calibration (module 06, minimum SEC 6.2 breath protocols and SEC 6.6.2 somatic discharge). Without them, jump to module 06 first: booting into the Data Lake without a somatic cooling loop guarantees a Sev-1 crash. Stabilise the chassis first, run forensics second (CH 4.0).
+- **Data Lake vs. Relational Database:** The persona is the searchable database; the Shadow lives in the unstructured Data Lake. The 10-bit mind cannot compute a high-voltage analog payload: Shadow Work opens the ports and lets the hardware feel and discharge the raw voltage instead of analysing the lake from a safe distance (CH 4.1.1). In backend terms the Shadow is a cluster of quarantined, autonomous Sub-Minds; Shadow Work brings them back onto the main network bus (CH 4.1.2, Directory A).
+- **Deprecation, not deletion:** `rm -rf` on pain is not supported. Legacy patches are deprecated, not wiped. Trauma is an emergency survival patch, not a virus; forcing suppression triggers a paradoxical rebound (emotional numbing, more distress) (CH 4.1.2).
+- **Ego Firewall:** Rigid rules that block incoming data and drain resources by constant self-monitoring. Update Block: data that confirms the Identity BIOS passes, contradicting data is dropped as a malicious payload, prioritising system comfort over accuracy (CH 4.2).
 - **Projection:** A display mapping error that overlays internal threats onto external nodes; algorithms amplify it (Predictive Exploitation) (CH 4.3).
-- **Analog Override:** The IT metaphors make pain observable. They are a map, not the territory (CH 4.5).
+- **Analog Override:** The IT metaphors make pain observable. They are a map, not the territory. When the sorrow hits, drop the manual: grief cannot be patched, it can only be mourned (CH 4.5).
 
 ## 3. Procedures
 
-### 3.1 Somatic Refactoring Protocol
+### 3.1 Deprecation Protocol
 
-Theory only at this layer. Execution is routed to the Deployment Runbook; do not run it on bare metal (CH 4.4).
+Instead of wiping the drive (CH 4.1.2):
+
+1. **Sandbox the Script:** quarantine the triggered response in the Viktor Frankl Buffer. Observe its function instead of fighting it.
+2. **Acknowledge the Dev:** validate the original patch for maintaining uptime when the server room was actually on fire.
+3. **Update the Threat Library:** slowly prove to the hardware that the environment is safe today, so the obsolete script deprecates itself and goes offline.
+
+### 3.2 Somatic Refactoring Protocol
+
+Theory only at this layer. Execution is routed to Tier 3 (Forensic Repair) of the Deployment Runbook; do not run it on bare metal (CH 4.4). The 10-bit conscious mind finds the file; the analog physical body processes the file.
 
 1. **Catching the Ping (Intrusion Detection):** notice the trigger; insert the ~500 ms latency buffer.
 2. **Hardware Localization (Somatic Scan):** drop the story, locate the sensation in the chassis.
-3. **Somatic Compile:** breathe into the sensation without judging or ejecting into narrative.
-4. **State Change:** let the energy transform; treat the Landauer analogy as a phenomenological heuristic only.
+3. **Somatic Compile:** breathe into the sensation without judging or ejecting into narrative. Hold for 90 to 120 seconds to ride out the initial adrenaline cascade.
+4. **State Change:** let the energy transform; treat the Landauer analogy as a phenomenological heuristic only. Sweating, weeping and shaking are a physiological state change, not emotional instability. Close with a Permissions Update: thank the old patch, revoke its Root Access, reboot in the present moment.
 
 ## 4. System Mapping
 

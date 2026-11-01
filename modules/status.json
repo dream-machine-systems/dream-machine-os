@@ -35,7 +35,7 @@
       "id": "04",
       "title": "Security Auditing (Shadow Work)",
       "book_ref": "CH 4",
-      "status": "DRAFT",
+      "status": "STABLE",
       "path": "modules/04-security-auditing/",
       "briefing": "ch4"
     },
