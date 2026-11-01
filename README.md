@@ -26,7 +26,7 @@ The Bill of Materials (the books, tools and hardware the book loads, Directories
 
 ```text
 modules/          One spec per book chapter (CH 1–12)
-directories/      Specs for the book's System Directories (A, D) and a map of A–K
+directories/      Specs for the book's System Directories (A, D, E, F, G) and a map of A–K
 errors/           Error code registry (bugs, malware, Directory F incidents)
 glossary/         System syntax, one file per term (source for dreammachine.systems/docs/syntax)
 audit/            Empirical audit logs per chapter (claims, queries, sources, tiers)
