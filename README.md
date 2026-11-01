@@ -20,6 +20,8 @@ It holds the machine-readable layer of the Dream Machine OS: one module per chap
 
 It does **not** hold the manuscript. Prose, field stories, exercises and the audio edition stay in the book.
 
+The Bill of Materials (the books, tools and hardware the book loads, Directories H and I) is not part of this repository either. It lives on the website: [dreammachine.systems/docs/bom](https://www.dreammachine.systems/docs/bom/).
+
 ## Directory map
 
 ```text
@@ -43,6 +45,7 @@ Read [`CONTRIBUTING.md`](CONTRIBUTING.md). Short version:
 | A typo, wrong number, broken link | Open an **Errata** issue |
 | A missing or contradicting source | Open an **Evidence** issue or a PR |
 | A better model, a new patch, a structural change | Open an **RFC** issue first |
+| A book, tool or product for the Bill of Materials | **Not here.** The BOM is curated with the book build. |
 | A personal experience with the protocol | **Not here.** Use [dreammachine.systems/telemetry](https://www.dreammachine.systems/telemetry). Public issues are permanent. |
 
 Pull requests require a signed [Contributor License Agreement](CLA.md).
