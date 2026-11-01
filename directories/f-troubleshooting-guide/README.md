@@ -132,13 +132,14 @@ EXECUTE NOT_PATCHABLE
 
 Source: Directory F.10 of the book.
 
+<!-- verbatim: Directory F.10 -->
 | Symptom | Diagnosis | Recommended utility |
 | --- | --- | --- |
 | Anxiety | High System Heat | Box Breathing (Voltage Regulation) |
 | Depression | System Shutdown / Brownout | Behavioral Activation (Forced Execute) |
 | Anger | Security Breach / Logic Bomb | The Viktor Frankl Buffer (Latency Control) |
-| Confusion | Logic Jam | Divination / Archetypal Mapping (CH 11.1) |
-| Loneliness | Port Closure / Network Isolation | The Love Protocol Handshake (CH 9.2) |
+| Confusion | Logic Jam | Divination / Archetypal Mapping (Chapter 11.1) |
+| Loneliness | Port Closure / Network Isolation | The Love Protocol Handshake (Chapter 9.2) |
 | Grief / Illness | Permanent Hardware Constraint | Execute `NOT_PATCHABLE` (Graceful Degradation / Tier 0) |
 
 ## 4. Error Codes

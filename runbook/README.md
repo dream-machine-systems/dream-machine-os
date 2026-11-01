@@ -85,13 +85,14 @@ Module logic: [02-operating-system](../modules/02-operating-system/) (Unit Test)
 
 Source: CH 15. A "Big Bang" overnight personality update guarantees a Sev-1 crash (`BIG_BANG_ROLLOUT`); the migration runs in sprints (tiers), each tested and stabilized before more load goes on the stack (CH 15.0).
 
+<!-- verbatim: CH 15.1 -->
 | Tier (status) | Focus | State-based trigger (Definition of Done) |
 | --- | --- | --- |
 | **Tier 0** OOB Support (always active) | Clinical support, caregivers, therapy | **Baseline Stability.** External support received to prevent complete system collapse. |
 | **Tier 1** Foundation (base install) | Identity Lock, Stoicism, CBT | Victim-mode logic purged; Local Dump File (Journaling) established. |
 | **Tier 2** Optimization (requires Tier 1) | Attention Management, Frankl Buffer | Latency Buffer operational under load. |
 | **Tier 3A** Forensic Repair (requires Tier 2) | Shadow Work, Data Lake Integration | Quarantined data safely remounted without systemic panic. |
-| **Tier 3B** Hardening (optional; requires Tier 3A and Mode 0x01) | Cold Exposure, Chaos Engineering | Autonomic regulation stable during controlled physical stress. |
+| **Tier 3B** Hardening (optional; requires Tier 3A & Mode 0x01) | Cold Exposure, Chaos Engineering | Autonomic regulation stable during controlled physical stress. |
 | **Tier 4** Networking (requires Tier 3) | Love Protocol, Wisdom Nodes | Stateless transmission node deployed. |
 
 Source of the table: CH 15.1, verbatim.
@@ -126,6 +127,7 @@ The checklists that close CH 16 to 19 are the exit criteria of each tier. Source
 
 ### Tier 1: BIOS & OS Migration (CH 16)
 
+<!-- verbatim: CH 16.5 -->
 | Frequency | System check | Task / deliverable |
 | --- | --- | --- |
 | Daily | Flash BIOS | Wake up, plant your feet on the floor, and state: "I hold the Root Access to my own nervous system." |
@@ -138,6 +140,7 @@ Boundary (CH 16): `chmod 744`. Not `777` (the world gets write access to the Ide
 
 ### Tier 2: Processor Tuning (CH 17)
 
+<!-- verbatim: CH 17.5 -->
 | Frequency | System check | Task / deliverable |
 | --- | --- | --- |
 | Daily | Single-Threading | Complete 10 minutes of "Process Monitoring" (Meditation). Count the redirects. |
@@ -149,6 +152,7 @@ Boundaries (CH 17): processor tuning is efficiency for sustainable uptime, not a
 
 ### Tier 3: Forensic Repair & Hardening (CH 18)
 
+<!-- verbatim: CH 18.5 -->
 | Frequency | System check | Task / deliverable |
 | --- | --- | --- |
 | Routine | Deep Audit | Decompile one furious reaction using the Mirror Server logic in your journal. |
@@ -163,6 +167,7 @@ Boundaries (CH 18):
 
 ### Tier 4: Networking & Unified Field (CH 19)
 
+<!-- verbatim: CH 19.5 -->
 | Frequency | System check | Task / deliverable |
 | --- | --- | --- |
 | One-Time | SLA Audit | Hardcode every person in your life to Tier 1, 2, or 3. Ruthlessly throttle the bandwidth of the 3s. |

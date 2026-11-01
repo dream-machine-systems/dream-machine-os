@@ -24,6 +24,7 @@ Optimizing what is unmeasured is an architectural impossibility. If the numbers 
 
 Track these metrics regularly. Do not judge the output; record the physics of behavior (G.1). Source: Directory G.1 of the book, verbatim.
 
+<!-- verbatim: Directory G.1 -->
 ```yaml
 operational_kpis:
   - kpi: "01. System Latency"

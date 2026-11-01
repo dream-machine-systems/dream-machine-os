@@ -63,6 +63,7 @@ Source: CH 21. A one-pane Network Operations Center: one look shows which layer 
 
 Source: CH 21.1, verbatim. Layers 0 to 4 match tiers 0 to 4 of the [runbook](../runbook/#5-tiered-deployment). This is not the L0 to L5 stack of [Directory A](../directories/a-backend-schematic/).
 
+<!-- verbatim: CH 21.1 -->
 ```yaml
 system_topology:
   layer_0:
@@ -105,6 +106,7 @@ system_topology:
 
 Source: CH 21.2, verbatim. Do not guess; follow the signal path to the broken layer.
 
+<!-- verbatim: CH 21.2 -->
 | Symptom & layer | Debug question | System command (action) |
 | --- | --- | --- |
 | **Drowning / Total Failure** (Layer 0: OOB Support) | "Is my system currently too damaged to self-repair?" | Plug into an external, regulated node. Seek clinical or community support. |
@@ -163,6 +165,7 @@ Source: CH 24.1. The CVE database for wetware: historical wounds are not malware
 
 Use: **Identify** the code that matches the physical glitch, **decompile** the legacy script (the lie the hardware runs), **patch** with the refactored command. Codes and diagnoses are in [`errors/registry.json`](../errors/registry.json); legacy script and patch are verbatim from the book.
 
+<!-- verbatim: CH 24.1 -->
 | Code | Diagnosis | Legacy script | Patch |
 | --- | --- | --- | --- |
 | `ERR_ROOT_ACCESS_DENIED` | Imposter Syndrome: System rejects valid Admin credentials and runs in guest mode. | "I am faking this. Soon they will find out I don't know what I'm doing." | `sudo chmod 744 /identity && ./run_learner_protocol.sh` |

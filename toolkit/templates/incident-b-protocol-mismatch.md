@@ -6,6 +6,7 @@ Source: *The Dream Machine*, CH 22.2. Copy it, print it, rewrite it in your own 
 
 > **Before you start.** Classify the conflict by behavior, not relationship role. Coercive control, violence, exploitation or repeated boundary violations are not a protocol mismatch: abort all connection protocols, get to safety and contact Tier-0 support ([`SAFETY.md`](../../SAFETY.md)). This template is for safe connections only (External Safety Gate, CH 22.2.1).
 
+<!-- verbatim: CH 22.2 -->
 ```text
 INCIDENT_REPORT_TYPE_B: CONNECTION_ERROR (EXTERNAL)
 
