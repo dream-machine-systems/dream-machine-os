@@ -1,0 +1,164 @@
+{
+  "schema_version": 1,
+  "build": "v0.9.5",
+  "part": "chapter-1",
+  "title": "CHAPTER 1: IDENTITY BIOS (Base Firmware)",
+  "module": "01",
+  "entries": {
+    "sec1-1": {
+      "title": "SEC 1.1: FIGHT-OR-FLIGHT & SOMATIC SYMPTOMS",
+      "core_claim": "When nodes attempt to navigate modern network collapses (like a divorce) using 50,000-year-old **\"Fight-or-Flight\"** scripts, the **physical chassis** locks up.",
+      "query": "Do acute psychosocial stressors like relationship dissolution trigger the sympathetic nervous system fight-or-flight response and produce somatic symptoms?",
+      "controlled_studies": "OFF",
+      "tier": "CONSENSUS",
+      "primary_anchors": [
+        "Turner et al., 2020, Psychoneuroendocrinology",
+        "O'Connor et al., 2020, Annual Review of Psychology"
+      ],
+      "summary": "Extensive empirical research demonstrates that acute psychosocial stressors (like relationship dissolution) trigger severe *sympathetic nervous system* activation. This \"fight-or-flight\" response physically locks the biological hardware into a state of high-voltage survival, producing acute *somatic symptoms* across multiple bodily systems.",
+      "full_audit": "https://www.dreammachine.systems/assets/pdf/dreammachine-halluzination-audit-sec1-1.pdf"
+    },
+    "sec1-2": {
+      "title": "SEC 1.2: EPIGENETIC INHERITANCE & ANCESTRAL DEBT",
+      "core_claim": "These corrupted default settings are classified as Ancestral Legacy Debt. This transfer happens via a proven hybrid mechanism: physical hardware alterations (**epigenetic markers**) combined with inherited software scripts (**socially modeled defense behaviors**).",
+      "query": "Is there empirical evidence for the transgenerational epigenetic inheritance of psychological trauma and fear responses in humans?",
+      "controlled_studies": "OFF",
+      "tier": "EXPERIMENTAL",
+      "primary_anchors": [
+        "Yehuda et al., 2016, Biological Psychiatry",
+        "El-Khalil et al., 2025, BMC Psychology"
+      ],
+      "summary": "Preliminary evidence suggests that psychological trauma is transmitted intergenerationally via a hybrid mechanism. The system inherits both biological *epigenetic markers* (altering physiological stress reactivity) and environmental software scripts (socially modeled *defensive behaviors*), creating a measurable ancestral legacy debt.",
+      "full_audit": "https://www.dreammachine.systems/assets/pdf/dreammachine-halluzination-audit-sec1-2.pdf"
+    },
+    "sec1-3_1": {
+      "title": "SEC 1.3: CHILDHOOD CONDITIONING & EPIGENETICS",
+      "core_claim": "For non-developers, the BIOS maps to Childhood Conditioning. It is the foundational base code (**Epigenetics**) installed in the hardware before the age of seven—highly stable, but ultimately **rewritable**.",
+      "query": "Do early childhood environmental exposures before age seven induce permanent epigenetic modifications that dictate adult neurobiological stress responses?",
+      "controlled_studies": "OFF",
+      "tier": "CONSENSUS",
+      "primary_anchors": [
+        "Jawahar et al., 2015, Clinical Epigenetics",
+        "Peña, 2025, Neuropsychopharmacology"
+      ],
+      "summary": "A robust body of epigenetic research establishes that early childhood environments induce long-lasting *epigenetic modifications* that permanently structure adult neurobiological stress responses. While highly stable, these foundational base-code configurations retain *neuroplasticity* and can be actively rewritten by later environmental interventions.",
+      "full_audit": "https://www.dreammachine.systems/assets/pdf/dreammachine-halluzination-audit-sec1-3_1.pdf"
+    },
+    "sec1-3_2": {
+      "title": "SEC 1.3: OPTIMIZED LATENCY & PREFRONTAL CONTROL",
+      "core_claim": "Hitting CTRL+C on an automated legacy script creates a microscopic pause in the system (**Optimized Latency**). In that pause, the **prefrontal cortex engages**... It is the physical shift from autonomic flinching to conscious choosing.",
+      "query": "Does introducing a deliberate temporal delay between stimulus and response improve prefrontal cortex regulation and inhibit autonomic reflex reactions?",
+      "controlled_studies": "ON",
+      "tier": "CONSENSUS",
+      "primary_anchors": [
+        "Albares et al., 2014, Human Brain Mapping",
+        "Korolczuk et al., 2025, PLOS ONE"
+      ],
+      "summary": "Neurocognitive studies consistently show that introducing a deliberate temporal delay between stimulus and response enhances *prefrontal cortex-mediated inhibitory control*. This optimized latency allows top-down cognitive networks to successfully override and inhibit automatic *autonomic reflex reactions*.",
+      "full_audit": "https://www.dreammachine.systems/assets/pdf/dreammachine-halluzination-audit-sec1-3_2.pdf"
+    },
+    "sec1-4-1": {
+      "title": "SEC 1.4.1: EXTERNAL LOCUS OF CONTROL & RESILIENCE",
+      "core_claim": "If your system firmware defaults to blaming network lag on external servers (**External Locus of Control**), you hand remote root access of your **psychological resilience** to nodes who do not even know how to run their own hardware.",
+      "query": "Does an external locus of control correlate with decreased emotional regulation and lower psychological resilience compared to an internal locus of control?",
+      "controlled_studies": "OFF",
+      "tier": "CONSENSUS",
+      "primary_anchors": [
+        "Castillo et al., 2026, International Journal of Environmental Research and Public Health",
+        "Papoulidi & Maniadaki, 2025, European Journal of Investigation in Health, Psychology and Education"
+      ],
+      "summary": "Clinical psychology literature broadly validates that operating with an *external locus of control* (blaming outcomes on uncontrollable external forces) is strongly associated with decreased emotional regulation, maladaptive coping strategies, and significantly lower *psychological resilience*.",
+      "full_audit": "https://www.dreammachine.systems/assets/pdf/dreammachine-halluzination-audit-sec1-4-1.pdf"
+    },
+    "sec1-4-2": {
+      "title": "SEC 1.4.2: SOMATIC METABOLIZATION OF STRESS HORMONES",
+      "core_claim": "Sweat out the cortisol, shake off the adrenaline, and allow the ghost in the machine to grieve. Attempting to clear this thermal load using strictly **cognitive processing** guarantees **systemic degradation**.",
+      "query": "Do physical exertion and somatic interventions facilitate the physiological metabolization of acute stress hormones like cortisol and adrenaline following trauma?",
+      "controlled_studies": "ON",
+      "tier": "CONSENSUS",
+      "primary_anchors": [
+        "Rogerson et al., 2023, Psychoneuroendocrinology",
+        "Caplin et al., 2021, Psychoneuroendocrinology"
+      ],
+      "summary": "Physiological and somatic research demonstrates that physical exertion (moderate-to-vigorous aerobic activity) and somatic interventions are biologically required to mechanically metabolize *acute stress hormones* (cortisol) following trauma. Attempting to clear this thermal load using strictly cognitive processing is biologically insufficient and leads to *systemic degradation*.",
+      "full_audit": "https://www.dreammachine.systems/assets/pdf/dreammachine-halluzination-audit-sec1-4-2.pdf"
+    },
+    "sec1-4-3": {
+      "title": "SEC 1.4.3: MULTI-AGENT ARCHITECTURE & NARRATING MIND",
+      "core_claim": "Your brain does not operate as a single, unified processor. It operates on a **Multi-Agent Architecture**. The \"I\" you identify with is just the Narrating Mind—a **post-hoc narrative construct** whose only job is to string random actions together into a cohesive story.",
+      "query": "Does human cognition operate via distributed modular neural networks where the conscious sense of self functions as a post-hoc narrative construct?",
+      "controlled_studies": "OFF",
+      "tier": "CONSENSUS",
+      "primary_anchors": [
+        "Menon, 2023, Neuron",
+        "Bertolero et al., 2018, Nature Human Behaviour"
+      ],
+      "summary": "Current neurobiological models establish that human cognition operates via a distributed, *multi-agent neural architecture*. The conscious sense of \"self\" is not a central executive hub, but rather a dynamic, *post-hoc narrative construct* generated by the Default Mode Network (DMN) to string parallel unconscious actions into a cohesive story.",
+      "full_audit": "https://www.dreammachine.systems/assets/pdf/dreammachine-halluzination-audit-sec1-4-3.pdf"
+    },
+    "sec1-5": {
+      "title": "SEC 1.5: PEOPLE-PLEASING AS APPEASEMENT STRATEGY",
+      "core_claim": "Many systems run a legacy script called \"People-Pleasing.\" In this IT architecture, this is not a personality flaw; it is an adaptive **behavioral defense strategy**—specifically, appeasement and submission—inherited to mitigate social threats within **dominance hierarchies**.",
+      "query": "Is interpersonal fawning or people-pleasing scientifically recognized as an autonomic threat response used to mitigate danger within social hierarchies?",
+      "controlled_studies": "OFF",
+      "tier": "CONSENSUS",
+      "primary_anchors": [
+        "Tibbetts et al., 2022, Philosophical Transactions of the Royal Society B",
+        "Keltner et al., 1997, Aggressive Behavior"
+      ],
+      "summary": "Evolutionary biology and ethological studies consistently frame interpersonal \"people-pleasing\" as an adaptive *behavioral defense strategy*. Driven by evolutionary survival mechanisms, humans utilize *appeasement and submission* to mitigate danger and avoid physical or social harm within strict dominance hierarchies.",
+      "full_audit": "https://www.dreammachine.systems/assets/pdf/dreammachine-halluzination-audit-sec1-5.pdf"
+    },
+    "sec1-6": {
+      "title": "SEC 1.6: GROWTH MINDSET & NEURAL ERROR PROCESSING",
+      "core_claim": "Deliberately coding the identity as a Learner (**Growth Mindset**) forces the system to treat mistakes not as fatal crashes, but as raw incoming telemetry data utilized to patch the protocol for tomorrow, shifting away from **autonomic threat reactivity**.",
+      "query": "Does adopting a growth mindset alter neurobiological error-processing pathways and reduce physiological stress reactivity during failure?",
+      "controlled_studies": "ON",
+      "tier": "CONSENSUS",
+      "primary_anchors": [
+        "Schroder et al., 2014, Biological Psychology",
+        "Yeager et al., 2022, Nature"
+      ],
+      "summary": "Cognitive neuroscience indicates that adopting a *growth mindset* fundamentally alters neurobiological error-processing pathways. It shifts the system's response to failure away from *autonomic threat reactivity* (cortisol/stress spikes) and redirects processing power toward adaptive attention allocation and protocol patching.",
+      "full_audit": "https://www.dreammachine.systems/assets/pdf/dreammachine-halluzination-audit-sec1-6.pdf"
+    },
+    "sec1-7": {
+      "title": "SEC 1.7: THREAT PERCEPTION & ALLOSTATIC LOAD",
+      "core_claim": "If the toggle is left set to `Hostile`, your CPU dedicates 90% of its resources to **threat detection** and defensive firewalls. You view other nodes as malicious malware, elevating **allostatic load** and guaranteeing eventual hardware burnout.",
+      "query": "Does a chronic hostile attribution bias or generalized threat perception significantly elevate allostatic load and cause physiological burnout?",
+      "controlled_studies": "OFF",
+      "tier": "CONSENSUS",
+      "primary_anchors": [
+        "Graham, 2024, SSM - Population Health",
+        "Daniels et al., 2023, Journal of Health and Social Behavior"
+      ],
+      "summary": "Psychoneuroendocrinology research demonstrates that maintaining a chronic *hostile attribution bias* traps the autonomic nervous system in hypervigilance. This continuous threat detection significantly elevates *allostatic load* (the biological wear-and-tear of chronic stress), guaranteeing eventual physiological burnout.",
+      "full_audit": "https://www.dreammachine.systems/assets/pdf/dreammachine-halluzination-audit-sec1-7.pdf"
+    },
+    "sec1-8-1": {
+      "title": "SEC 1.8.1: ASYMMETRIC BANDWIDTH & ATTENTIONAL BOTTLENECK",
+      "core_claim": "Your peripheral nervous system absorbs raw sensory data at a staggering **1 Billion bits per second** (10^9). You only control the heavily throttled conscious processor—which operates at a brutally compressed **10 bits per second**.",
+      "query": "MANUAL COMMIT: Direct extraction from 2024 Q1 Neuroscience Literature.",
+      "controlled_studies": "N/A",
+      "tier": "EMERGING",
+      "primary_anchors": [
+        "Zheng & Meister, 2024, Neuron"
+      ],
+      "summary": "While the massive architectural asymmetry between vast peripheral sensory intake (~1 billion bits/s) and a severe conscious cognitive bottleneck is broadly established, recent information-theoretic calculations estimate maximum *conscious throughput* and behavioral execution to be heavily throttled to just 10 bits/s.",
+      "full_audit": "https://doi.org/10.1016/j.neuron.2024.11.008"
+    },
+    "sec1-8-2": {
+      "title": "SEC 1.8.2: SOMATIC METABOLIZATION & EXPERIENTIAL AVOIDANCE",
+      "core_claim": "The physical grief requires raw metabolization. Chronically skipping the bleeding (**experiential avoidance**) is an invalid operation. Refusing to process the impact traps the system in **Prolonged Grief Disorder**.",
+      "query": "Does chronic experiential avoidance and the ongoing suppression of grief responses maintain long-term psychological distress and contribute to prolonged grief disorder?",
+      "controlled_studies": "OFF",
+      "tier": "CONSENSUS",
+      "primary_anchors": [
+        "Eisma & Stroebe, 2020, Behavior Therapy",
+        "Keser & Boelen, 2025, BMC Psychology"
+      ],
+      "summary": "Clinical research consistently links chronic *experiential avoidance* and the suppression of grief to the active disruption of physiological homeostasis. By refusing to physically metabolize the emotional load, the nervous system becomes trapped in long-term distress, resulting directly in *Prolonged Grief Disorder*.",
+      "full_audit": "https://www.dreammachine.systems/assets/pdf/dreammachine-halluzination-audit-sec1-8-2.pdf"
+    }
+  }
+}

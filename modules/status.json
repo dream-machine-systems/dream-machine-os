@@ -11,7 +11,7 @@
       "id": "01",
       "title": "Identity BIOS",
       "book_ref": "CH 1",
-      "status": "DRAFT",
+      "status": "STABLE",
       "path": "modules/01-identity-bios/",
       "briefing": "ch1"
     },
@@ -19,55 +19,55 @@
       "id": "02",
       "title": "Operating System (Narrative Layer)",
       "book_ref": "CH 2",
-      "status": "PLANNED",
-      "path": null,
+      "status": "DRAFT",
+      "path": "modules/02-operating-system/",
       "briefing": "ch2"
     },
     {
       "id": "03",
       "title": "Processor (Consciousness Management)",
       "book_ref": "CH 3",
-      "status": "PLANNED",
-      "path": null,
+      "status": "DRAFT",
+      "path": "modules/03-processor/",
       "briefing": "ch3"
     },
     {
       "id": "04",
       "title": "Security Auditing (Shadow Work)",
       "book_ref": "CH 4",
-      "status": "PLANNED",
-      "path": null,
+      "status": "DRAFT",
+      "path": "modules/04-security-auditing/",
       "briefing": "ch4"
     },
     {
       "id": "05",
       "title": "Low-Level Utilities",
       "book_ref": "CH 5",
-      "status": "PLANNED",
-      "path": null,
+      "status": "DRAFT",
+      "path": "modules/05-low-level-utilities/",
       "briefing": "ch5"
     },
     {
       "id": "06",
       "title": "Hardware Calibration",
       "book_ref": "CH 6",
-      "status": "PLANNED",
-      "path": null,
+      "status": "DRAFT",
+      "path": "modules/06-hardware-calibration/",
       "briefing": "ch6"
     },
     {
       "id": "07",
       "title": "Social API",
       "book_ref": "CH 7",
-      "status": "PLANNED",
-      "path": null,
+      "status": "DRAFT",
+      "path": "modules/07-social-api/",
       "briefing": "ch7"
     },
     {
       "id": "08",
       "title": "Cognitive Downclock",
       "book_ref": "CH 8",
-      "status": "DRAFT",
+      "status": "STABLE",
       "path": "modules/08-cognitive-downclock/",
       "briefing": "ch8"
     },
@@ -75,7 +75,7 @@
       "id": "09",
       "title": "Love Protocol",
       "book_ref": "CH 9, Directory C",
-      "status": "DRAFT",
+      "status": "STABLE",
       "path": "modules/09-love-protocol/",
       "briefing": "ch9"
     },
@@ -83,24 +83,24 @@
       "id": "10",
       "title": "Hardened Infrastructure",
       "book_ref": "CH 10",
-      "status": "PLANNED",
-      "path": null,
+      "status": "DRAFT",
+      "path": "modules/10-hardened-infrastructure/",
       "briefing": "ch10"
     },
     {
       "id": "11",
       "title": "Wisdom Nodes",
       "book_ref": "CH 11",
-      "status": "PLANNED",
-      "path": null,
+      "status": "DRAFT",
+      "path": "modules/11-wisdom-nodes/",
       "briefing": "ch11"
     },
     {
       "id": "12",
       "title": "Data Sovereignty",
       "book_ref": "CH 12",
-      "status": "PLANNED",
-      "path": null,
+      "status": "DRAFT",
+      "path": "modules/12-data-sovereignty/",
       "briefing": "ch12"
     }
   ]

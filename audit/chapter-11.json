@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "build": "v0.9.5",
+  "part": "chapter-11",
+  "title": "CHAPTER 11: WISDOM NODES (Ancestral Cloud Storage)",
+  "module": "11",
+  "entries": {
+    "sec11-1": {
+      "title": "SEC 11.1: BOARDROOM QUERY (STRATEGIC DIVINATION)",
+      "core_claim": "Clinically, staring at ambiguous, emotionally salient visual stimuli forces the brain to execute \"**uncertainty resolution**,\" engaging bottom-up salience networks (the amygdala) and top-down prefrontal networks to project the user's current, active **emotional templates** onto the input.",
+      "query": "Does viewing emotionally ambiguous visual stimuli engage bottom-up amygdala salience networks and top-down prefrontal networks to execute uncertainty resolution?",
+      "controlled_studies": "OFF",
+      "tier": "CONSENSUS",
+      "primary_anchors": [
+        "Sun et al., 2023, Translational Psychiatry",
+        "Neta et al., 2013, Journal of Cognitive Neuroscience"
+      ],
+      "summary": "Neuroimaging and electrophysiological evidence verifies that viewing emotionally ambiguous visual stimuli engages both bottom-up salience networks (the amygdala) and top-down prefrontal networks during uncertainty resolution. Subcortical nodes track biological uncertainty before cortical structures project implicit emotional templates to establish situational meaning.",
+      "full_audit": "https://www.dreammachine.systems/assets/pdf/dreammachine-halluzination-audit-sec11-1.pdf"
+    },
+    "sec11-1-1": {
+      "title": "SEC 11.1.1: ARCHETYPAL MAPPING (COMPRESSION ALGORITHM)",
+      "core_claim": "Clinically, grouping complex social scenarios into simplified **heuristic frameworks** or schemas actively reduces cognitive load, compensating for degraded working memory and allowing for rapid, adaptive decision-making under **acute stress**.",
+      "query": "Does categorizing complex social and emotional situations into psychological archetypes or heuristic frameworks reduce cognitive load and improve decision-making under stress?",
+      "controlled_studies": "ON",
+      "tier": "CONSENSUS",
+      "primary_anchors": [
+        "Banks et al., 2020, Applied Cognitive Psychology",
+        "Yeager et al., 2022, Nature"
+      ],
+      "summary": "Cognitive load evaluations show that under acute stress, controlled attentional resources and working memory capacity degrade. Utilizing structured schemas, mindsets, or heuristic frameworks reduces net computational demands, bypassing prefrontal bottlenecks to support adaptive decisions.",
+      "full_audit": "https://www.dreammachine.systems/assets/pdf/dreammachine-halluzination-audit-sec11-1-1.pdf"
+    },
+    "sec11-2_1": {
+      "title": "SEC 11.2: WISDOM NODES (ANCESTRAL CLOUD STORAGE)",
+      "core_claim": "Clinically, while formal mourning practices do not instantly neutralize acute physiological stress, they provide structured **meaning-making**, communal recognition, and **synchronized social support**, effectively distributing the Severity-1 emotional load of grief across a wider network.",
+      "query": "Do formal mourning rituals and bereavement practices facilitate meaning-making, communal recognition, and synchronized social support to buffer the distress of grief?",
+      "controlled_studies": "OFF",
+      "tier": "CONSENSUS",
+      "primary_anchors": [
+        "Norton & Gino, 2013, Journal of Experimental Psychology: General",
+        "Burrell & Selman, 2020, OMEGA"
+      ],
+      "summary": "Sociomedical and qualitative analyses confirm that structured mourning rituals and funerals facilitate symbolic meaning-making, communal recognition, and synchronized social support. Personalized, culturally congruent practices buffer grief distress primarily by restoring an individual's sense of control and agency.",
+      "full_audit": "https://www.dreammachine.systems/assets/pdf/dreammachine-halluzination-audit-sec11-2_1.pdf"
+    },
+    "sec11-2_2": {
+      "title": "SEC 11.2: WISDOM NODES (SABBATH AND SEASONAL REST)",
+      "core_claim": "Clinically, scheduled periods of work cessation significantly reduce **perceived stress**, fatigue, and sleep strain; however, preventing a total burnout crash requires an actual structural reduction in **total system load**, not just compressing the same computational demands into fewer days.",
+      "query": "Do scheduled, mandatory periods of prolonged rest or weekly work cessation significantly reduce chronic physiological stress and prevent occupational burnout?",
+      "controlled_studies": "ON",
+      "tier": "CONSENSUS",
+      "primary_anchors": [
+        "Schiller et al., 2017, Scandinavian Journal of Work, Environment & Health",
+        "Fan et al., 2025, Nature Human Behaviour"
+      ],
+      "summary": "Occupational trials demonstrate that scheduled work cessation significantly reduces perceived stress, fatigue, and sleep strain. Long-term burnout prevention depends on structural workload reduction; compressing identical demands into fewer days fails to reduce persistent emotional exhaustion.",
+      "full_audit": "https://www.dreammachine.systems/assets/pdf/dreammachine-halluzination-audit-sec11-2_2.pdf"
+    },
+    "sec11-3_1": {
+      "title": "SEC 11.3: EXPANDED STATES (DISABLING THE DMN)",
+      "core_claim": "Clinically, intensive mind-body practices alter baseline physiology—such as voluntary hyperventilation drastically reducing global **cerebral blood flow** via altered blood-gas ratios. Simultaneously, these practices decouple and down-regulate the **Default Mode Network (DMN)**, physically bypassing the brain's rigid defensive filters and inducing a transient state of **neuroplasticity**.",
+      "query": "Does voluntary hyperventilation reduce global cerebral blood flow, and do intensive mind-body practices decouple the Default Mode Network (DMN) to induce transient neuroplasticity?",
+      "controlled_studies": "ON",
+      "tier": "CONSENSUS",
+      "primary_anchors": [
+        "Coles et al., 2002, Critical Care Medicine",
+        "Welch et al., 2022, The Journal of Physiology"
+      ],
+      "summary": "Cerebrovascular tracking establishes that voluntary hyperventilation induces rapid arterial hypocapnia, producing downstream vasoconstriction that significantly reduces global cerebral blood flow. Mind-body protocols alter neurovascular states and decouple core DMN nodes associated with self-referential rumination.",
+      "full_audit": "https://www.dreammachine.systems/assets/pdf/dreammachine-halluzination-audit-sec11-3_1.pdf"
+    },
+    "sec11-3_2": {
+      "title": "SEC 11.3: EXPANDED STATES (KERNEL PANIC DEPENDENCY)",
+      "core_claim": "Clinically, inducing altered states of consciousness in individuals experiencing acute psychosocial instability or severe unintegrated trauma significantly increases the vulnerability to adverse psychiatric events, including **severe dissociation** and **clinical psychosis**.",
+      "query": "Does inducing altered states of consciousness in individuals with acute psychosocial instability or severe trauma histories increase the risk of clinical psychosis and severe dissociation?",
+      "controlled_studies": "OFF",
+      "tier": "CONSENSUS",
+      "primary_anchors": [
+        "Varese et al., 2012, Schizophrenia Bulletin",
+        "Longden et al., 2020, Schizophrenia Bulletin"
+      ],
+      "summary": "Clinical psychiatry and safety trials demonstrate that inducing altered states of consciousness carries elevated psychiatric risks for individuals with acute psychosocial instability or severe trauma histories, increasing vulnerability to severe state dissociation and positive psychotic symptoms.",
+      "full_audit": "https://www.dreammachine.systems/assets/pdf/dreammachine-halluzination-audit-sec11-3_2.pdf"
+    }
+  }
+}

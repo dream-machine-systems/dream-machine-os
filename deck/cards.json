@@ -1,0 +1,1124 @@
+{
+  "schema_version": 1,
+  "build": "v0.9.5",
+  "deck_modules": {
+    "ROOT_ACCESS": [
+      "01",
+      "05"
+    ],
+    "EXECUTION_ENGINE": [
+      "02",
+      "03"
+    ],
+    "MALWARE_ANALYSIS": [
+      "04"
+    ],
+    "SOMATIC_ARCHITECTURE": [
+      "06",
+      "08"
+    ],
+    "NODE_NETWORKING": [
+      "07"
+    ],
+    "LOVE_PROTOCOL": [
+      "09"
+    ],
+    "FIREWALL_PROTOCOLS": [
+      "10"
+    ],
+    "DISASTER_RECOVERY": [
+      "04",
+      "10"
+    ],
+    "SYSTEM_UPGRADES": [
+      "11",
+      "12"
+    ]
+  },
+  "cards": [
+    {
+      "id": "core-00",
+      "suit": "core",
+      "num": "00",
+      "class": "HW",
+      "title": "GUEST_USER",
+      "url": "https://www.dreammachine.systems/deck/core/guest-user/",
+      "deck_module": "ROOT_ACCESS",
+      "modules": [
+        "01",
+        "05"
+      ],
+      "errors": []
+    },
+    {
+      "id": "core-01",
+      "suit": "core",
+      "num": "01",
+      "class": "EXEC",
+      "title": "SUDO_ADMIN",
+      "url": "https://www.dreammachine.systems/deck/core/sudo-admin/",
+      "deck_module": "ROOT_ACCESS",
+      "modules": [
+        "01",
+        "05"
+      ],
+      "errors": []
+    },
+    {
+      "id": "core-02",
+      "suit": "core",
+      "num": "02",
+      "class": "HW",
+      "title": "PASSIVE_TELEMETRY",
+      "url": "https://www.dreammachine.systems/deck/core/passive-telemetry/",
+      "deck_module": "SOMATIC_ARCHITECTURE",
+      "modules": [
+        "06",
+        "08"
+      ],
+      "errors": []
+    },
+    {
+      "id": "core-03",
+      "suit": "core",
+      "num": "03",
+      "class": "HW",
+      "title": "BARE_METAL_PROVISIONING",
+      "url": "https://www.dreammachine.systems/deck/core/bare-metal-provisioning/",
+      "deck_module": "SOMATIC_ARCHITECTURE",
+      "modules": [
+        "06",
+        "08"
+      ],
+      "errors": []
+    },
+    {
+      "id": "core-04",
+      "suit": "core",
+      "num": "04",
+      "class": "PROT",
+      "title": "SYSTEM_ARCHITECTURE",
+      "url": "https://www.dreammachine.systems/deck/core/system-architecture/",
+      "deck_module": "FIREWALL_PROTOCOLS",
+      "modules": [
+        "10"
+      ],
+      "errors": [
+        "DDOS_ATTACK"
+      ]
+    },
+    {
+      "id": "core-05",
+      "suit": "core",
+      "num": "05",
+      "class": "PROT",
+      "title": "LTS_LIBRARIES",
+      "url": "https://www.dreammachine.systems/deck/core/lts-libraries/",
+      "deck_module": "SYSTEM_UPGRADES",
+      "modules": [
+        "11",
+        "12"
+      ],
+      "errors": []
+    },
+    {
+      "id": "core-06",
+      "suit": "core",
+      "num": "06",
+      "class": "PROT",
+      "title": "STATELESS_PROTOCOL",
+      "url": "https://www.dreammachine.systems/deck/core/stateless-protocol/",
+      "deck_module": "LOVE_PROTOCOL",
+      "modules": [
+        "09"
+      ],
+      "errors": []
+    },
+    {
+      "id": "core-07",
+      "suit": "core",
+      "num": "07",
+      "class": "EXEC",
+      "title": "MOMENTUM_PROTOCOL",
+      "url": "https://www.dreammachine.systems/deck/core/momentum-protocol/",
+      "deck_module": "EXECUTION_ENGINE",
+      "modules": [
+        "02",
+        "03"
+      ],
+      "errors": []
+    },
+    {
+      "id": "core-08",
+      "suit": "core",
+      "num": "08",
+      "class": "HW",
+      "title": "THE_FRANKL_BUFFER",
+      "url": "https://www.dreammachine.systems/deck/core/the-frankl-buffer/",
+      "deck_module": "ROOT_ACCESS",
+      "modules": [
+        "01",
+        "05"
+      ],
+      "errors": []
+    },
+    {
+      "id": "core-09",
+      "suit": "core",
+      "num": "09",
+      "class": "PROT",
+      "title": "AIR_GAPPED_NODE",
+      "url": "https://www.dreammachine.systems/deck/core/air-gapped-node/",
+      "deck_module": "FIREWALL_PROTOCOLS",
+      "modules": [
+        "10"
+      ],
+      "errors": []
+    },
+    {
+      "id": "core-10",
+      "suit": "core",
+      "num": "10",
+      "class": "FAULT",
+      "title": "RUNTIME_ENTROPY",
+      "url": "https://www.dreammachine.systems/deck/core/runtime-entropy/",
+      "deck_module": "DISASTER_RECOVERY",
+      "modules": [
+        "04",
+        "10"
+      ],
+      "errors": []
+    },
+    {
+      "id": "core-11",
+      "suit": "core",
+      "num": "11",
+      "class": "EXEC",
+      "title": "THE_UNIT_TEST",
+      "url": "https://www.dreammachine.systems/deck/core/the-unit-test/",
+      "deck_module": "MALWARE_ANALYSIS",
+      "modules": [
+        "04"
+      ],
+      "errors": []
+    },
+    {
+      "id": "core-12",
+      "suit": "core",
+      "num": "12",
+      "class": "EXEC",
+      "title": "SYSTEM_IDLE_PROCESS",
+      "url": "https://www.dreammachine.systems/deck/core/system-idle-process/",
+      "deck_module": "DISASTER_RECOVERY",
+      "modules": [
+        "04",
+        "10"
+      ],
+      "errors": []
+    },
+    {
+      "id": "core-13",
+      "suit": "core",
+      "num": "13",
+      "class": "EXEC",
+      "title": "THREAD_TERMINATION",
+      "url": "https://www.dreammachine.systems/deck/core/thread-termination/",
+      "deck_module": "SYSTEM_UPGRADES",
+      "modules": [
+        "11",
+        "12"
+      ],
+      "errors": []
+    },
+    {
+      "id": "core-14",
+      "suit": "core",
+      "num": "14",
+      "class": "PROT",
+      "title": "ASYMMETRIC_LOAD_BALANCING",
+      "url": "https://www.dreammachine.systems/deck/core/asymmetric-load-balancing/",
+      "deck_module": "NODE_NETWORKING",
+      "modules": [
+        "07"
+      ],
+      "errors": []
+    },
+    {
+      "id": "core-15",
+      "suit": "core",
+      "num": "15",
+      "class": "FAULT",
+      "title": "THE_EGO_ROOTKIT",
+      "url": "https://www.dreammachine.systems/deck/core/the-ego-rootkit/",
+      "deck_module": "MALWARE_ANALYSIS",
+      "modules": [
+        "04"
+      ],
+      "errors": [
+        "EGO_ROOTKIT"
+      ]
+    },
+    {
+      "id": "core-16",
+      "suit": "core",
+      "num": "16",
+      "class": "FAULT",
+      "title": "KERNEL_PANIC",
+      "url": "https://www.dreammachine.systems/deck/core/kernel-panic/",
+      "deck_module": "DISASTER_RECOVERY",
+      "modules": [
+        "04",
+        "10"
+      ],
+      "errors": [
+        "KERNEL_PANIC"
+      ]
+    },
+    {
+      "id": "core-17",
+      "suit": "core",
+      "num": "17",
+      "class": "EXEC",
+      "title": "SAFE_MODE_REBOOT",
+      "url": "https://www.dreammachine.systems/deck/core/safe-mode-reboot/",
+      "deck_module": "DISASTER_RECOVERY",
+      "modules": [
+        "04",
+        "10"
+      ],
+      "errors": []
+    },
+    {
+      "id": "core-18",
+      "suit": "core",
+      "num": "18",
+      "class": "EXEC",
+      "title": "FORENSIC_MEMORY_DUMP",
+      "url": "https://www.dreammachine.systems/deck/core/forensic-memory-dump/",
+      "deck_module": "MALWARE_ANALYSIS",
+      "modules": [
+        "04"
+      ],
+      "errors": []
+    },
+    {
+      "id": "core-19",
+      "suit": "core",
+      "num": "19",
+      "class": "HW",
+      "title": "HEADLESS_EXECUTION",
+      "url": "https://www.dreammachine.systems/deck/core/headless-execution/",
+      "deck_module": "EXECUTION_ENGINE",
+      "modules": [
+        "02",
+        "03"
+      ],
+      "errors": []
+    },
+    {
+      "id": "core-20",
+      "suit": "core",
+      "num": "20",
+      "class": "EXEC",
+      "title": "VERSION_UPGRADE",
+      "url": "https://www.dreammachine.systems/deck/core/version-upgrade/",
+      "deck_module": "SYSTEM_UPGRADES",
+      "modules": [
+        "11",
+        "12"
+      ],
+      "errors": []
+    },
+    {
+      "id": "core-21",
+      "suit": "core",
+      "num": "21",
+      "class": "PROT",
+      "title": "CLOUD_NATIVE_INTEGRATION",
+      "url": "https://www.dreammachine.systems/deck/core/cloud-native-integration/",
+      "deck_module": "LOVE_PROTOCOL",
+      "modules": [
+        "09"
+      ],
+      "errors": []
+    },
+    {
+      "id": "cpu-01",
+      "suit": "cpu",
+      "num": "01",
+      "class": "EXEC",
+      "title": "INIT: KINETIC_START",
+      "url": "https://www.dreammachine.systems/deck/cpu/init-kinetic-start/",
+      "deck_module": "EXECUTION_ENGINE",
+      "modules": [
+        "02",
+        "03"
+      ],
+      "errors": [
+        "HESITATION_BUG"
+      ]
+    },
+    {
+      "id": "cpu-02",
+      "suit": "cpu",
+      "num": "02",
+      "class": "PROT",
+      "title": "HANDSHAKE: LATENCY_CALIBRATION",
+      "url": "https://www.dreammachine.systems/deck/cpu/handshake-latency-calibration/",
+      "deck_module": "ROOT_ACCESS",
+      "modules": [
+        "01",
+        "05"
+      ],
+      "errors": []
+    },
+    {
+      "id": "cpu-03",
+      "suit": "cpu",
+      "num": "03",
+      "class": "EXEC",
+      "title": "COMPILE: ALPHA_BUILD",
+      "url": "https://www.dreammachine.systems/deck/cpu/compile-alpha-build/",
+      "deck_module": "EXECUTION_ENGINE",
+      "modules": [
+        "02",
+        "03"
+      ],
+      "errors": []
+    },
+    {
+      "id": "cpu-04",
+      "suit": "cpu",
+      "num": "04",
+      "class": "HW",
+      "title": "CONTAINER: AIR_GAPPED_SPRINT",
+      "url": "https://www.dreammachine.systems/deck/cpu/container-air-gapped-sprint/",
+      "deck_module": "EXECUTION_ENGINE",
+      "modules": [
+        "02",
+        "03"
+      ],
+      "errors": []
+    },
+    {
+      "id": "cpu-05",
+      "suit": "cpu",
+      "num": "05",
+      "class": "FAULT",
+      "title": "FAULT: CONTEXT_SWITCHING_PENALTY",
+      "url": "https://www.dreammachine.systems/deck/cpu/fault-context-switching-penalty/",
+      "deck_module": "EXECUTION_ENGINE",
+      "modules": [
+        "02",
+        "03"
+      ],
+      "errors": [
+        "CONTEXT_SWITCHING_PENALTY"
+      ]
+    },
+    {
+      "id": "cpu-06",
+      "suit": "cpu",
+      "num": "06",
+      "class": "FAULT",
+      "title": "SAFE_MODE: DISASTER_RECOVERY",
+      "url": "https://www.dreammachine.systems/deck/cpu/safe-mode-disaster-recovery/",
+      "deck_module": "DISASTER_RECOVERY",
+      "modules": [
+        "04",
+        "10"
+      ],
+      "errors": []
+    },
+    {
+      "id": "cpu-07",
+      "suit": "cpu",
+      "num": "07",
+      "class": "EXEC",
+      "title": "RCA: BOTTLENECK_AUDIT",
+      "url": "https://www.dreammachine.systems/deck/cpu/rca-bottleneck-audit/",
+      "deck_module": "EXECUTION_ENGINE",
+      "modules": [
+        "02",
+        "03"
+      ],
+      "errors": []
+    },
+    {
+      "id": "cpu-08",
+      "suit": "cpu",
+      "num": "08",
+      "class": "EXEC",
+      "title": "CRON_JOB: KAIZEN_LOOP",
+      "url": "https://www.dreammachine.systems/deck/cpu/cron-job-kaizen-loop/",
+      "deck_module": "EXECUTION_ENGINE",
+      "modules": [
+        "02",
+        "03"
+      ],
+      "errors": []
+    },
+    {
+      "id": "cpu-09",
+      "suit": "cpu",
+      "num": "09",
+      "class": "HW",
+      "title": "REDLINE: FLOW_STATE_GATE",
+      "url": "https://www.dreammachine.systems/deck/cpu/redline-flow-state-gate/",
+      "deck_module": "SOMATIC_ARCHITECTURE",
+      "modules": [
+        "06",
+        "08"
+      ],
+      "errors": []
+    },
+    {
+      "id": "cpu-10",
+      "suit": "cpu",
+      "num": "10",
+      "class": "HW",
+      "title": "EOF: HIGH_AVAILABILITY",
+      "url": "https://www.dreammachine.systems/deck/cpu/eof-high-availability/",
+      "deck_module": "SOMATIC_ARCHITECTURE",
+      "modules": [
+        "06",
+        "08"
+      ],
+      "errors": []
+    },
+    {
+      "id": "cpu-11",
+      "suit": "cpu",
+      "num": "11",
+      "class": "PROT",
+      "title": "GUEST_USER",
+      "url": "https://www.dreammachine.systems/deck/cpu/guest-user/",
+      "deck_module": "ROOT_ACCESS",
+      "modules": [
+        "01",
+        "05"
+      ],
+      "errors": []
+    },
+    {
+      "id": "cpu-12",
+      "suit": "cpu",
+      "num": "12",
+      "class": "PROT",
+      "title": "UNTHROTTLED_EXEC",
+      "url": "https://www.dreammachine.systems/deck/cpu/unthrottled-exec/",
+      "deck_module": "EXECUTION_ENGINE",
+      "modules": [
+        "02",
+        "03"
+      ],
+      "errors": []
+    },
+    {
+      "id": "cpu-13",
+      "suit": "cpu",
+      "num": "13",
+      "class": "PROT",
+      "title": "SYS_ADMIN",
+      "url": "https://www.dreammachine.systems/deck/cpu/sys-admin/",
+      "deck_module": "EXECUTION_ENGINE",
+      "modules": [
+        "02",
+        "03"
+      ],
+      "errors": []
+    },
+    {
+      "id": "cpu-14",
+      "suit": "cpu",
+      "num": "14",
+      "class": "PROT",
+      "title": "LEAD_ARCHITECT",
+      "url": "https://www.dreammachine.systems/deck/cpu/lead-architect/",
+      "deck_module": "NODE_NETWORKING",
+      "modules": [
+        "07"
+      ],
+      "errors": []
+    },
+    {
+      "id": "net-01",
+      "suit": "net",
+      "num": "01",
+      "class": "PROT",
+      "title": "INIT: OPEN_PORT",
+      "url": "https://www.dreammachine.systems/deck/net/init-open-port/",
+      "deck_module": "FIREWALL_PROTOCOLS",
+      "modules": [
+        "10"
+      ],
+      "errors": []
+    },
+    {
+      "id": "net-02",
+      "suit": "net",
+      "num": "02",
+      "class": "PROT",
+      "title": "HANDSHAKE: SYN_ACK_SYNC",
+      "url": "https://www.dreammachine.systems/deck/net/handshake-syn-ack-sync/",
+      "deck_module": "NODE_NETWORKING",
+      "modules": [
+        "07"
+      ],
+      "errors": []
+    },
+    {
+      "id": "net-03",
+      "suit": "net",
+      "num": "03",
+      "class": "EXEC",
+      "title": "COMPILE: CLEAN_DATA_TX",
+      "url": "https://www.dreammachine.systems/deck/net/compile-clean-data-tx/",
+      "deck_module": "NODE_NETWORKING",
+      "modules": [
+        "07"
+      ],
+      "errors": []
+    },
+    {
+      "id": "net-04",
+      "suit": "net",
+      "num": "04",
+      "class": "PROT",
+      "title": "CONTAINER: THE_BUNKER_BUG",
+      "url": "https://www.dreammachine.systems/deck/net/container-the-bunker-bug/",
+      "deck_module": "FIREWALL_PROTOCOLS",
+      "modules": [
+        "10"
+      ],
+      "errors": [
+        "BUNKER_BUG"
+      ]
+    },
+    {
+      "id": "net-05",
+      "suit": "net",
+      "num": "05",
+      "class": "FAULT",
+      "title": "FAULT: PACKET_LOSS",
+      "url": "https://www.dreammachine.systems/deck/net/fault-packet-loss/",
+      "deck_module": "NODE_NETWORKING",
+      "modules": [
+        "07"
+      ],
+      "errors": [
+        "ZIP_FILE_ERROR"
+      ]
+    },
+    {
+      "id": "net-06",
+      "suit": "net",
+      "num": "06",
+      "class": "HW",
+      "title": "SAFE_MODE: DISASTER_RECOVERY",
+      "url": "https://www.dreammachine.systems/deck/net/safe-mode-disaster-recovery/",
+      "deck_module": "DISASTER_RECOVERY",
+      "modules": [
+        "04",
+        "10"
+      ],
+      "errors": []
+    },
+    {
+      "id": "net-07",
+      "suit": "net",
+      "num": "07",
+      "class": "EXEC",
+      "title": "RCA: BLAMELESS_POST_MORTEM",
+      "url": "https://www.dreammachine.systems/deck/net/rca-blameless-post-mortem/",
+      "deck_module": "NODE_NETWORKING",
+      "modules": [
+        "07"
+      ],
+      "errors": []
+    },
+    {
+      "id": "net-08",
+      "suit": "net",
+      "num": "08",
+      "class": "EXEC",
+      "title": "CRON_JOB: THRESHOLD_RESET",
+      "url": "https://www.dreammachine.systems/deck/net/cron-job-threshold-reset/",
+      "deck_module": "FIREWALL_PROTOCOLS",
+      "modules": [
+        "10"
+      ],
+      "errors": []
+    },
+    {
+      "id": "net-09",
+      "suit": "net",
+      "num": "09",
+      "class": "HW",
+      "title": "REDLINE: ASYMMETRIC_LOAD",
+      "url": "https://www.dreammachine.systems/deck/net/redline-asymmetric-load/",
+      "deck_module": "NODE_NETWORKING",
+      "modules": [
+        "07"
+      ],
+      "errors": []
+    },
+    {
+      "id": "net-10",
+      "suit": "net",
+      "num": "10",
+      "class": "PROT",
+      "title": "EOF: HIGH_AVAILABILITY",
+      "url": "https://www.dreammachine.systems/deck/net/eof-high-availability/",
+      "deck_module": "LOVE_PROTOCOL",
+      "modules": [
+        "09"
+      ],
+      "errors": []
+    },
+    {
+      "id": "net-11",
+      "suit": "net",
+      "num": "11",
+      "class": "FAULT",
+      "title": "GUEST_USER",
+      "url": "https://www.dreammachine.systems/deck/net/guest-user/",
+      "deck_module": "FIREWALL_PROTOCOLS",
+      "modules": [
+        "10"
+      ],
+      "errors": []
+    },
+    {
+      "id": "net-12",
+      "suit": "net",
+      "num": "12",
+      "class": "FAULT",
+      "title": "UNTHROTTLED_EXEC",
+      "url": "https://www.dreammachine.systems/deck/net/unthrottled-exec/",
+      "deck_module": "NODE_NETWORKING",
+      "modules": [
+        "07"
+      ],
+      "errors": [
+        "DDOS_ATTACK"
+      ]
+    },
+    {
+      "id": "net-13",
+      "suit": "net",
+      "num": "13",
+      "class": "PROT",
+      "title": "SYS_ADMIN",
+      "url": "https://www.dreammachine.systems/deck/net/sys-admin/",
+      "deck_module": "FIREWALL_PROTOCOLS",
+      "modules": [
+        "10"
+      ],
+      "errors": []
+    },
+    {
+      "id": "net-14",
+      "suit": "net",
+      "num": "14",
+      "class": "PROT",
+      "title": "LEAD_ARCHITECT",
+      "url": "https://www.dreammachine.systems/deck/net/lead-architect/",
+      "deck_module": "LOVE_PROTOCOL",
+      "modules": [
+        "09"
+      ],
+      "errors": []
+    },
+    {
+      "id": "sys-01",
+      "suit": "sys",
+      "num": "01",
+      "class": "EXEC",
+      "title": "INIT: LOGIC_BOOT",
+      "url": "https://www.dreammachine.systems/deck/sys/init-logic-boot/",
+      "deck_module": "MALWARE_ANALYSIS",
+      "modules": [
+        "04"
+      ],
+      "errors": []
+    },
+    {
+      "id": "sys-02",
+      "suit": "sys",
+      "num": "02",
+      "class": "FAULT",
+      "title": "BRANCH: COGNITIVE_DEADLOCK",
+      "url": "https://www.dreammachine.systems/deck/sys/branch-cognitive-deadlock/",
+      "deck_module": "MALWARE_ANALYSIS",
+      "modules": [
+        "04"
+      ],
+      "errors": []
+    },
+    {
+      "id": "sys-03",
+      "suit": "sys",
+      "num": "03",
+      "class": "HW",
+      "title": "COMPILE: UNHANDLED_EXCEPTION",
+      "url": "https://www.dreammachine.systems/deck/sys/compile-unhandled-exception/",
+      "deck_module": "SOMATIC_ARCHITECTURE",
+      "modules": [
+        "06",
+        "08"
+      ],
+      "errors": []
+    },
+    {
+      "id": "sys-04",
+      "suit": "sys",
+      "num": "04",
+      "class": "PROT",
+      "title": "CONTAINER: SYSTEM_SUSPEND",
+      "url": "https://www.dreammachine.systems/deck/sys/container-system-suspend/",
+      "deck_module": "DISASTER_RECOVERY",
+      "modules": [
+        "04",
+        "10"
+      ],
+      "errors": []
+    },
+    {
+      "id": "sys-05",
+      "suit": "sys",
+      "num": "05",
+      "class": "FAULT",
+      "title": "FAULT: ZERO_SUM_EXECUTION",
+      "url": "https://www.dreammachine.systems/deck/sys/fault-zero-sum-execution/",
+      "deck_module": "NODE_NETWORKING",
+      "modules": [
+        "07"
+      ],
+      "errors": [
+        "ZERO_SUM_BUG",
+        "EGO_ROOTKIT"
+      ]
+    },
+    {
+      "id": "sys-06",
+      "suit": "sys",
+      "num": "06",
+      "class": "PROT",
+      "title": "SAFE_MODE: DISASTER_RECOVERY",
+      "url": "https://www.dreammachine.systems/deck/sys/safe-mode-disaster-recovery/",
+      "deck_module": "DISASTER_RECOVERY",
+      "modules": [
+        "04",
+        "10"
+      ],
+      "errors": []
+    },
+    {
+      "id": "sys-07",
+      "suit": "sys",
+      "num": "07",
+      "class": "FAULT",
+      "title": "RCA: LOGIC_BYPASS",
+      "url": "https://www.dreammachine.systems/deck/sys/rca-logic-bypass/",
+      "deck_module": "MALWARE_ANALYSIS",
+      "modules": [
+        "04"
+      ],
+      "errors": [
+        "LOGIC_BYPASS"
+      ]
+    },
+    {
+      "id": "sys-08",
+      "suit": "sys",
+      "num": "08",
+      "class": "EXEC",
+      "title": "CRON_JOB: INFINITE_LOOP",
+      "url": "https://www.dreammachine.systems/deck/sys/cron-job-infinite-loop/",
+      "deck_module": "MALWARE_ANALYSIS",
+      "modules": [
+        "04"
+      ],
+      "errors": []
+    },
+    {
+      "id": "sys-09",
+      "suit": "sys",
+      "num": "09",
+      "class": "HW",
+      "title": "REDLINE: PREDICTIVE_PANIC",
+      "url": "https://www.dreammachine.systems/deck/sys/redline-predictive-panic/",
+      "deck_module": "SOMATIC_ARCHITECTURE",
+      "modules": [
+        "06",
+        "08"
+      ],
+      "errors": []
+    },
+    {
+      "id": "sys-10",
+      "suit": "sys",
+      "num": "10",
+      "class": "FAULT",
+      "title": "EOF: KERNEL_PANIC",
+      "url": "https://www.dreammachine.systems/deck/sys/eof-kernel-panic/",
+      "deck_module": "DISASTER_RECOVERY",
+      "modules": [
+        "04",
+        "10"
+      ],
+      "errors": [
+        "KERNEL_PANIC"
+      ]
+    },
+    {
+      "id": "sys-11",
+      "suit": "sys",
+      "num": "11",
+      "class": "FAULT",
+      "title": "GUEST_USER",
+      "url": "https://www.dreammachine.systems/deck/sys/guest-user/",
+      "deck_module": "EXECUTION_ENGINE",
+      "modules": [
+        "02",
+        "03"
+      ],
+      "errors": []
+    },
+    {
+      "id": "sys-12",
+      "suit": "sys",
+      "num": "12",
+      "class": "FAULT",
+      "title": "UNTHROTTLED_EXEC",
+      "url": "https://www.dreammachine.systems/deck/sys/unthrottled-exec/",
+      "deck_module": "NODE_NETWORKING",
+      "modules": [
+        "07"
+      ],
+      "errors": []
+    },
+    {
+      "id": "sys-13",
+      "suit": "sys",
+      "num": "13",
+      "class": "PROT",
+      "title": "SYS_ADMIN",
+      "url": "https://www.dreammachine.systems/deck/sys/sys-admin/",
+      "deck_module": "FIREWALL_PROTOCOLS",
+      "modules": [
+        "10"
+      ],
+      "errors": []
+    },
+    {
+      "id": "sys-14",
+      "suit": "sys",
+      "num": "14",
+      "class": "PROT",
+      "title": "LEAD_ARCHITECT",
+      "url": "https://www.dreammachine.systems/deck/sys/lead-architect/",
+      "deck_module": "ROOT_ACCESS",
+      "modules": [
+        "01",
+        "05"
+      ],
+      "errors": []
+    },
+    {
+      "id": "disk-01",
+      "suit": "disk",
+      "num": "01",
+      "class": "HW",
+      "title": "INIT: BASE_PROVISIONING",
+      "url": "https://www.dreammachine.systems/deck/disk/init-base-provisioning/",
+      "deck_module": "SOMATIC_ARCHITECTURE",
+      "modules": [
+        "06",
+        "08"
+      ],
+      "errors": []
+    },
+    {
+      "id": "disk-02",
+      "suit": "disk",
+      "num": "02",
+      "class": "PROT",
+      "title": "HANDSHAKE: LOAD_BALANCING",
+      "url": "https://www.dreammachine.systems/deck/disk/handshake-load-balancing/",
+      "deck_module": "SOMATIC_ARCHITECTURE",
+      "modules": [
+        "06",
+        "08"
+      ],
+      "errors": []
+    },
+    {
+      "id": "disk-03",
+      "suit": "disk",
+      "num": "03",
+      "class": "EXEC",
+      "title": "COMPILE: INFRASTRUCTURE_BUILD",
+      "url": "https://www.dreammachine.systems/deck/disk/compile-infrastructure-build/",
+      "deck_module": "EXECUTION_ENGINE",
+      "modules": [
+        "02",
+        "03"
+      ],
+      "errors": []
+    },
+    {
+      "id": "disk-04",
+      "suit": "disk",
+      "num": "04",
+      "class": "FAULT",
+      "title": "CONTAINER: ASSET_QUARANTINE",
+      "url": "https://www.dreammachine.systems/deck/disk/container-asset-quarantine/",
+      "deck_module": "MALWARE_ANALYSIS",
+      "modules": [
+        "04"
+      ],
+      "errors": []
+    },
+    {
+      "id": "disk-05",
+      "suit": "disk",
+      "num": "05",
+      "class": "FAULT",
+      "title": "FAULT: VOLTAGE_DROP",
+      "url": "https://www.dreammachine.systems/deck/disk/fault-voltage-drop/",
+      "deck_module": "DISASTER_RECOVERY",
+      "modules": [
+        "04",
+        "10"
+      ],
+      "errors": []
+    },
+    {
+      "id": "disk-06",
+      "suit": "disk",
+      "num": "06",
+      "class": "PROT",
+      "title": "SAFE_MODE: RESOURCE_ALLOCATION",
+      "url": "https://www.dreammachine.systems/deck/disk/safe-mode-resource-allocation/",
+      "deck_module": "LOVE_PROTOCOL",
+      "modules": [
+        "09"
+      ],
+      "errors": []
+    },
+    {
+      "id": "disk-07",
+      "suit": "disk",
+      "num": "07",
+      "class": "EXEC",
+      "title": "RCA: THROUGHPUT_AUDIT",
+      "url": "https://www.dreammachine.systems/deck/disk/rca-throughput-audit/",
+      "deck_module": "EXECUTION_ENGINE",
+      "modules": [
+        "02",
+        "03"
+      ],
+      "errors": []
+    },
+    {
+      "id": "disk-08",
+      "suit": "disk",
+      "num": "08",
+      "class": "EXEC",
+      "title": "CRON_JOB: MVM_ROUTINE",
+      "url": "https://www.dreammachine.systems/deck/disk/cron-job-mvm-routine/",
+      "deck_module": "EXECUTION_ENGINE",
+      "modules": [
+        "02",
+        "03"
+      ],
+      "errors": []
+    },
+    {
+      "id": "disk-09",
+      "suit": "disk",
+      "num": "09",
+      "class": "HW",
+      "title": "HA_RUNTIME: PEAK_VOLTAGE",
+      "url": "https://www.dreammachine.systems/deck/disk/ha-runtime-peak-voltage/",
+      "deck_module": "SOMATIC_ARCHITECTURE",
+      "modules": [
+        "06",
+        "08"
+      ],
+      "errors": []
+    },
+    {
+      "id": "disk-10",
+      "suit": "disk",
+      "num": "10",
+      "class": "EXEC",
+      "title": "EOF: GENERATIONAL_DEPLOYMENT",
+      "url": "https://www.dreammachine.systems/deck/disk/eof-generational-deployment/",
+      "deck_module": "SYSTEM_UPGRADES",
+      "modules": [
+        "11",
+        "12"
+      ],
+      "errors": []
+    },
+    {
+      "id": "disk-11",
+      "suit": "disk",
+      "num": "11",
+      "class": "PROT",
+      "title": "GUEST_USER",
+      "url": "https://www.dreammachine.systems/deck/disk/guest-user/",
+      "deck_module": "EXECUTION_ENGINE",
+      "modules": [
+        "02",
+        "03"
+      ],
+      "errors": []
+    },
+    {
+      "id": "disk-12",
+      "suit": "disk",
+      "num": "12",
+      "class": "FAULT",
+      "title": "UNTHROTTLED_EXEC",
+      "url": "https://www.dreammachine.systems/deck/disk/unthrottled-exec/",
+      "deck_module": "SOMATIC_ARCHITECTURE",
+      "modules": [
+        "06",
+        "08"
+      ],
+      "errors": []
+    },
+    {
+      "id": "disk-13",
+      "suit": "disk",
+      "num": "13",
+      "class": "PROT",
+      "title": "SYS_ADMIN",
+      "url": "https://www.dreammachine.systems/deck/disk/sys-admin/",
+      "deck_module": "SOMATIC_ARCHITECTURE",
+      "modules": [
+        "06",
+        "08"
+      ],
+      "errors": []
+    },
+    {
+      "id": "disk-14",
+      "suit": "disk",
+      "num": "14",
+      "class": "PROT",
+      "title": "LEAD_ARCHITECT",
+      "url": "https://www.dreammachine.systems/deck/disk/lead-architect/",
+      "deck_module": "SYSTEM_UPGRADES",
+      "modules": [
+        "11",
+        "12"
+      ],
+      "errors": []
+    }
+  ]
+}
