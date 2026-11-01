@@ -2,7 +2,7 @@
 id: dir-a-backend-schematic
 title: Backend Schematic (Multi-Agent Architecture)
 book_ref: "Directory A (Backend Schematic: Multi-Agent Architecture)"
-spec_status: DRAFT
+spec_status: STABLE
 build: v0.9.5
 related: [01-identity-bios, 02-operating-system, 03-processor, 08-cognitive-downclock]
 audit: https://www.dreammachine.systems/audit
@@ -81,6 +81,7 @@ Codes are defined once in [`errors/registry.json`](../../errors/registry.json). 
 
 | Code | Name | Book | Definition |
 | --- | --- | --- | --- |
+| `MONOLITHIC_SELF` | Monolithic Self | Directory A.1 | The virtualization error that a single CEO behind the eyes makes the decisions; the "I" is the PR Department explaining them afterwards. |
 | `SOMATIC_PROMPT_INJECTION` | Somatic Prompt Injection | Directory A.7.1 | [glossary](../../glossary/somatic-prompt-injection.md) |
 
 Also relevant here: `CEO_BUG` (01), `EGO_GUI_ILLUSION` (02), `THERMAL_THROTTLING` (03).

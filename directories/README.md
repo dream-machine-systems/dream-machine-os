@@ -4,10 +4,10 @@ The book closes with eleven System Directories, A to K. Modules specify the twel
 
 | Dir | Book title | Partition | In this repository | Spec status | Briefing |
 | --- | --- | --- | --- | --- | --- |
-| A | Backend Schematic (Multi-Agent Architecture) | I | [a-backend-schematic](a-backend-schematic/) | `DRAFT` | [dira](https://www.dreammachine.systems/briefings/dira) |
+| A | Backend Schematic (Multi-Agent Architecture) | I | [a-backend-schematic](a-backend-schematic/) | `STABLE` | [dira](https://www.dreammachine.systems/briefings/dira) |
 | B | System Glossary (A-Z Index) | I | [`glossary/`](../glossary/) | – | – |
 | C | Technical Specification: Love Protocol | I | [`modules/09-love-protocol`](../modules/09-love-protocol/): sections C.3 to C.7 are procedures 3.1 to 3.6 | – | [ch9](https://www.dreammachine.systems/briefings/ch9) |
-| D | Theoretical Sandbox: End-of-Lifecycle Theories (Receiver Hypothesis) | I | [d-theoretical-sandbox](d-theoretical-sandbox/) | `DRAFT` | [dird](https://www.dreammachine.systems/briefings/dird) |
+| D | Theoretical Sandbox: End-of-Lifecycle Theories (Receiver Hypothesis) | I | [d-theoretical-sandbox](d-theoretical-sandbox/) | `STABLE` | [dird](https://www.dreammachine.systems/briefings/dird) |
 | E | Practical Command Set (Exercise Repo) | II | Book only. Exercises stay in the book; the modules carry the procedures they run. | – | – |
 | F | Troubleshooting Guide (System Error Logs) | II | [`errors/registry.json`](../errors/registry.json): incident codes `0x01` to `0x09` | – | – |
 | G | System Telemetry & KPIs | II | Book only. Personal telemetry never enters a public repository (Directory G.2). | – | – |
