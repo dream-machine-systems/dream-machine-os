@@ -43,6 +43,7 @@ The repository uses the tiers of the book's dependency index:
 ## Style
 
 - English, Markdown, one module per directory, YAML front matter as in the existing modules.
+- A new module or a status change updates `modules/status.json`, the table in `modules/README.md` and the front matter together. Check with `node scripts/check-module-status.mjs`.
 - Active voice. No "you should", no "we must". Runbook imperative or If/Then logic.
 - ASCII arrows only (`=>`), no Unicode arrows.
 
