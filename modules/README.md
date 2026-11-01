@@ -19,6 +19,12 @@ One module per chapter of *The Dream Machine*. A module specifies the logic; the
 
 **Status values:** `PLANNED` (no spec yet), `DRAFT` (spec exists, not yet audited against the current build), `STABLE` (matches the tagged build).
 
+## Status source
+
+[`status.json`](status.json) is the single machine-readable source of module status. [dreammachine.systems/source](https://www.dreammachine.systems/source) reads it at build time from `main`, so keep its path and keys stable.
+
+A status change touches three places in the same PR: `status.json`, the table above and the module's `spec_status` front matter. CI runs `node scripts/check-module-status.mjs` and fails when they disagree. Run it locally before you push.
+
 ## Module format
 
 Each module is a directory with a `README.md` that starts with YAML front matter:

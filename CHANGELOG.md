@@ -17,6 +17,7 @@ All notable changes to the specification. Versions track the build of *The Dream
 - Governance: `CONTRIBUTING.md`, `GOVERNANCE.md`, `CODE_OF_CONDUCT.md`, `SAFETY.md`, `TRADEMARKS.md`, `COMMERCIAL-USE.md`, `CLA.md` (draft).
 - Issue forms (Errata, Evidence, RFC), PR template, `CODEOWNERS`.
 - `glossary/`, `audit/`, `rfcs/` as entry points.
+- `modules/status.json`: machine-readable module status, read by dreammachine.systems/source. CI check `scripts/check-module-status.mjs` keeps it in sync with `modules/README.md` and the module front matter.
 
 ### Removed
 

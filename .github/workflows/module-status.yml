@@ -1,0 +1,27 @@
+name: Module status
+
+on:
+  pull_request:
+    paths:
+      - "modules/**"
+      - "scripts/check-module-status.mjs"
+      - ".github/workflows/module-status.yml"
+  push:
+    branches: [main]
+    paths:
+      - "modules/**"
+      - "scripts/check-module-status.mjs"
+      - ".github/workflows/module-status.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: node scripts/check-module-status.mjs
