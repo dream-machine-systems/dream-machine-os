@@ -18,14 +18,17 @@ Conscious processing runs at roughly 10 bit/s; total peripheral absorption is on
 
 ## 2. Core Logic
 
-- **Namespace split:** "10 bit/s" names conscious throughput, "~1 billion bit/s" total peripheral absorption. Do not use one metric for both (CH 8.1).
+- **Namespace split:** `SENSORY_INTAKE` (~10^9 bit/s, an order-of-magnitude heuristic for raw peripheral data) vs. `AFFECTIVE_BANDWIDTH` (unquantified: emotion, intuition, presence). Sensors are measured in bits, presence in bandwidth; treating connection as a 1-billion-bit calculation is a category error. The 10 vs. 10^9 comparison bridges two differently derived measurements and is an approximation (CH 8.1, 8.1.1).
 - **Subconscious Data Lake:** Unprocessed bits are stored, not lost (CH 8.1.2).
-- **Predictive Rendering Engine:** The brain renders a prediction of the world to conserve bandwidth; it does not record passively (CH 8.1.3).
+- **Predictive Rendering Engine:** The brain renders a prediction of the world to conserve bandwidth; it does not record passively. Do not weaponize "simulation" to gaslight yourself out of physical reality: a hallucinated threat still generates a real fire in the hardware (Dissociation Exploit) (CH 8.1.3).
 - **GNWT routing:** Content competes for the global workspace by Darwinian priority (CH 8.1.4).
-- **Boardroom Protocol:** Board (conscious attention, 10 bit/s) and Staff (broadband awareness). Patch: Permeability, an open door instead of more data on the projector (CH 8.2).
+- **User Illusion:** Analysing an emotional conflict with the 10-bit channel plays an 8K feed on a calculator display. The channel clogs, the nodes fight over the metadata (the words) because the payload (grief, fear) cannot pass, and the compressed text-string is mistaken for understanding (CH 8.1.5).
+- **Calculation Fallacy:** Competing with AI on the 10-bit logic layer thermal-throttles the system. Offload pure computation to AI; sovereignty lives in contemplative latency and the integration of somatic telemetry, which frees the local CPU for intuition, deep focus and co-regulation (CH 8.1.6).
+- **Boardroom Protocol:** Board (conscious attention, 10 bit/s) and Staff (broadband awareness). Patch: Permeability, an open door instead of more data on the projector. Do not drill the door open to the full analog flood: that triggers a Buffer Overflow (clinical psychosis); make the partition permeable instead (CH 8.2, 8.2.3).
 - **Graceful Yielding:** When the Staff floods the Boardroom with affective bandwidth, yield; do not fight (CH 8.2.4).
 - **Zip-File Error:** Words are compression algorithms; two nodes unpack the same file name into different payloads (CH 8.3).
-- **Carrier Wave and Exformation:** Presence, tone and timing carry what words discard (CH 8.4).
+- **Carrier Wave and Exformation:** Presence, tone and timing carry what words discard (CH 8.4, 8.4.1).
+- **Legacy OS handshake:** A target node running an unpatched Legacy OS cannot parse stateless API calls and drains your battery; use strict ACLs against a localized DDoS (CH 8.1; see [07-social-api](../07-social-api/) and [09-love-protocol](../09-love-protocol/)).
 - **Hustle-Culture Boundary:** Bandwidth upgrades are not a productivity hack (Somatic Technical Debt) (CH 8.0).
 
 ## 3. Procedures
@@ -33,6 +36,7 @@ Conscious processing runs at roughly 10 bit/s; total peripheral absorption is on
 ### 3.1 Presence over Parsing
 
 1. **Buffer clear:** dump active RAM to a journal before an important connection (CH 8.6).
+   - If a local dump cannot stop the overheat, route the load to private, qualified clinical or emergency support (Tier-0). Never upload active trauma to the public grid: the P2P Living Node Cluster is for deployment strategies and patches, not raw emotional telemetry (CH 8.6).
 2. **Open the door:** soften focus; let peripheral data reach the Board.
 3. **Receive the carrier wave:** absorb tone, posture and timing; respond after the latency buffer, not while the other node still transmits.
 
