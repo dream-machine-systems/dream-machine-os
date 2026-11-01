@@ -5,7 +5,7 @@ category: "Protocols & Software"
 modules: []
 error_code: null
 book_ref: "Directory B"
-short: "The administrative execution of empathetic joy."
+short: "The administrative execution of sympathetic joy."
 ---
 
-The administrative execution of empathetic joy. Intentionally dropping The Ego Rootkit to celebrate a peer node's success, mirroring their high-voltage state and legally hacking the network for free liquid cooling.
+The administrative execution of sympathetic joy. Intentionally dropping The Ego Rootkit to celebrate a peer node's success, mirroring their high-voltage state and legally hacking the network for free liquid cooling.
