@@ -39,7 +39,7 @@ Licenses run per year. Certified integrators receive the Solo Practitioner licen
 
 ## Request a license
 
-[dreammachine.systems/contact](https://www.dreammachine.systems/contact/) with the subject `ENTERPRISE LICENSE`. State the organization, the use case, the tier and the expected reach. If you are unsure whether your use is commercial, ask.
+[dreammachine.systems/contact/licensing](https://www.dreammachine.systems/contact/licensing/) with the subject `ENTERPRISE LICENSE`. State the organization, the use case, the tier and the expected reach. If you are unsure whether your use is commercial, ask.
 
 Certified deployment through the partner network: [dreammachine.systems/integrator](https://www.dreammachine.systems/integrator.php).
 
