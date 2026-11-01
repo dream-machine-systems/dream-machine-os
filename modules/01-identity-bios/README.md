@@ -10,7 +10,7 @@ audit: https://www.dreammachine.systems/audit
 
 # Module 01: Identity BIOS
 
-**Layer 0. Every other module inherits its permissions.**
+**If the BIOS is corrupted, no amount of premium software will save the hardware.**
 
 ## 1. Abstract
 
@@ -18,20 +18,21 @@ The Identity BIOS is the base firmware of a Living Node: the instruction set tha
 
 ## 2. Core Logic
 
-- **Radical Responsibility:** Fault and responsibility are separate variables. A node is responsible for processing the aftermath and its own responses, not for the fault. It never means staying in or out-debugging active abuse, coercion or violence (CH 1.4.2).
-- **Sudo Admin vs. End-User:** The node operates as Sudo Admin of its own system, not as a passive End-User waiting for rescue. Therapy runs with Root Access, not instead of it (CH 1.4).
+- **Radical Responsibility:** Fault and responsibility are separate variables. A node is responsible for processing the aftermath and its own responses, not for the fault. It never means staying in or out-debugging active abuse, coercion or violence. Nor does it mean that macro-economic collapse or systemic poverty can be out-thought: a single node cannot extinguish a systemic fire, it maximises the narrow bandwidth of agency that remains (CH 1.4.1). The ticket is closed in the meat, not in a dashboard: processing harm carries a somatic cost (CH 1.4.2).
+- **Sudo Admin vs. End-User:** The node operates as Sudo Admin of its own system, not as a passive End-User waiting for rescue. Therapy runs with Root Access, not instead of it (CH 1.3, 1.4).
 - **Multi-Agent Architecture:** There is no single executive "CEO" in the skull. Willpower-based control crashes the system; the patch is observation from the System Hypervisor (CH 1.4.3).
+- **Small Life Throttle:** People-Pleasing is an inherited appeasement script from Dominator Hierarchies, not a personality flaw: the node throttles its own bandwidth so the local network does not feel threatened. After the upgrade, surrounding nodes throw Interrupt Requests to pull the system back to the compliant version; a node that cannot sync with the new boundaries is refusing the upgrade, not executing abandonment (CH 1.5, 1.5.2).
 - **Latency Defense:** The buffer between stimulus and response is a cybersecurity control, not only emotional regulation. Target: ~500 ms delay (CH 1.3.1, operationalised in module 03).
 - **Identity Lock "Learner":** Mistakes return `Status 202: Processing`, not a fatal crash (CH 1.6).
 - **Einstein Toggle:** The primary binary switch of the BIOS. `Hostile` spends CPU on threat detection; `Friendly` is hardcoded manually (CH 1.7).
-- **Stoic Kernel:** Dichotomy of Control (0 % write access to external inputs), Amor Fati (a crash is telemetry for the next update), Inner Citadel (air-gapped partition under polycrisis) (CH 1.8).
+- **Stoic Kernel:** Dichotomy of Control (0 % write access to external inputs), Amor Fati (a crash is telemetry for the next update), Inner Citadel (air-gapped partition under polycrisis) (CH 1.8). Two limits apply. There is no write access to the initial biological flinch: the periphery takes in about 1 Billion bits per second, the conscious processor runs at about 10 bits per second and boots a fraction of a second later in the Frankl Buffer (CH 1.8.1). Amor Fati is not toxic positivity: the hardware first routes to Safe Mode (profound rest), and only after the impact is absorbed is the residual energy used to write new code (CH 1.8.2).
 
 ## 3. Procedures
 
 ### 3.1 Root Directory Audit
 
 1. Decompile the crashed drive: locate the misconfigured ACLs (open ports, suppressed local needs).
-2. Classify inherited defaults as Ancestral Legacy Debt, not as personal defects.
+2. Classify inherited defaults as Ancestral Legacy Debt, not as personal defects. Patching the Sudo Admin Node is an Upstream Patch: the update pushes to the sub-nodes, and the legacy bug is no longer passed down the line (CH 1.2).
 3. Separate fault from responsibility. Take responsibility for the response only.
 
 ### 3.2 Base-Level Configuration
