@@ -1,0 +1,26 @@
+name: Markdown
+
+on:
+  # Runs on every PR (no path filter) so it can be a required status check.
+  pull_request:
+  push:
+    branches: [main]
+    paths:
+      - "**.md"
+      - ".markdownlint.jsonc"
+      - ".markdownlint-cli2.jsonc"
+      - "glossary/.markdownlint.jsonc"
+      - ".github/workflows/markdown.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: npx --yes markdownlint-cli2@0.18.1

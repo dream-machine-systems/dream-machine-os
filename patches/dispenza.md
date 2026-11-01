@@ -24,7 +24,7 @@ $$State_{current} = \sum(Memory_{emotional})$$
 
 To overwrite these legacy algorithms, the Node must enter a **Refactoring State** (Alpha/Theta brainwave coherence) to bypass the analytical mind and access the hardware settings directly.
 
-### Protocol Steps:
+### Protocol Steps
 
 1. **Signal Isolation:** Minimize external sensory input to reduce environmental interrupts.
 2. **Buffer Flush:** Consciously release the emotional charge associated with the "Known Future" and "Familiar Past."

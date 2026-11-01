@@ -1,0 +1,10 @@
+// Run: npx markdownlint-cli2@0.18.1   (rules: .markdownlint.jsonc)
+{
+  "globs": ["**/*.md"],
+  "ignores": [
+    "node_modules/**",
+    // Templates contain placeholders such as <Title>.
+    "rfcs/0000-template.md",
+    ".github/PULL_REQUEST_TEMPLATE.md"
+  ]
+}

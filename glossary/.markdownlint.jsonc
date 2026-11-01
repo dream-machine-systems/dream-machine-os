@@ -1,0 +1,6 @@
+// A glossary entry is front matter plus a definition. The term lives in the
+// front matter, so the body has no heading.
+{
+  "extends": "../.markdownlint.jsonc",
+  "MD041": false
+}

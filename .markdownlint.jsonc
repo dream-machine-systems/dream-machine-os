@@ -1,0 +1,12 @@
+// Markdown lint rules for the specification (markdownlint-cli2, see .markdownlint-cli2.jsonc).
+// Prose files keep one paragraph per line, so line length is not checked.
+{
+  "default": true,
+  "MD013": false,
+  // Modules, patches and RFCs carry a title in front matter and an H1.
+  "MD025": { "front_matter_title": "" },
+  // CHANGELOG repeats "Added" / "Changed" under each version.
+  "MD024": { "siblings_only": true },
+  // The README header centres the badges.
+  "MD033": { "allowed_elements": ["p", "img", "a", "br"] }
+}
