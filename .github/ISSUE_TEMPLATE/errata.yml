@@ -7,15 +7,17 @@ body:
     attributes:
       value: |
         This issue is public and permanent. Do not include personal or health data.
+        No GitHub account? Use the [Feedback Compiler](https://www.dreammachine.systems/feedback). Same categories, same backlog.
+        **Safety concerns never go here.** Report them privately via the Feedback Compiler (category "Safety concern").
   - type: dropdown
     id: location
     attributes:
       label: Where
       options:
         - Spec (this repository)
-        - Book, eBook
-        - Book, print
+        - eBook
         - Audiobook
+        - Print
         - Website
     validations:
       required: true
@@ -38,9 +40,12 @@ body:
       options:
         - Typo / grammar
         - Wrong fact or number
+        - Source / citation
         - Broken link or reference
-        - Contradiction between modules or chapters
+        - Logic gap / missing explanation
         - Unclear wording or metaphor
+        - Tone (guru bug, toxic positivity, hustle culture)
+        - Contradiction between modules or chapters
         - Other
     validations:
       required: true
