@@ -14,7 +14,7 @@ One module per chapter of *The Dream Machine*. A module specifies the logic; the
 | 08 | [Cognitive Downclock](08-cognitive-downclock/) | CH 8 | `STABLE` | [ch8](https://www.dreammachine.systems/briefings/ch8) |
 | 09 | [Love Protocol](09-love-protocol/) | CH 9, Directory C | `STABLE` | [ch9](https://www.dreammachine.systems/briefings/ch9) |
 | 10 | [Hardened Infrastructure](10-hardened-infrastructure/) | CH 10 | `STABLE` | [ch10](https://www.dreammachine.systems/briefings/ch10) |
-| 11 | [Wisdom Nodes](11-wisdom-nodes/) | CH 11 | `DRAFT` | [ch11](https://www.dreammachine.systems/briefings/ch11) |
+| 11 | [Wisdom Nodes](11-wisdom-nodes/) | CH 11 | `STABLE` | [ch11](https://www.dreammachine.systems/briefings/ch11) |
 | 12 | [Data Sovereignty](12-data-sovereignty/) | CH 12 | `DRAFT` | [ch12](https://www.dreammachine.systems/briefings/ch12) |
 
 **Status values:** `PLANNED` (no spec yet), `DRAFT` (spec exists, not yet audited against the current build), `STABLE` (matches the tagged build).

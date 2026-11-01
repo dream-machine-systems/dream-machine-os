@@ -91,7 +91,7 @@
       "id": "11",
       "title": "Wisdom Nodes",
       "book_ref": "CH 11",
-      "status": "DRAFT",
+      "status": "STABLE",
       "path": "modules/11-wisdom-nodes/",
       "briefing": "ch11"
     },

@@ -2,9 +2,9 @@
 id: 11-wisdom-nodes
 title: Wisdom Nodes
 book_ref: "CH 11 (Wisdom Nodes: Ancestral Cloud Storage)"
-spec_status: DRAFT
+spec_status: STABLE
 build: v0.9.5
-depends_on: [05-low-level-utilities, 08-cognitive-downclock]
+depends_on: [05-low-level-utilities, 08-cognitive-downclock, 09-love-protocol]
 audit: https://www.dreammachine.systems/audit
 ---
 
@@ -18,11 +18,18 @@ Wisdom Nodes scale the low-level utilities into strategic navigation. When local
 
 ## 2. Core Logic
 
-- **Boardroom Query (Fuzz Testing):** Divination (cards, runes, free-writing) injects a stochastic prompt into the subconscious database to break a logic jam and surface Staff data (CH 11.1).
-- **Archetypal Mapping:** Archetypes compress large emotional histories into a usable interface (CH 11.1.1).
-- **Legacy ROM:** Ancestral algorithms and lineage resilience as importable libraries (CH 11.2).
-- **Expanded States:** Autonomic overrides as cache clears, only inside a secured container (CH 11.3, CH 11.5).
+- **Boardroom Query (Fuzz Testing):** Divination (cards, runes, free-writing) injects a stochastic prompt into the subconscious database to break a logic jam and surface Staff data. These tools are Localhost diagnostics: random number generators with no network connection and no cosmic data, onto which the brain projects its current telemetry. Confusing a data-retrieval mechanism with magic is a logic error (Woo-Woo Exploit) (CH 11.1).
+- **Archetypal Mapping:** Archetypes compress large emotional histories into a usable interface. Optional peripheral: during an active projection, a physical diagnostic trace from the [Human Debug Deck](../../deck/) grounds the hardware in external variables (CH 11.1.1).
+- **Legacy ROM:** Ancestral algorithms and lineage resilience as importable libraries, modeled as a hybrid of deep social transmission and actively researched epigenetic frameworks (CH 11.2). Examples:
+  - Meditation: bandwidth management that silences the 10-bit narrative.
+  - Funeral rituals: error handling that distributes the load of grief across a wider network.
+  - Storytelling: decentralized transfer of survival maps.
+  - Rites of passage: privilege escalation from user access (childhood) to Sudo Admin (adulthood).
+  - Sabbath: a maintenance window; it needs a real reduction of total load, not the same demands compressed into fewer days.
+- **Data Recovery at Scale:** Identify the most resilient nodes of your lineage and load their behavioral logic into your Identity BIOS (CH 11.2.1).
+- **Expanded States:** Autonomic overrides as cache clears, only inside a secured container. They down-regulate the Default Mode Network; this is a neurological mechanism, not a mystical dimension (CH 11.3, CH 11.5).
 - **Open Source Filter:** Transparency, independence as end goal, testable on local hardware. Secrecy and dependency mark proprietary malware (CH 11.4).
+- **Relational topology and the Honorable Harvest:** Read the relationships between components, not isolated objects. Take only what is needed and give back so the whole survives. Phase III exits when the node maps the macro-topology of its environment and routes resources network-wide without zero-sum hoarding (CH 11.0, Phase III).
 
 ## 3. Procedures
 
@@ -32,14 +39,25 @@ Wisdom Nodes scale the low-level utilities into strategic navigation. When local
 | --- | --- | --- |
 | Transparency | "Test this on your own hardware" | "Truth only after the NDA and payment" |
 | Dependency | Teacher works to become obsolete | Vendor lock-in: "only this workshop fixes you" |
+| Cost | The core code is free; you never pay for "salvation" | Truth sits behind a paywall |
+| Humility | The teacher logs their own crashes: a senior developer, not a deity | Perfection: the leader claims to be bug-free and permanently "enlightened" |
+| Network | Your connections stay intact | Isolation: you are told to cut the cables to family and friends |
 
 ```text
 IF any Closed Source signal => quarantine; no Sudo rights to the source
 ```
 
+Architect's Rule: if the teaching shrinks your world and inflates the teacher's bank account, it is malware. Delete the contact (CH 11.4.2).
+
 ### 3.2 Container First
 
-Lock down the physical perimeter (sleep, routine, safe people) before any expanded-state work.
+Lock down the physical perimeter before any expanded-state work: money, clear contracts, housing (CH 11.5).
+
+```text
+IF Container_Integrity == FALSE; THEN DENY Expanded_State
+```
+
+An active financial crisis, housing instability or a high trauma load means no deliberate system crash: it raises the risk of severe dissociation and psychosis. Do not rip the hinges off the Boardroom door while the building is on fire (CH 11.3).
 
 ## 4. System Mapping
 
@@ -70,6 +88,7 @@ Also relevant here: `ANCESTRAL_LEGACY_DEBT` (01), `VENDOR_LOCK_IN` (06).
 
 - [05-low-level-utilities](../05-low-level-utilities/): Low-Level Utilities
 - [08-cognitive-downclock](../08-cognitive-downclock/): Cognitive Downclock
+- [09-love-protocol](../09-love-protocol/): Love Protocol (Phase III required dependency)
 
 ## 7. Evidence
 
