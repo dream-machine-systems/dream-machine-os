@@ -51,7 +51,7 @@
       "id": "06",
       "title": "Hardware Calibration",
       "book_ref": "CH 6",
-      "status": "DRAFT",
+      "status": "STABLE",
       "path": "modules/06-hardware-calibration/",
       "briefing": "ch6"
     },

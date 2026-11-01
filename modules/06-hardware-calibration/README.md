@@ -2,7 +2,7 @@
 id: 06-hardware-calibration
 title: Hardware Calibration
 book_ref: "CH 6 (Hardware Calibration: Structural Synchronisation)"
-spec_status: DRAFT
+spec_status: STABLE
 build: v0.9.5
 depends_on: [01-identity-bios, 02-operating-system]
 audit: https://www.dreammachine.systems/audit
@@ -14,20 +14,20 @@ audit: https://www.dreammachine.systems/audit
 
 ## 1. Abstract
 
-Hardware Calibration treats the body as the hardware layer. Clean code fails on rotting hardware. The module covers structure (asana), power management (breath and Heart-Interface), conditioning without vendor lock-in, the power supply (nutrition), voltage and its overclocking risks, somatic discharge, system idle and grounding.
+Hardware Calibration treats the body as the hardware layer. Clean code fails on rotting hardware. The module covers structure (asana), power management (breath and Heart-Interface), conditioning without vendor lock-in, the power supply (nutrition), voltage and its overclocking risks, somatic discharge, system idle and grounding. The goal is not an ableist standard of physical perfection but honest, sustainable synchronisation with whatever hardware the node actually has. The module enforces hardware integration, not hardware evasion (CH 6.0).
 
 ## 2. Core Logic
 
-- **Structural De-fragmentation:** Posture is signal flow; asana unwinds compressed architecture (CH 6.1).
-- **Intake Valve:** Nose is the primary port, mouth the emergency exhaust; CO2 tolerance (Bohr effect) prevents voltage drop (CH 6.2.1-6.2.2).
+- **Structural De-fragmentation:** Posture is signal flow; asana unwinds compressed architecture. A chassis holding trauma, chronic pain or hyper-vigilance is never forced open: Titration, slow progressive unwinding at the hardware's own autonomic speed (CH 6.1).
+- **Intake Valve:** Nose is the primary port, mouth the emergency exhaust; CO2 tolerance (Bohr effect) prevents voltage drop (CH 6.2.1-6.2.2). With a deviated septum, severe asthma, dysautonomia (e.g. POTS) or other respiratory restrictions, rigid breathwork triggers a panic loop; whatever pattern keeps the specific system calm is the metric of success (CH 6.2.1).
 - **Resonant Frequency:** Clock syncing at a 5.5-second breath cadence (CH 6.2.3).
-- **Emergency Override:** Physiological Sigh (CH 6.2.4).
-- **Battery Capacity:** Zone 2 cardio expands baseline energy (CH 6.2.5).
+- **Emergency Override:** Physiological Sigh (CH 6.2.4). Biohacker Trap: physiological optimisation cannot bypass emotional integration; hardware is tuned so surplus bandwidth is available to be messily human (CH 6.2.4).
+- **Battery Capacity:** Zone 2 cardio expands baseline energy. Dissociative Bypass: endurance training used to numb the hardware is a vulnerability; capacity is built to step into reality, never to run away from it (CH 6.2.5).
 - **Zero-Dependency Conditioning:** Standardised bodyweight workouts as benchmark; quality before speed (CH 6.3).
-- **Power Supply Unit:** Nutrition as voltage source; Hardware Brownout (energy deficit) is misdiagnosed as a software flaw; gut-brain axis; 80/20 load balancing (CH 6.4).
+- **Power Supply Unit:** Nutrition as voltage source; Hardware Brownout (energy deficit) is misdiagnosed as a software flaw; gut-brain axis; 80/20 load balancing (CH 6.4). Supplements serve baseline voltage regulation only, after a blood panel and with a medical professional; adaptogens act as surge protectors (CH 6.4.2).
 - **Voltage Protocol:** Prana, Qi and Kundalini as voltage metaphors; ungrounded surges are an overclocking risk (CH 6.5).
-- **Software Patch Fallacy:** Calm thoughts over a burning chassis; discharge is physical (tremoring, crying) (CH 6.6).
-- **System Idle and Grounding Wire:** Rest without secondary objective; Devotion (Active Surrender) as surge protection (CH 6.7-6.8).
+- **Software Patch Fallacy:** Calm thoughts over a burning chassis; discharge is physical (tremoring, crying) (CH 6.6). Basic cooling (Physiological Sigh) runs immediately; intentional, scheduled induction of deep release (trauma tremoring) is configured in Tier 3 of the Deployment Runbook, and TRE remains exploratory (CH 6.6.2).
+- **System Idle and Grounding Wire:** Rest without secondary objective; Devotion (Active Surrender) as surge protection (CH 6.7-6.8). Latency Defense: practised physical deceleration raises the baseline capacity against the hyper-speed of the Attention Economy (CH 6.7.3).
 
 ## 3. Procedures
 
@@ -43,12 +43,22 @@ Hardware Calibration treats the body as the hardware layer. Clean code fails on 
 IF mode == INCIDENT_RESPONSE OR chronic illness OR ME/CFS OR systemic physical disability
     => HIIT unsupported (risk: post-exertional malaise); gentle, capacity-based mobility or rest
 ELSE
-    => HIIT permitted as cortisol burn
+    => HIIT permitted: short, measured bursts to safe functional capacity (cross-stressor adaptation)
 ```
 
 ### 3.3 Idle Command
 
 Sit, drop the objective, rest without a "so that". Guilt during idle is the Guilt Bug, not a signal to work.
+
+### 3.4 Grounding Wire (Active Surrender)
+
+When deep work unzips a high-voltage payload and the system floats off into the head (Top-Heavy Error, CH 6.8):
+
+1. Stop the 10-bit mind from fighting the physical sensation.
+2. Anchor attention in the heavy, physical chassis: feel the feet on the floor.
+3. Let the emotional data flow through the hardware and discharge into the ground.
+
+Active Surrender is not giving up; it is the conscious choice to stop fighting the concrete reality of the present moment.
 
 ## 4. System Mapping
 
