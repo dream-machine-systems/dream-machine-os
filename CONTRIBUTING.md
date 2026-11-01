@@ -37,7 +37,7 @@ The repository uses the tiers of the book's dependency index:
 1. Fork, branch from `main`.
 2. Commit with [Conventional Commits](https://www.conventionalcommits.org): `fix(09-love-protocol): correct ACL level numbering`, `feat(glossary): add Frankl Buffer`, `docs(audit): add source for sec8-1`.
 3. Open a PR using the template. One topic per PR.
-4. Sign the [CLA](CLA.md) when the bot asks (first PR only).
+4. Sign the [CLA](CLA.md) when the bot asks (first PR only). While the CLA is still a draft, PRs that add substantial text are held open with `status:blocked-cla`; errata and small fixes merge as usual.
 5. The maintainer reviews, squashes and merges. Your name goes into [CHANGELOG.md](CHANGELOG.md).
 
 ## Style

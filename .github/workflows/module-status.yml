@@ -1,11 +1,8 @@
 name: Module status
 
 on:
+  # Runs on every PR (no path filter) so it can be a required status check.
   pull_request:
-    paths:
-      - "modules/**"
-      - "scripts/check-module-status.mjs"
-      - ".github/workflows/module-status.yml"
   push:
     branches: [main]
     paths:

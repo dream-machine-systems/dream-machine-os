@@ -1,7 +1,7 @@
 name: Evidence
 description: Add, correct or challenge a source behind a claim.
 title: "[EVIDENCE] "
-labels: ["type:evidence"]
+labels: ["type:evidence", "status:triage"]
 body:
   - type: markdown
     attributes:

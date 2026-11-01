@@ -1,7 +1,7 @@
 name: Errata
 description: Typo, wrong number, broken link or contradiction in the spec or the book.
 title: "[ERRATA] "
-labels: ["type:errata"]
+labels: ["type:errata", "status:triage"]
 body:
   - type: markdown
     attributes:

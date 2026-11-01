@@ -1,0 +1,41 @@
+{
+  "_comment": "Single source for the repository labels. .github/workflows/labels.yml syncs this file on every push to main. Labels listed under remove are deleted; labels in neither list are left alone.",
+  "labels": [
+    { "name": "type:errata", "color": "d73a4a", "description": "Typo, wrong number, broken link, contradiction" },
+    { "name": "type:evidence", "color": "0e8a16", "description": "Add, correct or challenge a source" },
+    { "name": "type:rfc", "color": "5319e7", "description": "New module, new patch or change to core logic" },
+    { "name": "type:glossary", "color": "1d76db", "description": "Glossary entries and error codes" },
+    { "name": "type:infra", "color": "6a737d", "description": "CI, templates, repository tooling" },
+
+    { "name": "scope:book", "color": "c5def5", "description": "Fix lands in the manuscript, not in the spec" },
+
+    { "name": "status:triage", "color": "fbca04", "description": "New, not yet reviewed by the maintainer" },
+    { "name": "status:needs-source", "color": "e99695", "description": "Consensus Gate: claim lacks a primary source or tier" },
+    { "name": "status:accepted", "color": "c2e0c6", "description": "Accepted for the next build" },
+    { "name": "status:blocked-cla", "color": "b60205", "description": "Held until the CLA is in force or signed" },
+
+    { "name": "tier:1-clinical", "color": "0b5394", "description": "TIER 1: empirically validated" },
+    { "name": "tier:2-philosophical", "color": "6fa8dc", "description": "TIER 2: memoir, logic, systems frameworks" },
+    { "name": "tier:3-experimental", "color": "f6b26b", "description": "TIER 3: non-standard or unverified, sandbox only" },
+    { "name": "tier:unaudited", "color": "cccccc", "description": "Not yet run through the audit pipeline" },
+
+    { "name": "module:01", "color": "bfdadc", "description": "Identity BIOS (CH 1)" },
+    { "name": "module:02", "color": "bfdadc", "description": "Operating System, Narrative Layer (CH 2)" },
+    { "name": "module:03", "color": "bfdadc", "description": "Processor, Consciousness Management (CH 3)" },
+    { "name": "module:04", "color": "bfdadc", "description": "Security Auditing, Shadow Work (CH 4)" },
+    { "name": "module:05", "color": "bfdadc", "description": "Low-Level Utilities (CH 5)" },
+    { "name": "module:06", "color": "bfdadc", "description": "Hardware Calibration (CH 6)" },
+    { "name": "module:07", "color": "bfdadc", "description": "Social API (CH 7)" },
+    { "name": "module:08", "color": "bfdadc", "description": "Cognitive Downclock (CH 8)" },
+    { "name": "module:09", "color": "bfdadc", "description": "Love Protocol (CH 9, Directory C)" },
+    { "name": "module:10", "color": "bfdadc", "description": "Hardened Infrastructure (CH 10)" },
+    { "name": "module:11", "color": "bfdadc", "description": "Wisdom Nodes (CH 11)" },
+    { "name": "module:12", "color": "bfdadc", "description": "Data Sovereignty (CH 12)" },
+
+    { "name": "good first issue", "color": "7057ff", "description": "Small, well-scoped, good entry point" },
+    { "name": "help wanted", "color": "008672", "description": "Maintainer welcomes a PR" },
+    { "name": "duplicate", "color": "cfd3d7", "description": "Already tracked elsewhere" },
+    { "name": "wontfix", "color": "ffffff", "description": "Out of scope for the spec" }
+  ],
+  "remove": ["bug", "documentation", "enhancement", "invalid", "question"]
+}

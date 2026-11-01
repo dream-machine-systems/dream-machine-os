@@ -1,0 +1,67 @@
+name: Release
+
+# Pushing a tag vX.Y.Z creates (or updates) the GitHub release for it.
+# Notes come from the matching "## [X.Y.Z]" section of CHANGELOG.md on main,
+# so a legacy tag on an old commit still gets current, complete notes.
+# Tags with a suffix (v0.2.0-ALPHA) are published as pre-releases and never
+# become "Latest".
+#
+# Tags on commits older than this workflow (v0.1.0-ALPHA, v0.2.0-ALPHA) do not
+# trigger it, because GitHub reads the workflow from the tagged commit. Publish
+# those with "Run workflow" and the tag name.
+
+on:
+  push:
+    tags: ["v*"]
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: "Existing tag, e.g. v0.2.0-ALPHA"
+        required: true
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Extract notes from CHANGELOG.md
+        id: notes
+        env:
+          INPUT_TAG: ${{ inputs.tag }}
+        run: |
+          tag="${INPUT_TAG:-$GITHUB_REF_NAME}"
+          echo "tag=$tag" >> "$GITHUB_OUTPUT"
+          version="${tag#v}"
+          awk -v v="$version" '
+            index($0, "## [" v "]") == 1 { on = 1; next }
+            on && /^## \[/ { exit }
+            on { print }
+          ' CHANGELOG.md > notes.md
+          if ! grep -q '[^[:space:]]' notes.md; then
+            echo "::error::CHANGELOG.md on main has no section ## [$version]"
+            exit 1
+          fi
+          case "$version" in
+            *-*) echo "pre=true" >> "$GITHUB_OUTPUT" ;;
+            *)   echo "pre=false" >> "$GITHUB_OUTPUT" ;;
+          esac
+          cat notes.md
+      - name: Create or update release
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          TAG: ${{ steps.notes.outputs.tag }}
+          PRE: ${{ steps.notes.outputs.pre }}
+        run: |
+          flags=(--title "Build $TAG" --notes-file notes.md)
+          if [ "$PRE" = "true" ]; then flags+=(--prerelease --latest=false); else flags+=(--latest); fi
+          if gh release view "$TAG" >/dev/null 2>&1; then
+            gh release edit "$TAG" "${flags[@]}"
+          else
+            gh release create "$TAG" --verify-tag "${flags[@]}"
+          fi
