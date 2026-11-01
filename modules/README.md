@@ -8,7 +8,7 @@ One module per chapter of *The Dream Machine*. A module specifies the logic; the
 | 02 | [Operating System (Narrative Layer)](02-operating-system/) | CH 2 | `STABLE` | [ch2](https://www.dreammachine.systems/briefings/ch2) |
 | 03 | [Processor (Consciousness Management)](03-processor/) | CH 3 | `STABLE` | [ch3](https://www.dreammachine.systems/briefings/ch3) |
 | 04 | [Security Auditing (Shadow Work)](04-security-auditing/) | CH 4 | `STABLE` | [ch4](https://www.dreammachine.systems/briefings/ch4) |
-| 05 | [Low-Level Utilities](05-low-level-utilities/) | CH 5 | `DRAFT` | [ch5](https://www.dreammachine.systems/briefings/ch5) |
+| 05 | [Low-Level Utilities](05-low-level-utilities/) | CH 5 | `STABLE` | [ch5](https://www.dreammachine.systems/briefings/ch5) |
 | 06 | [Hardware Calibration](06-hardware-calibration/) | CH 6 | `DRAFT` | [ch6](https://www.dreammachine.systems/briefings/ch6) |
 | 07 | [Social API](07-social-api/) | CH 7 | `DRAFT` | [ch7](https://www.dreammachine.systems/briefings/ch7) |
 | 08 | [Cognitive Downclock](08-cognitive-downclock/) | CH 8 | `STABLE` | [ch8](https://www.dreammachine.systems/briefings/ch8) |
