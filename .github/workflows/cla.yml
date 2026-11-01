@@ -1,0 +1,51 @@
+name: CLA
+
+# Checks that every commit author of a pull request has signed CLA.md.
+# Logic: scripts/cla.cjs. Signatures: private repository
+# dream-machine-systems/cla-signatures.
+#
+# INACTIVE until the repository variable CLA_ENABLED is set to "true".
+# Activation steps are listed in CONTRIBUTING.md ("Maintainer: CLA check").
+#
+# Security: pull_request_target runs with secrets, so this workflow never
+# checks out or runs code from the pull request. It checks out the base
+# branch only, and only the script it needs.
+
+on:
+  pull_request_target:
+    types: [opened, synchronize, reopened]
+  issue_comment:
+    types: [created]
+
+permissions:
+  contents: read
+  pull-requests: write
+  issues: write
+  statuses: write
+
+concurrency:
+  group: cla-${{ github.event.pull_request.number || github.event.issue.number }}
+  cancel-in-progress: false
+
+jobs:
+  cla:
+    if: >-
+      vars.CLA_ENABLED == 'true' &&
+      (github.event_name == 'pull_request_target' ||
+       (github.event.issue.pull_request && github.event.comment.user.type != 'Bot' &&
+        contains(github.event.comment.body, 'Dream Machine OS CLA')))
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+          persist-credentials: false
+          sparse-checkout: scripts/cla.cjs
+          sparse-checkout-cone-mode: false
+      - uses: actions/github-script@v8
+        env:
+          SIGNATURES_TOKEN: ${{ secrets.CLA_SIGNATURES_TOKEN }}
+        with:
+          script: |
+            const run = require(`${process.env.GITHUB_WORKSPACE}/scripts/cla.cjs`);
+            await run({ github, context, core });
