@@ -37,7 +37,7 @@ patches/          Third-party frameworks mapped onto the OS, with evidence tier
 rfcs/             Proposals for new modules or architectural changes
 ```
 
-Module status lives in [`modules/README.md`](modules/README.md).
+Module status lives in [`modules/README.md`](modules/README.md) (machine-readable: [`modules/status.json`](modules/status.json)); the status of directories, runbook and toolkit in [`directories/README.md`](directories/README.md) (machine-readable: [`spec-status.json`](spec-status.json)).
 
 ## How to contribute
 

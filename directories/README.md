@@ -16,7 +16,7 @@ The book closes with eleven System Directories, A to K. Modules specify the twel
 | J | Visual Schematics (The Carbon/Silicon Synthesis) | III | Book only. The illustrations are third-party works and not licensed for this repository; marks and logos: [`TRADEMARKS.md`](../TRADEMARKS.md) | – | – |
 | K | Network: Acknowledgments & Support Cluster | III | Book only (names of private persons) | – | – |
 
-**Status values:** as for modules. `DRAFT` = spec exists, not yet audited line by line against the current build; `STABLE` = matches the tagged build. Directory status is kept in this table and in each page's `spec_status` front matter; it is not part of [`modules/status.json`](../modules/status.json), which lists the twelve modules only.
+**Status values:** as for modules. `DRAFT` = spec exists, not yet audited line by line against the current build; `STABLE` = matches the tagged build. Directory status is kept in this table, in each page's `spec_status` front matter and, machine-readable, in [`spec-status.json`](../spec-status.json) (with the runbook and the toolkit); it is not part of [`modules/status.json`](../modules/status.json), which lists the twelve modules only. A status change touches all three in the same PR; CI runs `node scripts/check-spec-status.mjs` and fails when they disagree. [dreammachine.systems/source](https://www.dreammachine.systems/source) reads `spec-status.json` at build time, so keep its path and keys stable.
 
 ## Directory format
 

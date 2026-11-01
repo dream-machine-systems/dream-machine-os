@@ -7,6 +7,11 @@ on:
     branches: [main]
     paths:
       - "modules/**"
+      - "directories/**"
+      - "runbook/**"
+      - "toolkit/**"
+      - "spec-status.json"
+      - "scripts/check-spec-status.mjs"
       - "scripts/check-module-status.mjs"
       - ".github/workflows/module-status.yml"
 
@@ -22,3 +27,4 @@ jobs:
         with:
           node-version: 22
       - run: node scripts/check-module-status.mjs
+      - run: node scripts/check-spec-status.mjs

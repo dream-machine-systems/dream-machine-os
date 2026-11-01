@@ -1,0 +1,177 @@
+{
+  "schema_version": 1,
+  "build": "v0.9.5",
+  "status_values": {
+    "PLANNED": "no spec yet",
+    "DRAFT": "spec exists, not yet audited against the current build",
+    "STABLE": "matches the tagged build"
+  },
+  "groups": {
+    "directory": "System Directories",
+    "runbook": "Deployment Runbook",
+    "toolkit": "Operational Toolkit"
+  },
+  "entries": [
+    {
+      "id": "A",
+      "group": "directory",
+      "title": "Backend Schematic (Multi-Agent Architecture)",
+      "book_ref": "Directory A",
+      "partition": "I",
+      "status": "STABLE",
+      "path": "directories/a-backend-schematic/",
+      "see": null,
+      "briefing": "dira"
+    },
+    {
+      "id": "B",
+      "group": "directory",
+      "title": "System Glossary (A-Z Index)",
+      "book_ref": "Directory B",
+      "partition": "I",
+      "status": null,
+      "path": null,
+      "see": {
+        "label": "glossary/",
+        "url": "glossary/"
+      },
+      "briefing": null
+    },
+    {
+      "id": "C",
+      "group": "directory",
+      "title": "Technical Specification: Love Protocol",
+      "book_ref": "Directory C",
+      "partition": "I",
+      "status": null,
+      "path": null,
+      "see": {
+        "label": "Module 09 (sections C.3 to C.7 = procedures 3.1 to 3.6)",
+        "url": "modules/09-love-protocol/"
+      },
+      "briefing": "ch9"
+    },
+    {
+      "id": "D",
+      "group": "directory",
+      "title": "Theoretical Sandbox (End-of-Lifecycle Theories)",
+      "book_ref": "Directory D",
+      "partition": "I",
+      "status": "STABLE",
+      "path": "directories/d-theoretical-sandbox/",
+      "see": null,
+      "briefing": "dird"
+    },
+    {
+      "id": "E",
+      "group": "directory",
+      "title": "Practical Command Set (Exercise Repo)",
+      "book_ref": "Directory E",
+      "partition": "II",
+      "status": "STABLE",
+      "path": "directories/e-command-set/",
+      "see": null,
+      "briefing": null
+    },
+    {
+      "id": "F",
+      "group": "directory",
+      "title": "Troubleshooting Guide (System Error Logs)",
+      "book_ref": "Directory F",
+      "partition": "II",
+      "status": "STABLE",
+      "path": "directories/f-troubleshooting-guide/",
+      "see": null,
+      "briefing": null
+    },
+    {
+      "id": "G",
+      "group": "directory",
+      "title": "System Telemetry & KPIs",
+      "book_ref": "Directory G",
+      "partition": "II",
+      "status": "STABLE",
+      "path": "directories/g-telemetry-kpis/",
+      "see": null,
+      "briefing": null
+    },
+    {
+      "id": "H",
+      "group": "directory",
+      "title": "System Peripherals & Utilities (Hardware & Software)",
+      "book_ref": "Directory H",
+      "partition": "III",
+      "status": null,
+      "path": null,
+      "see": {
+        "label": "Website: Bill of Materials",
+        "url": "https://www.dreammachine.systems/docs/bom/"
+      },
+      "briefing": null
+    },
+    {
+      "id": "I",
+      "group": "directory",
+      "title": "Resource Repositories (Third-Party Libraries)",
+      "book_ref": "Directory I",
+      "partition": "III",
+      "status": null,
+      "path": null,
+      "see": {
+        "label": "Website: Bill of Materials",
+        "url": "https://www.dreammachine.systems/docs/bom/"
+      },
+      "briefing": null
+    },
+    {
+      "id": "J",
+      "group": "directory",
+      "title": "Visual Schematics (The Carbon/Silicon Synthesis)",
+      "book_ref": "Directory J",
+      "partition": "III",
+      "status": null,
+      "path": null,
+      "see": {
+        "label": "Book only (third-party illustrations)",
+        "url": null
+      },
+      "briefing": null
+    },
+    {
+      "id": "K",
+      "group": "directory",
+      "title": "Network: Acknowledgments & Support Cluster",
+      "book_ref": "Directory K",
+      "partition": "III",
+      "status": null,
+      "path": null,
+      "see": {
+        "label": "Book only (private persons)",
+        "url": null
+      },
+      "briefing": null
+    },
+    {
+      "id": "runbook",
+      "group": "runbook",
+      "title": "Deployment Runbook",
+      "book_ref": "CH 13–19",
+      "partition": null,
+      "status": "STABLE",
+      "path": "runbook/",
+      "see": null,
+      "briefing": null
+    },
+    {
+      "id": "toolkit",
+      "group": "toolkit",
+      "title": "Operational Toolkit",
+      "book_ref": "CH 20–24",
+      "partition": null,
+      "status": "STABLE",
+      "path": "toolkit/",
+      "see": null,
+      "briefing": null
+    }
+  ]
+}
