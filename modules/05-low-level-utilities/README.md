@@ -2,7 +2,7 @@
 id: 05-low-level-utilities
 title: Low-Level Utilities
 book_ref: "CH 5 (Low-Level Utilities: Shamanic Root Access)"
-spec_status: DRAFT
+spec_status: STABLE
 build: v0.9.5
 depends_on: [03-processor, 04-security-auditing]
 audit: https://www.dreammachine.systems/audit
@@ -14,15 +14,15 @@ audit: https://www.dreammachine.systems/audit
 
 ## 1. Abstract
 
-Low-Level Utilities boot the system into Forensic Mode to reach code that cannot be fixed while the OS runs normally. Tools: the Sonic Driver (auditory driving), a Symbolic GUI with Heuristic Avatars, Data Recovery (Shadow Work), Unburdening (process deprecation) and the Virtual Sandbox of lucid dreaming. Execution is deferred to the Deployment Runbook, Tier 3.
+Low-Level Utilities boot the system into Forensic Mode to reach code that cannot be fixed while the OS runs normally. Tools: the Sonic Driver (auditory driving), a Symbolic GUI with Heuristic Avatars, Data Recovery (Shadow Work), Unburdening (process deprecation) and the Virtual Sandbox of lucid dreaming. Execution is deferred to the Deployment Runbook, Tier 3. These states are not mystical escapes, retreats or a path to enlightenment: Root Access means opening the terminal in the here and now to audit deprecated scripts from the initial boot sequence (CH 5.0).
 
 ## 2. Core Logic
 
 - **Sonic Driver:** Monotonous drumming at 4-7 beats per second as hardware entrainment. Not a religious claim (CH 5.1).
 - **Symbolic GUI:** Raw limbic data is rendered as symbols so the system can navigate it (CH 5.1.1).
-- **Heuristic Avatars:** "Power animals" and archetypal figures are compression widgets for heavy payloads, not literal spirits (CH 5.1.2).
-- **Data Recovery:** Shadow Work stitches orphaned fragments back together (CH 5.2).
-- **Unburdening:** Obsolete defense loops are spun down; IFS is the referenced model (CH 5.3).
+- **Heuristic Avatars:** "Power animals" and archetypal figures are compression widgets for heavy payloads, not literal spirits. The icon is a volatile executable payload, not a frictionless click: interacting with it requires the chassis to sweat, shake and metabolise what it represents (CH 5.1.2).
+- **Data Recovery:** Shadow Work stitches orphaned fragments back together. A System Shock the hardware could not process was partitioned off and unmounted (dissociation), at the cost of bandwidth. Recovery runs under the guidance of a practitioner: the fragments are located in the Symbolic GUI and remounted (CH 5.2).
+- **Unburdening:** Obsolete defense loops are spun down; IFS is the referenced model. The loops are protective survivor parts, not Zombie Processes: a Kill Command (suppression) enacts internal violence. Witness the code, acknowledge its protective origin, assure the hardware that the threat has passed (CH 5.3).
 - **Virtual Sandbox:** Lucid dreaming as offline diagnostic environment with reality testing ("ping") (CH 5.4).
 - **Read-Only Fallacy:** Insight does not rewrite behavior on its own; integration is mechanical and repeated (CH 5.6).
 
@@ -38,13 +38,27 @@ ELSE
     => boot via Sonic Driver; navigate the Symbolic GUI; recover data; integrate
 ```
 
-Value-output boundary: Forensic Mode is never run to raise professional or corporate output (CH 5.0).
+Value-output boundary: Forensic Mode is never run to raise professional or corporate output. Sovereign Root Access is decoupled from professional utility; the node's worth stays unconditional, even at zero economic throughput (CH 5.0).
 
 ### 3.2 Reality Testing (Ping)
 
-1. Send a ping to waking reality at fixed cues during the day.
-2. Optional: augment with sleep-tracking or EEG peripherals as automated intrusion detection.
-3. On lucidity: navigate, do not dominate the simulation.
+1. Ping waking reality frequently during the day, so the checks become automated habits that also fire during sleep (CH 5.4.1):
+   - **Hardware Bypass:** pinch the nose shut and try to inhale.
+   - **Rendering Engine Check:** read a line of text or a clock, look away, look back.
+   - **Clipping Error:** push a finger through the opposite palm.
+2. Optional: augment with sleep-tracking or EEG peripherals as automated intrusion detection (Targeted Lucidity Reactivation, CH 5.4.2).
+3. On lucidity: navigate, do not dominate the simulation. Deliberately confront worst-case scenarios and debug the reaction offline before running the new code in waking reality (CH 5.4.3).
+
+### 3.3 Mechanical Integration
+
+An insight is a Read-Only log; it needs a Write-Access Patch (CH 5.6):
+
+```text
+Insight (read-only):  "My defensive sarcasm is a legacy shield against intimacy."
+Patch (write access): ON threat signature (partner conflict)
+                          => deliberate somatic pause + prolonged exhale
+                          => then a clean ping via the Stateless API (module 09)
+```
 
 ## 4. System Mapping
 

@@ -43,7 +43,7 @@
       "id": "05",
       "title": "Low-Level Utilities",
       "book_ref": "CH 5",
-      "status": "DRAFT",
+      "status": "STABLE",
       "path": "modules/05-low-level-utilities/",
       "briefing": "ch5"
     },
