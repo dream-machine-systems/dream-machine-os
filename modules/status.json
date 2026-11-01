@@ -27,7 +27,7 @@
       "id": "03",
       "title": "Processor (Consciousness Management)",
       "book_ref": "CH 3",
-      "status": "DRAFT",
+      "status": "STABLE",
       "path": "modules/03-processor/",
       "briefing": "ch3"
     },
