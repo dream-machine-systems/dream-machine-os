@@ -31,6 +31,7 @@ All notable changes to the specification. Versions track the build of *The Dream
 - `audit/`: all 150 audit logs of the book's footnoted claims, one JSON file per chapter or directory.
 - `deck/cards.json`: the 78 Human Debug Deck cards mapped to modules and error codes (IDs and titles only, no card texts).
 - CI check `scripts/check-data.mjs`: schema and cross-references of registry, glossary, audit, deck and module error tables.
+- Markdown lint on every PR (`.github/workflows/markdown.yml`, rules in `.markdownlint.jsonc`) and a weekly link check (`.github/workflows/links.yml`) that opens an errata issue when a link breaks.
 
 ### Removed
 

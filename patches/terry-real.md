@@ -33,7 +33,7 @@ The filter checks two conditions:
 
 This patch activates the **Functional Adult** operating mode.
 
-### Protocol Rules:
+### Protocol Rules
 
 - **Data Validation:** When another Node transmits a string like "You are [X]", it is marked as `UNVALIDATED_STRING`. The Node checks internal telemetry: *Does this match my truth?*
 - **Packet Drop:** If the data is invalid/devaluing, the signal is discarded at the port (`DROP_PACKET`).
