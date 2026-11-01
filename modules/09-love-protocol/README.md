@@ -23,6 +23,8 @@ The Love Protocol is a communication standard between two human nodes. It resolv
 
 CH 9 defines the protocol in the networking layer; Directory C is its technical specification.
 
+**Compassion Patch:** If these requirements trigger the urge to close the terminal, log off. Hesitation is valid telemetry, not a bug to override; connection requires biological safety (CH 9.1). "Total System Sync" is a peak state, not a mandatory baseline: on days the protocol fails, close the terminal without running a diagnostic (Disconnect Protocol, CH 9.7).
+
 ## 2. Core Logic
 
 | Mode | Behaviour | Result |
@@ -35,13 +37,20 @@ Statelessness applies to the communication API, not to memory (CH 9.3):
 - **Stateful Database (Attachment Ledger):** Attachment is an immutable, historical log of promises, breaks and repairs. It is never wiped.
 - **Amnesia Exploit:** Using "stateless love" to delete history and avoid accountability. **Not** a valid implementation of statelessness.
 - If the past needs debugging, run an explicit, dedicated query together. Do not piggyback it on a routine exchange.
+- **Git Merge Conflict:** Treat a disagreement as two nodes pushing incompatible versions of reality into the main branch, and criticism as a pull request, not a DDoS attack. Review it objectively and commit or reject the patch without triggering the Ego Firewall (CH 9.3.2).
 
 Further components:
 
-- **Brahmavihara Suite:** Metta (stateless open port), Karuna (support protocol), Mudita (positive network sync), Upekkha (zero-resistance buffer) (CH 9.1.1).
-- **Empathy vs. Compassion:** Empathy is intrusion detection (mirroring the pain matrix) and overflows if left alone; Compassion (Karuna) routes support without absorbing the crash (CH 9.4).
+- **TCP vs. UDP:** Attachment runs on TCP: stateful, it needs SYN/ACK handshakes and is required for safety and co-regulation. Love runs on UDP: a stateless broadcast of goodwill (Metta) that fires without waiting for an ACK. Most relationships fail by running unconditional love over a fragile TCP connection. Secure the boundaries on TCP, broadcast goodwill on UDP (CH 9.1).
+- **Relational Network Stack:** Four layers run at once and do not contradict each other: Hardware Chassis (empathy vs. compassion), Transport (TCP vs. UDP), Application API (clean communication), Database (Stateful Ledger and ACLs) (CH 9.1).
+
+- **Brahmavihara Suite:** Metta (stateless open port), Karuna (support protocol), Mudita (positive network sync), Upekkha (zero-resistance buffer). Upekkha is the base-level requirement: without it the other three overwhelm the system and trigger an Empathy Bug (CH 9.1.1).
+- **Empathy vs. Compassion:** Empathy is intrusion detection (mirroring the pain matrix) and overflows if left alone; Compassion (Karuna) routes support without absorbing the crash. Compassion is a trainable driver, not a fixed trait: contemplative training such as Metta induces structural neuroplasticity (CH 9.4, 9.4.5).
 - **Autonomic Phase Sync:** Regulate the physical layer before sending language over it (CH 9.2.1).
 - **Grace Protocol:** Asymmetric load balancing for a failing or grieving node; hold the port open without validating bad behaviour (CH 9.5.1).
+- **Empathy as bandwidth (Tech-Bro Malware):** Empathy is not a waste of computing power but a high-frequency, low-overhead data transfer. Treating other nodes as expendable data or threats bottlenecks your own network and isolates you into irrelevance (CH 9.1.3).
+- **Headless Mode:** AI and platforms can simulate empathy in clean language but have no physical resonance chamber. Run the handshake headless: bypass the screen, drop the quantified metrics, link physically (CH 9.1.2; see `SIMULATED_TELEMETRY`, module 12).
+- **Ikigai Protocol:** Refactors the Ikigai of CH 1.6 into System Resonance on the external grid. Throughput is active (doing) or passive (being: a lighthouse radiating a stable signal). Calibrate four variables: Passion (internal vitality), Vocation (node specs), Mission (network utility), Profession (system sustainability) (CH 9.6).
 
 ## 3. Procedures
 
@@ -58,6 +67,14 @@ ELSE IF dysregulated but physically safe
 ```
 
 ### 3.2 Handshake
+
+Step 0, before `SYN`: **Autonomic Phase Sync** (CH 9.2.1).
+
+1. **TX Beacon Broadcast:** close the verbal port, face the other node, make visual contact and down-regulate your own voltage (e.g. a physiological sigh): *I am not a threat.*
+2. **RX Co-Regulate:** the other node drops its sympathetic arousal to match your clock speed.
+3. **Phase Lock:** the hardware is stable enough for the verbal payload.
+
+Hardware Override: if your own system is flooding (racing heart, tight chest, acute stress hormones), abort the handshake, drop the packet and physically discharge the chassis first (CH 9.3.2, CH 6.6.2).
 
 | Step | Action | Function |
 | --- | --- | --- |
@@ -83,6 +100,8 @@ chmod 770 user_id_partner                     # Secure Sync, scoped
 ```
 
 Messy organic traffic (meltdown, depression, a child's tantrum) is a Screen Door case: Grace Protocol and open ports, not an ACL downgrade (CH 9.5.2).
+
+**Bunker Bug:** Over-correcting with ACLs into sterile isolation. Demanding that every relationship be a symmetric 50/50 exchange and dropping nodes that need more bandwidth than they return builds a bunker, not a secure network (CH 9.5).
 
 ### 3.4 Error Handling: Archive and Quarantine
 
