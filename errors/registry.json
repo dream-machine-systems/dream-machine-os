@@ -1,0 +1,865 @@
+{
+  "schema_version": 1,
+  "build": "v0.9.5",
+  "errors": [
+    {
+      "code": "AMNESIA_EXPLOIT",
+      "name": "Amnesia Exploit",
+      "hex": null,
+      "module": "09",
+      "also": [],
+      "book_ref": "CH 9.3",
+      "glossary": "amnesia-exploit",
+      "summary": null
+    },
+    {
+      "code": "ANCESTRAL_LEGACY_DEBT",
+      "name": "Ancestral Legacy Debt",
+      "hex": null,
+      "module": "01",
+      "also": [
+        "11"
+      ],
+      "book_ref": "CH 1.2",
+      "glossary": "ancestral-legacy-debt",
+      "summary": null
+    },
+    {
+      "code": "AUTARKY_MYTH",
+      "name": "Autarky Myth",
+      "hex": null,
+      "module": null,
+      "also": [],
+      "book_ref": "V (HLA) C.3",
+      "glossary": "autarky-myth",
+      "summary": null
+    },
+    {
+      "code": "BAD_REQUEST_400",
+      "name": "400 Bad Request",
+      "hex": null,
+      "module": "07",
+      "also": [],
+      "book_ref": "CH 7.4.3",
+      "glossary": null,
+      "summary": "The receiver needs a compassion protocol (vent) and gets a debugging protocol (fix), or the other way round."
+    },
+    {
+      "code": "BENCHMARK_FAILURE",
+      "name": "Benchmark Failure",
+      "hex": "0x08",
+      "module": null,
+      "also": [],
+      "book_ref": "Directory F (F.8)",
+      "glossary": "benchmark-failure",
+      "summary": null
+    },
+    {
+      "code": "BIG_BANG_ROLLOUT",
+      "name": "Big Bang Rollout",
+      "hex": null,
+      "module": null,
+      "also": [],
+      "book_ref": "CH 15",
+      "glossary": "big-bang-rollout",
+      "summary": null
+    },
+    {
+      "code": "BIOHACKER_TRAP",
+      "name": "Biohacker Trap",
+      "hex": null,
+      "module": "06",
+      "also": [],
+      "book_ref": "CH 6.2.4",
+      "glossary": null,
+      "summary": "Obsessive physiological optimization (light exposure, supplements, sleep scores) used to bypass emotional integration."
+    },
+    {
+      "code": "BOOLEAN_TRAP",
+      "name": "Boolean Trap",
+      "hex": null,
+      "module": "02",
+      "also": [],
+      "book_ref": "CH 2.6",
+      "glossary": "boolean-trap",
+      "summary": null
+    },
+    {
+      "code": "BOTNET",
+      "name": "Botnet",
+      "hex": null,
+      "module": "12",
+      "also": [],
+      "book_ref": "CH 12.4.1",
+      "glossary": "botnet",
+      "summary": null
+    },
+    {
+      "code": "BUNKER_BUG",
+      "name": "Bunker Bug",
+      "hex": null,
+      "module": "09",
+      "also": [],
+      "book_ref": "CH 9.5",
+      "glossary": "bunker-bug",
+      "summary": null
+    },
+    {
+      "code": "CALCULATION_FALLACY",
+      "name": "Calculation Fallacy",
+      "hex": null,
+      "module": "08",
+      "also": [
+        "01"
+      ],
+      "book_ref": "CH 8.1.6; CH 1.3.1",
+      "glossary": null,
+      "summary": "Attempting to out-compute zero-latency algorithms with the 10-bit conscious processor."
+    },
+    {
+      "code": "CEO_BUG",
+      "name": "CEO Bug",
+      "hex": null,
+      "module": "01",
+      "also": [
+        "12"
+      ],
+      "book_ref": "CH 1.4.3",
+      "glossary": "ceo-bug",
+      "summary": null
+    },
+    {
+      "code": "CEO_MONARCHY_BUG",
+      "name": "CEO-Monarchy Bug",
+      "hex": null,
+      "module": "12",
+      "also": [],
+      "book_ref": "CH 12.5.1",
+      "glossary": null,
+      "summary": "Running society like a closed-source network under a single Sudo Admin: a centralized mainframe and single point of failure."
+    },
+    {
+      "code": "CLOSED_DOOR",
+      "name": "Closed Door",
+      "hex": null,
+      "module": "08",
+      "also": [],
+      "book_ref": "CH 8.2.2",
+      "glossary": null,
+      "summary": "Under stress the Boardroom door shuts; the conscious mind solves a crisis with only the data on its own projector."
+    },
+    {
+      "code": "CLOSED_SOURCE_TRAP",
+      "name": "Closed Source Trap",
+      "hex": null,
+      "module": "11",
+      "also": [],
+      "book_ref": "CH 11.4.2",
+      "glossary": null,
+      "summary": "Secrecy, paywalled truth and dependency on a single teacher: proprietary systems that act as malware."
+    },
+    {
+      "code": "COLLAPSED_AWARENESS",
+      "name": "Collapsed Awareness",
+      "hex": null,
+      "module": "03",
+      "also": [],
+      "book_ref": "CH 3.1.1",
+      "glossary": null,
+      "summary": "A panicked background process hijacks the primary thread; the spotlight locks onto one threat vector and peripheral awareness goes dark."
+    },
+    {
+      "code": "CONTEXT_SWITCHING_PENALTY",
+      "name": "Context-Switching Penalty",
+      "hex": null,
+      "module": "03",
+      "also": [],
+      "book_ref": "CH 3.6",
+      "glossary": null,
+      "summary": "Multitasking is serial context switching; every switch terminates one thread and costs boot time."
+    },
+    {
+      "code": "CULTURAL_TRANCE",
+      "name": "Cultural Trance",
+      "hex": null,
+      "module": "01",
+      "also": [
+        "02",
+        "04",
+        "05"
+      ],
+      "book_ref": "CH 1",
+      "glossary": "cultural-trance",
+      "summary": null
+    },
+    {
+      "code": "DATA_MIRRORING",
+      "name": "Data Mirroring",
+      "hex": null,
+      "module": "09",
+      "also": [],
+      "book_ref": "CH 9.4.1",
+      "glossary": "data-mirroring",
+      "summary": null
+    },
+    {
+      "code": "DDOS_ATTACK",
+      "name": "DDoS Attack (Social)",
+      "hex": "0x07",
+      "module": "07",
+      "also": [
+        "03",
+        "12"
+      ],
+      "book_ref": "CH 7.1.1; Directory F (F.7)",
+      "glossary": "ddos-attack",
+      "summary": null
+    },
+    {
+      "code": "DEEP_PACKET_INSPECTION",
+      "name": "Deep Packet Inspection",
+      "hex": null,
+      "module": "02",
+      "also": [],
+      "book_ref": "CH 2.3.2",
+      "glossary": "deep-packet-inspection",
+      "summary": null
+    },
+    {
+      "code": "EGO_FIREWALL",
+      "name": "Ego Firewall",
+      "hex": null,
+      "module": "04",
+      "also": [
+        "05"
+      ],
+      "book_ref": "CH 4.2",
+      "glossary": "ego-firewall",
+      "summary": null
+    },
+    {
+      "code": "EGO_GUI_ILLUSION",
+      "name": "Ego GUI Illusion",
+      "hex": null,
+      "module": "02",
+      "also": [],
+      "book_ref": "CH 2.3",
+      "glossary": "ego-gui-illusion",
+      "summary": null
+    },
+    {
+      "code": "EGO_REBOOT",
+      "name": "Ego Reboot",
+      "hex": "0x05",
+      "module": null,
+      "also": [],
+      "book_ref": "Directory F (F.5)",
+      "glossary": "ego-reboot",
+      "summary": null
+    },
+    {
+      "code": "EGO_ROOTKIT",
+      "name": "Ego Rootkit",
+      "hex": null,
+      "module": "04",
+      "also": [
+        "01",
+        "02",
+        "03",
+        "09",
+        "12"
+      ],
+      "book_ref": "CH 4; CH 18.1",
+      "glossary": "ego-rootkit",
+      "summary": null
+    },
+    {
+      "code": "EMPATHY_BUG",
+      "name": "Empathy Bug",
+      "hex": null,
+      "module": "09",
+      "also": [],
+      "book_ref": "CH 9.4.1",
+      "glossary": "empathy-bug",
+      "summary": null
+    },
+    {
+      "code": "EPISTEMIC_BOTTLENECK",
+      "name": "Epistemic Bottleneck",
+      "hex": null,
+      "module": "02",
+      "also": [],
+      "book_ref": "CH 2.3.3",
+      "glossary": "epistemic-bottleneck",
+      "summary": null
+    },
+    {
+      "code": "FALSE_GROWTH_MINDSET",
+      "name": "False Growth Mindset",
+      "hex": null,
+      "module": null,
+      "also": [],
+      "book_ref": "CH 16.4.2",
+      "glossary": "false-growth-mindset",
+      "summary": null
+    },
+    {
+      "code": "FEAR_BLOCKADE",
+      "name": "Fear Blockade",
+      "hex": null,
+      "module": "03",
+      "also": [],
+      "book_ref": "CH 3.1.2",
+      "glossary": null,
+      "summary": "Under stress, fear or performance pressure the Boardroom (frontal lobe) is throttled."
+    },
+    {
+      "code": "FLATLAND_EXPLOIT",
+      "name": "Flatland Exploit",
+      "hex": null,
+      "module": null,
+      "also": [],
+      "book_ref": "Directory B",
+      "glossary": "flatland-exploit",
+      "summary": null
+    },
+    {
+      "code": "FRAGMENTATION_MALWARE",
+      "name": "Fragmentation Malware",
+      "hex": null,
+      "module": "12",
+      "also": [],
+      "book_ref": "CH 12.4",
+      "glossary": "fragmentation-malware",
+      "summary": null
+    },
+    {
+      "code": "FRUSTRATED_SELF_BUG",
+      "name": "Frustrated Self Bug",
+      "hex": null,
+      "module": "12",
+      "also": [],
+      "book_ref": "CH 12.4.1",
+      "glossary": "frustrated-self-bug",
+      "summary": null
+    },
+    {
+      "code": "GANTT_CHART_FALLACY",
+      "name": "Gantt Chart Fallacy",
+      "hex": null,
+      "module": null,
+      "also": [],
+      "book_ref": "CH 13.2",
+      "glossary": "gantt-chart-fallacy",
+      "summary": null
+    },
+    {
+      "code": "GEAR_TRAP",
+      "name": "Gear Trap",
+      "hex": null,
+      "module": null,
+      "also": [],
+      "book_ref": "Directory H",
+      "glossary": "gear-trap",
+      "summary": null
+    },
+    {
+      "code": "GHOST_IN_THE_MACHINE",
+      "name": "Ghost in the Machine Bug",
+      "hex": null,
+      "module": "12",
+      "also": [],
+      "book_ref": "CH 12.3.1",
+      "glossary": null,
+      "summary": "The un-audited belief that a little ego sits inside the skull and pilots the body."
+    },
+    {
+      "code": "GIT_MERGE_CONFLICT",
+      "name": "Git Merge Conflict",
+      "hex": null,
+      "module": "09",
+      "also": [],
+      "book_ref": "CH 9",
+      "glossary": "git-merge-conflict",
+      "summary": null
+    },
+    {
+      "code": "GUILT_BUG",
+      "name": "Productivity Malware (Guilt Bug)",
+      "hex": null,
+      "module": "06",
+      "also": [],
+      "book_ref": "CH 6.7.1",
+      "glossary": null,
+      "summary": "Idle time triggers guilt or anxiety; the system cannot run the System Idle process without an output metric."
+    },
+    {
+      "code": "HARDWARE_BROWNOUT",
+      "name": "Hardware Brownout",
+      "hex": null,
+      "module": "06",
+      "also": [],
+      "book_ref": "CH 6.4.1",
+      "glossary": null,
+      "summary": "An energy deficit of the hardware misdiagnosed as a personality or software flaw."
+    },
+    {
+      "code": "HERD_SCRIPT",
+      "name": "Herd Script",
+      "hex": null,
+      "module": null,
+      "also": [],
+      "book_ref": "CH 26",
+      "glossary": "herd-script",
+      "summary": null
+    },
+    {
+      "code": "HESITATION_BUG",
+      "name": "Hesitation Bug",
+      "hex": "0x04",
+      "module": "10",
+      "also": [],
+      "book_ref": "CH 10.4; Directory F (F.4)",
+      "glossary": "hesitation-bug",
+      "summary": null
+    },
+    {
+      "code": "KERNEL_PANIC",
+      "name": "Kernel Panic",
+      "hex": null,
+      "module": "01",
+      "also": [
+        "03",
+        "05"
+      ],
+      "book_ref": "CH 1.1",
+      "glossary": "kernel-panic",
+      "summary": null
+    },
+    {
+      "code": "KUNDALINI_SYNDROME",
+      "name": "Kundalini Syndrome",
+      "hex": null,
+      "module": "06",
+      "also": [],
+      "book_ref": "CH 6.5.1",
+      "glossary": "kundalini-syndrome",
+      "summary": null
+    },
+    {
+      "code": "LEGACY_LINTER",
+      "name": "Legacy Linter",
+      "hex": null,
+      "module": null,
+      "also": [],
+      "book_ref": "Directory B",
+      "glossary": "legacy-linter",
+      "summary": null
+    },
+    {
+      "code": "LEGACY_PROVIDER_SCRIPT",
+      "name": "Legacy Provider Script",
+      "hex": null,
+      "module": "12",
+      "also": [
+        "09"
+      ],
+      "book_ref": "CH 12",
+      "glossary": "legacy-provider-script",
+      "summary": null
+    },
+    {
+      "code": "LEGACY_SCRIPTS",
+      "name": "Legacy Scripts",
+      "hex": null,
+      "module": "02",
+      "also": [
+        "04"
+      ],
+      "book_ref": "CH 2.5.2",
+      "glossary": "legacy-scripts",
+      "summary": null
+    },
+    {
+      "code": "LOGIC_BOMB",
+      "name": "Logic Bomb",
+      "hex": null,
+      "module": "04",
+      "also": [],
+      "book_ref": "CH 4.6",
+      "glossary": "logic-bomb",
+      "summary": null
+    },
+    {
+      "code": "LOGIC_BYPASS",
+      "name": "Logic Bypass",
+      "hex": null,
+      "module": "02",
+      "also": [
+        "05",
+        "06"
+      ],
+      "book_ref": "CH 2.5.4",
+      "glossary": "logic-bypass",
+      "summary": null
+    },
+    {
+      "code": "MEMORY_LEAK",
+      "name": "Memory Leak",
+      "hex": null,
+      "module": "07",
+      "also": [
+        "02"
+      ],
+      "book_ref": "CH 7.6",
+      "glossary": "memory-leak",
+      "summary": null
+    },
+    {
+      "code": "OTHERING_ALGORITHM",
+      "name": "Othering Algorithm",
+      "hex": null,
+      "module": "12",
+      "also": [],
+      "book_ref": "CH 12.4",
+      "glossary": "othering-algorithm",
+      "summary": null
+    },
+    {
+      "code": "PERMISSION_DENIED",
+      "name": "Permission Denied (Imposter Syndrome)",
+      "hex": "0x06",
+      "module": "01",
+      "also": [],
+      "book_ref": "Directory F (F.6)",
+      "glossary": null,
+      "summary": "Current credentials are verified against an outdated database instead of the deployed track record."
+    },
+    {
+      "code": "PREDICTION_ERROR",
+      "name": "Prediction Error",
+      "hex": null,
+      "module": "08",
+      "also": [
+        "12"
+      ],
+      "book_ref": "CH 8.1.3",
+      "glossary": "prediction-error",
+      "summary": null
+    },
+    {
+      "code": "PREDICTIVE_EXPLOITATION",
+      "name": "Predictive Exploitation",
+      "hex": null,
+      "module": "04",
+      "also": [
+        "07"
+      ],
+      "book_ref": "CH 4.3.1",
+      "glossary": "predictive-exploitation",
+      "summary": null
+    },
+    {
+      "code": "PROJECTION",
+      "name": "Projection",
+      "hex": null,
+      "module": "04",
+      "also": [],
+      "book_ref": "CH 4.3",
+      "glossary": "projection",
+      "summary": null
+    },
+    {
+      "code": "READ_ONLY_FALLACY",
+      "name": "Read-Only Fallacy",
+      "hex": null,
+      "module": "05",
+      "also": [],
+      "book_ref": "CH 5.6",
+      "glossary": "read-only-fallacy",
+      "summary": null
+    },
+    {
+      "code": "RECURSIVE_WORRY_LOOP",
+      "name": "Recursive Worry Loop",
+      "hex": "0x03",
+      "module": null,
+      "also": [],
+      "book_ref": "Directory F (F.3)",
+      "glossary": "recursive-worry-loop",
+      "summary": null
+    },
+    {
+      "code": "RENDER_ERROR",
+      "name": "Render Error (Illusion of Separation)",
+      "hex": null,
+      "module": "12",
+      "also": [],
+      "book_ref": "CH 12.1.3",
+      "glossary": null,
+      "summary": "Separation is a GUI limitation of the local render, not a property of the network."
+    },
+    {
+      "code": "RESISTANCE",
+      "name": "Resistance",
+      "hex": null,
+      "module": "03",
+      "also": [
+        "02",
+        "06"
+      ],
+      "book_ref": "CH 3.4.2",
+      "glossary": "resistance",
+      "summary": null
+    },
+    {
+      "code": "RESOURCE_SCARCITY_MALWARE",
+      "name": "Resource Scarcity Malware (Envy)",
+      "hex": null,
+      "module": "09",
+      "also": [],
+      "book_ref": "CH 9.4.4",
+      "glossary": "resource-scarcity-malware",
+      "summary": null
+    },
+    {
+      "code": "SIMULATED_TELEMETRY",
+      "name": "Simulated Telemetry Bug",
+      "hex": null,
+      "module": "12",
+      "also": [
+        "09"
+      ],
+      "book_ref": "CH 12.2.1; CH 9.1.2",
+      "glossary": null,
+      "summary": "Organic human encounters reduced to data-driven, transactional metrics."
+    },
+    {
+      "code": "SMALL_LIFE_THROTTLE",
+      "name": "Small Life Throttle",
+      "hex": null,
+      "module": "01",
+      "also": [],
+      "book_ref": "CH 1.5",
+      "glossary": "small-life-throttle",
+      "summary": null
+    },
+    {
+      "code": "SOCIAL_LAG",
+      "name": "Social Lag (Connection Timed Out)",
+      "hex": "0x02",
+      "module": "09",
+      "also": [],
+      "book_ref": "Directory F (F.2)",
+      "glossary": null,
+      "summary": "Isolation, resentment or high-friction arguments from running a stateful connection: legacy data and old grudges pushed into the current handshake."
+    },
+    {
+      "code": "SOFTWARE_PATCH_FALLACY",
+      "name": "Software Patch Fallacy",
+      "hex": null,
+      "module": "06",
+      "also": [],
+      "book_ref": "CH 6.6",
+      "glossary": "software-patch-fallacy",
+      "summary": null
+    },
+    {
+      "code": "SOMATIC_BYPASSING",
+      "name": "Somatic Bypassing",
+      "hex": null,
+      "module": "06",
+      "also": [],
+      "book_ref": "CH 6.6",
+      "glossary": "somatic-bypassing",
+      "summary": null
+    },
+    {
+      "code": "SOMATIC_PROMPT_INJECTION",
+      "name": "Somatic Prompt Injection",
+      "hex": null,
+      "module": null,
+      "also": [],
+      "book_ref": "Directory A (A.7.1)",
+      "glossary": "somatic-prompt-injection",
+      "summary": null
+    },
+    {
+      "code": "SOMATIC_TECHNICAL_DEBT",
+      "name": "Somatic Technical Debt",
+      "hex": null,
+      "module": "08",
+      "also": [],
+      "book_ref": "CH 8.0",
+      "glossary": null,
+      "summary": "The biological cost of using bandwidth upgrades as a productivity hack (hustle culture)."
+    },
+    {
+      "code": "SPIRITUAL_BYPASSING",
+      "name": "Spiritual Bypassing (Emulation Trap)",
+      "hex": null,
+      "module": "02",
+      "also": [
+        "06"
+      ],
+      "book_ref": "CH 2.5.4",
+      "glossary": "spiritual-bypassing",
+      "summary": null
+    },
+    {
+      "code": "SPOF",
+      "name": "SPOF (Single Point of Failure)",
+      "hex": null,
+      "module": "10",
+      "also": [
+        "07",
+        "12"
+      ],
+      "book_ref": "CH 10.5",
+      "glossary": "spof",
+      "summary": null
+    },
+    {
+      "code": "STATE_MISMATCH_ERROR",
+      "name": "State Mismatch Error",
+      "hex": null,
+      "module": "02",
+      "also": [],
+      "book_ref": "CH 2",
+      "glossary": "state-mismatch-error",
+      "summary": null
+    },
+    {
+      "code": "SYSTEM_FRICTION",
+      "name": "System Friction (Dukkha)",
+      "hex": null,
+      "module": "02",
+      "also": [],
+      "book_ref": "CH 2.1",
+      "glossary": "system-friction",
+      "summary": null
+    },
+    {
+      "code": "TECH_BRO_MALWARE",
+      "name": "Tech-Bro Malware",
+      "hex": null,
+      "module": "09",
+      "also": [],
+      "book_ref": "CH 9.1.3",
+      "glossary": null,
+      "summary": "Treating empathy as an inefficient waste of computing power."
+    },
+    {
+      "code": "THANATOPHOBIA_EXE",
+      "name": "Thanatophobia.exe",
+      "hex": null,
+      "module": null,
+      "also": [],
+      "book_ref": "Directory D",
+      "glossary": "thanatophobia-exe",
+      "summary": null
+    },
+    {
+      "code": "THERMAL_THROTTLING",
+      "name": "Thermal Throttling (Burnout)",
+      "hex": "0x01",
+      "module": "03",
+      "also": [
+        "06"
+      ],
+      "book_ref": "CH 3.4.2; Directory F (F.1)",
+      "glossary": "thermal-throttling",
+      "summary": null
+    },
+    {
+      "code": "TRAUMA",
+      "name": "Trauma",
+      "hex": null,
+      "module": "04",
+      "also": [
+        "01",
+        "05"
+      ],
+      "book_ref": "CH 4.1",
+      "glossary": "trauma",
+      "summary": null
+    },
+    {
+      "code": "UNRESOLVABLE_EXCEPTION",
+      "name": "Unresolvable Exception (Hardware Constraint)",
+      "hex": "0x09",
+      "module": null,
+      "also": [],
+      "book_ref": "Directory F (F.9)",
+      "glossary": "unresolvable-exception",
+      "summary": null
+    },
+    {
+      "code": "USER_ILLUSION",
+      "name": "User Illusion",
+      "hex": null,
+      "module": "08",
+      "also": [],
+      "book_ref": "CH 8.1.5",
+      "glossary": null,
+      "summary": "The 10-bit conscious mind tries to analyse a broadband emotional signal and mistakes its summary for the whole stream."
+    },
+    {
+      "code": "UTILITY_VIRUS",
+      "name": "Utility Virus",
+      "hex": null,
+      "module": "03",
+      "also": [
+        "06"
+      ],
+      "book_ref": "CH 3.9",
+      "glossary": "utility-virus",
+      "summary": null
+    },
+    {
+      "code": "VENDOR_LOCK_IN",
+      "name": "Vendor Lock-in",
+      "hex": null,
+      "module": "06",
+      "also": [
+        "11"
+      ],
+      "book_ref": "CH 6.3; CH 11.4.2",
+      "glossary": null,
+      "summary": "Core maintenance depends on a single external vendor; when it goes offline, the system crashes."
+    },
+    {
+      "code": "VICTIM_MODE",
+      "name": "Victim Mode",
+      "hex": null,
+      "module": "01",
+      "also": [
+        "04",
+        "07"
+      ],
+      "book_ref": "CH 1.4.1",
+      "glossary": "victim-mode",
+      "summary": null
+    },
+    {
+      "code": "ZERO_SUM_BUG",
+      "name": "Zero-Sum Bug",
+      "hex": null,
+      "module": "09",
+      "also": [],
+      "book_ref": "CH 9.4.4",
+      "glossary": "zero-sum-bug",
+      "summary": null
+    },
+    {
+      "code": "ZIP_FILE_ERROR",
+      "name": "Zip-File Error",
+      "hex": null,
+      "module": "08",
+      "also": [],
+      "book_ref": "CH 8.3",
+      "glossary": "zip-file-error",
+      "summary": null
+    }
+  ]
+}
