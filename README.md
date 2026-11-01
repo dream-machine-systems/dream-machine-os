@@ -50,6 +50,18 @@ Read [`CONTRIBUTING.md`](CONTRIBUTING.md). Short version:
 
 Pull requests require a signed [Contributor License Agreement](CLA.md).
 
+## Stay in sync
+
+First contribution? Start with a [good first issue](https://github.com/dream-machine-systems/dream-machine-os/contribute). Most of them need no code, only JSON or Markdown, and every merged mapping ships to the glossary and the deck pages on the website.
+
+| Channel | What it carries |
+| --- | --- |
+| [Patch alerts](https://www.dreammachine.systems/newsletter?mtm_campaign=github&mtm_source=readme) (email) | Build releases, new briefings, merged spec changes. Double opt-in |
+| [Architecture Briefings](https://www.dreammachine.systems/docs/briefings/?mtm_campaign=github&mtm_source=readme) | One briefing per module: video, audio (podcast) and slides |
+| [Human Debug Deck](https://www.dreammachine.systems/deck/browser/?mtm_campaign=github&mtm_source=readme) | The 78 cards that [`deck/cards.json`](deck/cards.json) maps to modules and error codes |
+| [System log](https://www.dreammachine.systems/news/feed.xml) (RSS) | Releases, briefings, announcements |
+| [P2P Living Node Cluster](https://www.dreammachine.systems/p2p?mtm_campaign=github&mtm_source=readme) (Skool, paid, private) | Discussion and field reports between readers. Personal experiences belong there or in [telemetry](https://www.dreammachine.systems/telemetry), never in a public issue |
+
 ## License
 
 The specification is released under [**CC BY-NC-SA 4.0**](LICENSE).
