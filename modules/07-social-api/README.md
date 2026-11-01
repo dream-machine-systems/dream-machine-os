@@ -2,7 +2,7 @@
 id: 07-social-api
 title: Social API
 book_ref: "CH 7 (Standardizing Connection: Social API)"
-spec_status: DRAFT
+spec_status: STABLE
 build: v0.9.5
 depends_on: [01-identity-bios, 03-processor]
 audit: https://www.dreammachine.systems/audit
@@ -18,11 +18,12 @@ The Social API defines how a node interacts with other nodes: the cell membrane 
 
 ## 2. Core Logic
 
-- **Cell Membrane:** Boundaries let the node meet dysregulated relatives and colleagues without importing their state (CH 7.1).
+- **Cell Membrane:** Boundaries let the node meet dysregulated relatives and colleagues without importing their state. The membrane is semi-permeable, not a brick wall: it lets regulated connection in and keeps toxins out; prolonged isolation degrades the hardware too (CH 7.0, 7.1). `403 Forbidden`: the power of "No" is a security policy, not an insult; it keeps bandwidth for the Tier 1 nodes (CH 7.1).
+- **Strict Input Sanitization:** Predictive algorithms amplify outrage and feed the Ego Rootkit. Letting an algorithm curate inbound social and political traffic hands Root Access to a hostile botnet; choose raw, uncurated sources deliberately (CH 7.1.1).
 - **Service Level Agreements:** Quality of service per tier, not walls (CH 7.2). Tier 3 limits response time and bandwidth; it never licenses treating a person as an object.
 - **README.md:** Explicit documentation of how to interact with the node (CH 7.3).
 - **Handshake:** `SYN`/`ACK` bids for connection, bandwidth check before heavy payloads, protocol verification (vent vs. fix) (CH 7.4.1-7.4.3).
-- **Subject-Object Rule:** Every node is authenticated as a sovereign subject; manipulation is a security violation (CH 7.4.4).
+- **Subject-Object Rule:** Every node is authenticated as a sovereign subject; manipulation is a security violation. Development and connection only compile at eye level: invite, encourage and inspire instead of reprogramming another node by force (CH 7.4.4).
 - **Data Serialization:** Send in the recipient's format (love languages) (CH 7.4.5).
 - **Social ITIL:** Incident management restores service first; problem management runs the root-cause analysis later (CH 7.5).
 
@@ -49,6 +50,14 @@ IF intent == VENT and response == FIX  => 400 Bad Request
 
 1. **Incident:** de-escalate and regulate first; restore service.
 2. **Problem:** once stable, run the RCA and patch the logic error.
+
+### 3.4 Personal README
+
+Hand a short user manual to the people you live with (CH 7.3):
+
+- **Current Status:** "I am currently processing a massive work crisis in the background."
+- **Input Requirements:** "I need you to just listen right now, I do not need you to fix the problem."
+- **Known Bugs:** "If I go completely silent during an argument, I am not ignoring you. My system is overheating and I need ten minutes to reboot."
 
 ## 4. System Mapping
 

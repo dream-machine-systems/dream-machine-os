@@ -59,7 +59,7 @@
       "id": "07",
       "title": "Social API",
       "book_ref": "CH 7",
-      "status": "DRAFT",
+      "status": "STABLE",
       "path": "modules/07-social-api/",
       "briefing": "ch7"
     },

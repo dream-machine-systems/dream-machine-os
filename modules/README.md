@@ -10,7 +10,7 @@ One module per chapter of *The Dream Machine*. A module specifies the logic; the
 | 04 | [Security Auditing (Shadow Work)](04-security-auditing/) | CH 4 | `STABLE` | [ch4](https://www.dreammachine.systems/briefings/ch4) |
 | 05 | [Low-Level Utilities](05-low-level-utilities/) | CH 5 | `STABLE` | [ch5](https://www.dreammachine.systems/briefings/ch5) |
 | 06 | [Hardware Calibration](06-hardware-calibration/) | CH 6 | `STABLE` | [ch6](https://www.dreammachine.systems/briefings/ch6) |
-| 07 | [Social API](07-social-api/) | CH 7 | `DRAFT` | [ch7](https://www.dreammachine.systems/briefings/ch7) |
+| 07 | [Social API](07-social-api/) | CH 7 | `STABLE` | [ch7](https://www.dreammachine.systems/briefings/ch7) |
 | 08 | [Cognitive Downclock](08-cognitive-downclock/) | CH 8 | `STABLE` | [ch8](https://www.dreammachine.systems/briefings/ch8) |
 | 09 | [Love Protocol](09-love-protocol/) | CH 9, Directory C | `STABLE` | [ch9](https://www.dreammachine.systems/briefings/ch9) |
 | 10 | [Hardened Infrastructure](10-hardened-infrastructure/) | CH 10 | `DRAFT` | [ch10](https://www.dreammachine.systems/briefings/ch10) |
