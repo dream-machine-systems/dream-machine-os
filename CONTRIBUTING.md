@@ -14,7 +14,7 @@ The system ships as a book. The specification evolves here. Every accepted contr
 | --- | --- | --- |
 | **Errata:** typo, wrong number, broken link, contradiction between modules | [Errata issue](https://github.com/dream-machine-systems/dream-machine-os/issues/new?template=errata.yml) or a direct PR | Maintainer, fast track |
 | **Evidence:** add, correct or challenge a source; propose an evidence tier | [Evidence issue](https://github.com/dream-machine-systems/dream-machine-os/issues/new?template=evidence.yml) or PR to `audit/` or the module | Consensus Gate (see below) |
-| **Glossary and error codes** | PR to `glossary/` or the module | Maintainer |
+| **Glossary, error codes, deck mapping** | PR to `glossary/`, `errors/registry.json` or `deck/cards.json` | Maintainer |
 | **New patch, new module, change to core logic** | [RFC issue](https://github.com/dream-machine-systems/dream-machine-os/issues/new?template=rfc.yml) first, then PR to `rfcs/` | Maintainer decides |
 
 Readers without a GitHub account can use the [feedback form](https://www.dreammachine.systems/feedback). It feeds the same backlog.
@@ -44,6 +44,8 @@ The repository uses the tiers of the book's dependency index:
 
 - English, Markdown, one module per directory, YAML front matter as in the existing modules.
 - A new module or a status change updates `modules/status.json`, the table in `modules/README.md` and the front matter together. Check with `node scripts/check-module-status.mjs`.
+- Glossary, audit, error codes and the deck mapping are data. Check every change with `node scripts/check-data.mjs`.
+- The spec mirrors the tagged book build. Anything the book does not contain needs an RFC first (see [`modules/README.md`](modules/README.md#scope-rule)).
 - Active voice. No "you should", no "we must". Runbook imperative or If/Then logic.
 - ASCII arrows only (`=>`), no Unicode arrows.
 

@@ -1,20 +1,34 @@
 # Glossary
 
-Single source for the system syntax published at [dreammachine.systems/docs/syntax](https://www.dreammachine.systems/docs/syntax/) and in Directory B of the book.
-
-**Status:** `PLANNED`. The glossary is migrated from the book in a later build.
+The system syntax of the Dream Machine OS: 227 terms from Directory B of the book. This directory is the single source for [dreammachine.systems/docs/syntax](https://www.dreammachine.systems/docs/syntax/).
 
 ## Entry format
 
-One file per term, file name in kebab-case (`frankl-buffer.md`):
+One file per term, file name in kebab-case (`ceo-bug.md`). The file name is the term's stable ID; do not rename it.
 
 ```yaml
 ---
-term: Frankl Buffer
-category: Execution Protocol
-modules: [03-processor, 09-love-protocol]
-book_ref: "CH 3.5"
+term: "CEO BUG (THE)"
+category: "Bugs & Vulnerabilities"
+modules: ["01", "12"]
+error_code: "CEO_BUG"
+book_ref: "Directory B"
+short: "The foundational rendering error of experiencing the Self as a single, unified executive process."
 ---
 ```
 
-Followed by a definition of at most three sentences. Errata and missing terms: open an issue.
+Followed by the full definition in Markdown.
+
+| Key | Content |
+| --- | --- |
+| `term` | Term as printed in the book |
+| `legacy_syntax` | Optional. The traditional name the term translates (`Amor Fati`) |
+| `category` | `Core Architecture`, `Protocols & Software`, `Bugs & Vulnerabilities` or `Hardware & Telemetry` |
+| `modules` | IDs of the modules that use the term. Empty list when not yet mapped |
+| `error_code` | Code in [`errors/registry.json`](../errors/registry.json), or `null` |
+| `book_ref` | Where the book defines the term |
+| `short` | One-sentence definition |
+
+Values are double-quoted strings, lists or `null`. Run `node scripts/check-data.mjs` before you push.
+
+Errata and missing terms: open an issue. A new term needs the book reference it comes from; terms that are not in the book go through an [RFC](../rfcs/README.md).

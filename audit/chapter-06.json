@@ -1,0 +1,204 @@
+{
+  "schema_version": 1,
+  "build": "v0.9.5",
+  "part": "chapter-6",
+  "title": "CHAPTER 6: HARDWARE CALIBRATION (Structural Synchronization)",
+  "module": "06",
+  "entries": {
+    "sec6-1": {
+      "title": "SEC 6.1: STRUCTURAL DE-FRAGMENTATION (ASANA LAYER)",
+      "core_claim": "Mechanically opening the chest cavity restores the necessary **biomechanical space** for deep diaphragmatic function. Clinically, it is this deep, slow diaphragmatic breathing that actively stimulates the vagus nerve, increases parasympathetic activity, and down-regulates circulating **cortisol levels**.",
+      "query": "Does correcting forward posture and enabling deep diaphragmatic breathing stimulate the vagus nerve and reduce cortisol levels?",
+      "controlled_studies": "ON",
+      "tier": "CONSENSUS",
+      "primary_anchors": [
+        "Xiao et al., 2017, Frontiers in Psychology",
+        "Ismail et al., 2025, Reumatologia"
+      ],
+      "summary": "Clinical physiology research clarifies that while correcting compressed posture improves mechanical respiratory capacity, it is the resulting deep *diaphragmatic breathing* that actively and reliably stimulates *vagal-parasympathetic activity* and reduces circulating cortisol levels.",
+      "full_audit": "https://www.dreammachine.systems/assets/pdf/dreammachine-halluzination-audit-sec6-1.pdf"
+    },
+    "sec6-2-1": {
+      "title": "SEC 6.2.1: HARDWARE FILTER (NOSE VS. MOUTH API)",
+      "core_claim": "Clinically, nasal breathing drastically increases **nitric oxide (NO) production** compared to mouth breathing, utilizing this **vasodilator** to optimize ventilatory efficiency and enhance respiratory gas exchange.",
+      "query": "Does nasal breathing increase nitric oxide production and improve oxygen absorption or blood oxygenation compared to mouth breathing?",
+      "controlled_studies": "ON",
+      "tier": "CONSENSUS",
+      "primary_anchors": [
+        "Alving et al., 1993, European Respiratory Journal",
+        "Lundberg et al., 1994, European Respiratory Journal"
+      ],
+      "summary": "Airway physiology research establishes that nasal breathing significantly increases airway *nitric oxide (NO)* exposure compared to mouth breathing. This NO acts as a *vasodilator* that optimizes ventilatory efficiency, though universal blood oxygenation claims depend on clinical context.",
+      "full_audit": "https://www.dreammachine.systems/assets/pdf/dreammachine-halluzination-audit-sec6-2-1.pdf"
+    },
+    "sec6-2-2": {
+      "title": "SEC 6.2.2: BOHR EFFECT (CO2 TOLERANCE)",
+      "core_claim": "Clinically, slow nasal breathing and hypoventilation training optimize **CO2 handling** and improve overall vascular function, preventing the stress-induced **vasoconstriction** that throttles metabolic gas exchange.",
+      "query": "Does slow nasal breathing or hypoventilation training increase CO2 tolerance, promote vasodilation, and enhance cerebral tissue oxygenation via the Bohr effect?",
+      "controlled_studies": "ON",
+      "tier": "CONSENSUS",
+      "primary_anchors": [
+        "Ritz et al., 2014, Chest",
+        "Norweg et al., 2025, Journal of Cardiopulmonary Rehabilitation and Prevention"
+      ],
+      "summary": "Classical physiological models validate that slow nasal breathing and hypoventilation training improve *CO2 handling* and general vascular function (preventing *vasoconstriction*). While the core Bohr Effect is physiologically sound, evidence that it universally enhances cerebral tissue oxygenation is mixed.",
+      "full_audit": "https://www.dreammachine.systems/assets/pdf/dreammachine-halluzination-audit-sec6-2-2.pdf"
+    },
+    "sec6-2-3": {
+      "title": "SEC 6.2.3: CLOCK SYNCING & RESONANT FREQUENCY",
+      "core_claim": "Clinically, resonant frequency breathing synchronizes your respiration and your **heart-rate oscillations**, mechanically aligning your cardiorespiratory system and blood pressure waves into a coherent, **low-frequency rhythm**.",
+      "query": "Does breathing at a resonant frequency of 5.5 breaths per minute synchronize respiration, heart rate, and blood pressure oscillations?",
+      "controlled_studies": "ON",
+      "tier": "CONSENSUS",
+      "primary_anchors": [
+        "Steffen et al., 2017, Frontiers in Public Health",
+        "Lin et al., 2014, International Journal of Psychophysiology"
+      ],
+      "summary": "Cardiorespiratory tracking verifies that *resonant frequency breathing* (approx. 5.5 breaths/min) reliably synchronizes respiration with *heart-rate oscillations*. It also frequently recruits blood-pressure waves into the same rhythm, creating measurable cardiorespiratory coherence.",
+      "full_audit": "https://www.dreammachine.systems/assets/pdf/dreammachine-halluzination-audit-sec6-2-3.pdf"
+    },
+    "sec6-2-4": {
+      "title": "SEC 6.2.4: EMERGENCY OVERRIDE (PHYSIOLOGICAL SIGH)",
+      "core_claim": "Clinically, this specific mechanical action (the **physiological sigh**) maximally inflates the alveoli in the lungs and rapidly down-regulates physiological arousal by lowering the respiratory rate and engaging **vagal parasympathetic pathways**.",
+      "query": "Does the physiological sigh (two consecutive inhales followed by a prolonged exhale) rapidly lower heart rate and decrease sympathetic nervous system arousal?",
+      "controlled_studies": "ON",
+      "tier": "CONSENSUS",
+      "primary_anchors": [
+        "Balban et al., 2023, Cell Reports Medicine",
+        "Obradović et al., 2021, Developmental Psychobiology"
+      ],
+      "summary": "Controlled autonomic testing indicates that the *physiological sigh* (cyclic sighing) rapidly reduces physiological arousal, primarily by lowering respiratory rate and enhancing *vagal parasympathetic tone*. It acts as a highly effective, rapid down-regulator for acute stress.",
+      "full_audit": "https://www.dreammachine.systems/assets/pdf/dreammachine-halluzination-audit-sec6-2-4.pdf"
+    },
+    "sec6-3-1": {
+      "title": "SEC 6.3.1: SYSTEM OVERCLOCKING (HIIT & BODY BUDGET)",
+      "core_claim": "Rather than simply \"burning off\" stress hormones, acute high-intensity exercise intentionally spikes **physiological arousal**. Clinically, this controlled **physiological overload** drives systemic adaptation and reliably reduces overall perceived psychological stress.",
+      "query": "Does High-Intensity Interval Training (HIIT) effectively lower circulating cortisol levels and reduce physical markers of psychological stress?",
+      "controlled_studies": "ON",
+      "tier": "CONSENSUS",
+      "primary_anchors": [
+        "Martland et al., 2021, British Journal of Sports Medicine",
+        "Caplin et al., 2021, Psychoneuroendocrinology"
+      ],
+      "summary": "Exercise physiology diagnostics clarify that *High-Intensity Interval Training (HIIT)* does not cleanly lower circulating cortisol (it acutely spikes it as a training stressor). However, this controlled physiological overload effectively reduces overall perceived psychological stress through *cross-stressor adaptation*.",
+      "full_audit": "https://www.dreammachine.systems/assets/pdf/dreammachine-halluzination-audit-sec6-3-1.pdf"
+    },
+    "sec6-4-1": {
+      "title": "SEC 6.4.1: HARDWARE BROWNOUT (METABOLIC PSYCHIATRY)",
+      "core_claim": "Clinically, **mitochondrial dysfunction** and systemic bioenergetic deficits are closely linked to this exact frontolimbic dysregulation: a hypoactive prefrontal cortex that defaults to a **hyperreactive amygdala** (survival mode) just to keep the lights on.",
+      "query": "Is mitochondrial dysfunction or ATP deficit linked to impaired prefrontal cortex activity and increased amygdala reactivity in anxiety or depression?",
+      "controlled_studies": "OFF",
+      "tier": "CONSENSUS",
+      "primary_anchors": [
+        "Bansal & Kuhad, 2016, Current Neuropharmacology",
+        "Pizzagalli & Roberts, 2021, Neuropsychopharmacology"
+      ],
+      "summary": "Extensive data in metabolic psychiatry demonstrates that depression and anxiety are strongly associated with *mitochondrial dysfunction* and impaired brain bioenergetics. This metabolic deficit is linked to *frontolimbic dysregulation* (impaired prefrontal control and hyperreactive amygdala).",
+      "full_audit": "https://www.dreammachine.systems/assets/pdf/dreammachine-halluzination-audit-sec6-4-1.pdf"
+    },
+    "sec6-4-2": {
+      "title": "SEC 6.4.2: HARDWARE PATCHES (SUPPLEMENTS & ADAPTOGENS)",
+      "core_claim": "Clinically, specific adaptogens (like Ashwagandha) operate as **HPA-axis modulators**, actively regulating serum **cortisol levels** and buffering perceived psychological stress during periods of heavy load.",
+      "query": "Do botanical adaptogens improve autonomic nervous system recovery and regulate cortisol levels following acute physiological or psychological stress?",
+      "controlled_studies": "ON",
+      "tier": "CONSENSUS",
+      "primary_anchors": [
+        "Lopresti et al., 2021, Nutritional Neuroscience",
+        "Chandrasekhar et al., 2012, Indian Journal of Psychological Medicine"
+      ],
+      "summary": "Clinical endocrinology trials demonstrate that specific *botanical adaptogens* (primarily Ashwagandha) effectively modulate the *HPA-axis*, lowering serum cortisol and reducing perceived stress during chronic loading. Their role in chronic cortisol regulation is robust.",
+      "full_audit": "https://www.dreammachine.systems/assets/pdf/dreammachine-halluzination-audit-sec6-4-2.pdf"
+    },
+    "sec6-4-3": {
+      "title": "SEC 6.4.3: DIRTY POWER & VOLTAGE SPIKES",
+      "core_claim": "Clinically, a rapid decline in blood glucose actively triggers a **sympathetic nervous system response**, producing **neurogenic symptoms** that are directly experienced as sudden anxiety, irritability, and autonomic panic.",
+      "query": "Does reactive hypoglycemia or a rapid drop in blood glucose trigger sympathetic nervous system activation and acute symptoms of anxiety?",
+      "controlled_studies": "OFF",
+      "tier": "CONSENSUS",
+      "primary_anchors": [
+        "Cryer, 1999, Endocrinology and Metabolism Clinics of North America",
+        "Towler et al., 1993, Diabetes"
+      ],
+      "summary": "Metabolic testing establishes that rapid declines in *blood glucose* trigger an acute *sympathetic nervous system response*. This biological defense mechanism produces neurogenic symptoms that are physiologically and psychologically experienced as sudden anxiety, irritability, and panic.",
+      "full_audit": "https://www.dreammachine.systems/assets/pdf/dreammachine-halluzination-audit-sec6-4-3.pdf"
+    },
+    "sec6-4-4": {
+      "title": "SEC 6.4.4: SECONDARY MOTHERBOARD (GUT-BRAIN AXIS)",
+      "core_claim": "Clinically, introducing systemic **dietary inflammation** disrupts gut microbiome homeostasis and actively impairs **serotonin synthesis**, shifting metabolic pathways toward inflammatory byproducts rather than neurotransmitter production.",
+      "query": "Does the enteric nervous system and gut microbiome produce the majority of the body's serotonin and dopamine, and is this synthesis impaired by systemic inflammation?",
+      "controlled_studies": "OFF",
+      "tier": "CONSENSUS",
+      "primary_anchors": [
+        "Liu et al., 2021, International Journal of Molecular Sciences",
+        "Banskota & Khan, 2022, Current Opinion in Endocrinology & Diabetes and Obesity"
+      ],
+      "summary": "Gastroenterology and neurogastroenterology reviews confirm that the gut produces 90-95% of the body's *peripheral serotonin*, and that *systemic inflammation* directly impairs this synthesis via the tryptophan pathway. Claims regarding the gut producing 50% of the body's dopamine are contested.",
+      "full_audit": "https://www.dreammachine.systems/assets/pdf/dreammachine-halluzination-audit-sec6-4-4.pdf"
+    },
+    "sec6-5_1": {
+      "title": "SEC 6.5: VOLTAGE PROTOCOL (PRANA, QI & KUNDALINI)",
+      "core_claim": "Clinically, optimal cognitive function, synaptic activity, and large-scale neural network coordination depend entirely on adequate brain **cellular metabolism**, continuous fuel delivery, and **mitochondrial ATP production**.",
+      "query": "Does optimal cognitive function depend on adequate brain cellular metabolism and energy availability?",
+      "controlled_studies": "OFF",
+      "tier": "CONSENSUS",
+      "primary_anchors": [
+        "Bélanger et al., 2011, Cell Metabolism",
+        "Dienel, 2019, Physiological Reviews"
+      ],
+      "summary": "Cellular bioenergetics models confirm that optimal cognitive function relies heavily on adequate brain *cellular metabolism*. Cognition and network coordination are tightly coupled to continuous fuel delivery and *mitochondrial ATP production*, validating the biological necessity of systemic \"voltage.\"",
+      "full_audit": "https://www.dreammachine.systems/assets/pdf/dreammachine-halluzination-audit-sec6-5_1.pdf"
+    },
+    "sec6-5_2": {
+      "title": "SEC 6.5: VOLTAGE PROTOCOL (HARDWARE CALIBRATION)",
+      "core_claim": "Clinically, mind-body practices use slow, synchronized respiration and physical movement to actively modulate the **central autonomic network**, shifting the body toward **parasympathetic (vagal) regulation**.",
+      "query": "Do yoga and qigong practices regulate autonomic nervous system arousal and metabolic function?",
+      "controlled_studies": "ON",
+      "tier": "CONSENSUS",
+      "primary_anchors": [
+        "Zou et al., 2018, Journal of Clinical Medicine",
+        "Zhou et al., 2023, Journal of Integrative and Complementary Medicine"
+      ],
+      "summary": "Clinical evaluations of mind-body interventions verify that mind-body practices like Yoga and Qigong effectively regulate *autonomic nervous system* arousal. By integrating controlled movement and respiration, these protocols shift the physiological baseline toward *parasympathetic (vagal) regulation*.",
+      "full_audit": "https://www.dreammachine.systems/assets/pdf/dreammachine-halluzination-audit-sec6-5_2.pdf"
+    },
+    "sec6-5_3": {
+      "title": "SEC 6.5: VOLTAGE PROTOCOL (SOMATIC QUARANTINE)",
+      "core_claim": "Clinically, unresolved psychological trauma frequently manifests physiologically as chronic **somatic hyperarousal**, localized **muscular guarding**, and chronic pain amplification.",
+      "query": "Is psychological trauma associated with somatic hyperarousal, muscular guarding, and chronic pain amplification?",
+      "controlled_studies": "OFF",
+      "tier": "CONSENSUS",
+      "primary_anchors": [
+        "Afari et al., 2013, Psychosomatic Medicine",
+        "Löwe et al., 2024, Lancet"
+      ],
+      "summary": "Traumatology and somatic research confirms that psychological trauma reliably manifests as physical bodily symptoms. Unresolved trauma is heavily associated with persistent *somatic hyperarousal*, chronic pain amplification, and defensive biomechanical states such as *muscular guarding*.",
+      "full_audit": "https://www.dreammachine.systems/assets/pdf/dreammachine-halluzination-audit-sec6-5_3.pdf"
+    },
+    "sec6-5-1": {
+      "title": "SEC 6.5.1: OVERCLOCKING RISK (KUNDALINI SYNDROME)",
+      "core_claim": "Clinically, intensive meditation and advanced breathwork practices can trigger severe **autonomic nervous system dysregulation** and adverse psychiatric events, particularly in individuals with **unresolved trauma**.",
+      "query": "Can intensive meditation or advanced breathwork practices trigger adverse psychiatric events or autonomic nervous system dysregulation in individuals with unresolved trauma?",
+      "controlled_studies": "OFF",
+      "tier": "CONSENSUS",
+      "primary_anchors": [
+        "Goldberg et al., 2021, Psychotherapy Research",
+        "Farias et al., 2020, Acta Psychiatrica Scandinavica"
+      ],
+      "summary": "Psychiatric safety diagnostics confirm that intensive meditation and advanced breathwork can trigger adverse psychiatric events (such as dissociation). Individuals with *unresolved trauma* are at significantly higher risk for severe *autonomic nervous system dysregulation* when engaging in these practices.",
+      "full_audit": "https://www.dreammachine.systems/assets/pdf/dreammachine-halluzination-audit-sec6-5-1.pdf"
+    },
+    "sec6-6-2": {
+      "title": "SEC 6.6.2: HARDWARE REQUIREMENT (PHYSICAL DISCHARGE)",
+      "core_claim": "Clinically, the broader application of **somatic discharge**—through progressive relaxation, mind-body movement, and structured breathwork—reliably down-regulates **sympathetic nervous system arousal** and clears physical tension.",
+      "query": "Do Trauma Releasing Exercises (TRE) or induced neurogenic tremors effectively reduce physical tension and sympathetic nervous system arousal?",
+      "controlled_studies": "ON",
+      "tier": "CONSENSUS",
+      "primary_anchors": [
+        "Harrison et al., 2018, The Journal of the American Board of Family Medicine",
+        "Zou et al., 2018, Journal of Clinical Medicine"
+      ],
+      "summary": "Somatic and clinical trials indicate that direct evidence for TRE reducing sympathetic arousal is currently weak. However, the broader clinical application of *somatic discharge* (mind-body exercise, breathwork) is strongly supported for actively down-regulating *physiological stress*.",
+      "full_audit": "https://www.dreammachine.systems/assets/pdf/dreammachine-halluzination-audit-sec6-6-2.pdf"
+    }
+  }
+}

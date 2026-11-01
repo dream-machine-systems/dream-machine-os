@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "build": "v0.9.5",
+  "part": "chapter-9",
+  "title": "CHAPTER 9: LOVE PROTOCOL (Stateless Communication)",
+  "module": "09",
+  "entries": {
+    "sec9-1": {
+      "title": "SEC 9.1: LOVE (STATELESS PROTOCOL) / BIOLOGICAL TRANSLATION: ALLOSTATIC LOAD & CORTISOL CACHE",
+      "core_claim": "Clinically, ruminating on past interpersonal grievances actively engages the amygdala and prolongs HPA-axis activation, amplifying **cortisol release** and sustaining **acute physiological stress** in the present moment.",
+      "query": "Does ruminating on past interpersonal grievances engage the amygdala and prolong HPA-axis activation, leading to sustained cortisol release and acute physiological stress?",
+      "controlled_studies": "OFF",
+      "tier": "CONSENSUS",
+      "primary_anchors": [
+        "Zoccola & Dickerson, 2012, Journal of Psychosomatic Research",
+        "Gianferante et al., 2014, Psychoneuroendocrinology"
+      ],
+      "summary": "Psychoneuroendocrine evaluations demonstrate that ruminating on past interpersonal grievances engages threat-related neural systems and significantly prolongs acute stress physiology. This cognitive state actively amplifies *HPA-axis activation*, leading to sustained *cortisol release* and elevated autonomic arousal.",
+      "full_audit": "https://www.dreammachine.systems/assets/pdf/dreammachine-halluzination-audit-sec9-1.pdf"
+    },
+    "sec9-1-1": {
+      "title": "SEC 9.1.1: EMPIRICAL VALIDATION: CACHE CLEAR (TARGETED COMPASSION)",
+      "core_claim": "Targeted compassion and wishing well for a partner acts as a **forced cache clear**, uninstalling malicious scripts of revenge, fostering cooperation, and physically optimizing the transmitting node's hardware (**HRV**).",
+      "query": "Does intercessory prayer or targeted compassion for a romantic partner increase forgiveness, cooperation, and improve physiological functioning?",
+      "controlled_studies": "ON",
+      "tier": "CONSENSUS",
+      "primary_anchors": [
+        "Lambert et al., 2010, Psychological Science",
+        "Toussaint et al., 2016, International Journal of Psychology"
+      ],
+      "summary": "Relationship science and clinical trials indicate that the deliberate act of wishing well for a partner (targeted compassion) significantly increases willingness to forgive and reduces retaliation motives. Additionally, it provides measurable physiological benefits to the transmitting user by increasing *Heart Rate Variability (HRV)* and *parasympathetic activation*.",
+      "full_audit": "https://www.dreammachine.systems/assets/pdf/dreammachine-halluzination-audit-sec9-1-1.pdf"
+    },
+    "sec9-2": {
+      "title": "SEC 9.2: HARDWARE BOTTLENECK & TCP/IP HANDSHAKE",
+      "core_claim": "Clinically, neurobiological consensus universally confirms this architectural asymmetry: unconscious sensory intake handles vast, parallel streams of environmental data, whereas conscious cognition and active linguistic formulation are restricted by a severe, serial **capacity bottleneck**.",
+      "query": "Does unconscious sensory processing handle vast, parallel streams of data while conscious cognition is restricted by a severe, serial capacity bottleneck?",
+      "controlled_studies": "OFF",
+      "tier": "CONSENSUS",
+      "primary_anchors": [
+        "Dehaene & Changeux, 2011, Neuron",
+        "Tombu et al., 2011, Proceedings of the National Academy of Sciences"
+      ],
+      "summary": "Cognitive network models confirm a massive functional asymmetry in brain architecture. Early unconscious sensory intake is vast and parallel, whereas *conscious access*, decision-making, and linguistic formulation act as a severe, serial *capacity bottleneck*.",
+      "full_audit": "https://www.dreammachine.systems/assets/pdf/dreammachine-halluzination-audit-sec9-2.pdf"
+    },
+    "sec9-2-1": {
+      "title": "SEC 9.2.1: AUTONOMIC PHASE SYNC",
+      "core_claim": "Clinically, through **interpersonal physiological linkage**, one partner's intentional autonomic regulation can actively shift the other partner's physiological state; the target node detects this down-regulation and, via **autonomic co-regulation**, begins dropping their own sympathetic arousal.",
+      "query": "Does one partner's emotion regulation strategy alter the other partner's autonomic arousal through interpersonal physiological linkage and co-regulation?",
+      "controlled_studies": "ON",
+      "tier": "CONSENSUS",
+      "primary_anchors": [
+        "Peters & Jamieson, 2016, Emotion",
+        "Ben-Naim et al., 2013, Emotion"
+      ],
+      "summary": "Dyadic interaction research confirms the existence of *autonomic co-regulation* and *interpersonal physiological linkage* during social interactions. A partner's intentional physiological down-regulation actively transmits across the dyad, lowering the observer's *sympathetic arousal* and establishing a shared biological equilibrium.",
+      "full_audit": "https://www.dreammachine.systems/assets/pdf/dreammachine-halluzination-audit-sec9-2-1.pdf"
+    },
+    "sec9-3-2": {
+      "title": "SEC 9.3.2: STATELESS COMMUNICATION (CLEAN API)",
+      "core_claim": "Clinically, acute sympathetic arousal rapidly weakens **prefrontal cortex** functioning, temporarily impairing your capacity for **executive control** and conscious emotional regulation.",
+      "query": "Does acute sympathetic nervous system arousal and elevated cortisol temporarily impair prefrontal cortex functioning and conscious emotional regulation?",
+      "controlled_studies": "OFF",
+      "tier": "CONSENSUS",
+      "primary_anchors": [
+        "Arnsten, 2009, Nature Reviews Neuroscience",
+        "Pan et al., 2023, Neurobiology of Stress"
+      ],
+      "summary": "Translational neuroscience research confirms that acute *sympathetic arousal* rapidly impairs prefrontal cortex functioning. During immediate, high-arousal stress states, these neurochemical surges weaken executive control and disrupt *conscious emotional regulation*, shifting the brain toward reflexive, amygdala-driven responses.",
+      "full_audit": "https://www.dreammachine.systems/assets/pdf/dreammachine-halluzination-audit-sec9-3-2.pdf"
+    },
+    "sec9-4-2": {
+      "title": "SEC 9.4.2: COMPASSION PATCH (KARUNA / SUPPORT PROTOCOL)",
+      "core_claim": "Clinically, affective empathy engages the **anterior insula** (pain matrix) causing empathic distress, whereas compassion training shifts neural activation into affiliative reward networks (**ventral striatum**) generating emotional resilience.",
+      "query": "Does affective empathy primarily activate neural pain matrix circuits leading to empathic distress, whereas compassion activates affiliative reward networks promoting emotional resilience?",
+      "controlled_studies": "OFF",
+      "tier": "CONSENSUS",
+      "primary_anchors": [
+        "Klimecki et al., 2014, Social Cognitive and Affective Neuroscience",
+        "Singer et al., 2004, Science"
+      ],
+      "summary": "Functional neuroimaging mapping confirms a distinct neurobiological separation: *Affective empathy* engages the affective pain matrix, leading to empathic distress and burnout. *Compassion training* shifts neural activity into affiliative reward networks, generating prosocial motivation and *emotional resilience*.",
+      "full_audit": "https://www.dreammachine.systems/assets/pdf/dreammachine-halluzination-audit-sec9-4-2.pdf"
+    },
+    "sec9-4-4": {
+      "title": "SEC 9.4.4: ZERO-SUM BUG (POSITIVE NETWORK SYNCHRONIZATION)",
+      "core_claim": "Clinically, experiencing empathetic joy actively engages your brain's **reward circuitry** (including the ventral striatum and ventromedial prefrontal cortex), allowing you to experience **vicarious reward** and positive affect simply by witnessing their success.",
+      "query": "Does experiencing empathetic joy or witnessing the success of others stimulate the release of dopamine and serotonin in the observer's brain?",
+      "controlled_studies": "OFF",
+      "tier": "CONSENSUS",
+      "primary_anchors": [
+        "Morelli et al., 2015, NeuroImage",
+        "Batten et al., 2024, Nature Human Behaviour"
+      ],
+      "summary": "Affective neuroscience experiments confirm that experiencing vicarious joy actively engages the observer's neural *reward circuitry* (specifically the vmPFC and ventral striatum). Witnessing another's success generates genuine *vicarious reward* and shared positive affect.",
+      "full_audit": "https://www.dreammachine.systems/assets/pdf/dreammachine-halluzination-audit-sec9-4-4.pdf"
+    },
+    "sec9-4-5": {
+      "title": "SEC 9.4.5: COMPILING THE DRIVER (NEUROPLASTICITY)",
+      "core_claim": "By practicing specific contemplative training, you literally induce **structural neuroplasticity**; clinically, this training remodels socio-affective networks and increases the physical volume of specific emotion-regulating regions, like the **hippocampus**.",
+      "query": "Does the regular practice of compassion or loving-kindness meditation induce structural neuroplasticity and increase cortical thickness?",
+      "controlled_studies": "ON",
+      "tier": "CONSENSUS",
+      "primary_anchors": [
+        "Engen et al., 2017, Neuropsychologia",
+        "Valk et al., 2024, eLife"
+      ],
+      "summary": "Structural morphometry trials confirm that regular compassion meditation induces structural and functional *neuroplasticity*. Dedicated socio-affective training successfully remodels targeted brain networks and increases the physical volume of specific emotion-regulating regions, such as the *hippocampus*.",
+      "full_audit": "https://www.dreammachine.systems/assets/pdf/dreammachine-halluzination-audit-sec9-4-5.pdf"
+    }
+  }
+}

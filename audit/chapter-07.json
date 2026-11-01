@@ -1,0 +1,126 @@
+{
+  "schema_version": 1,
+  "build": "v0.9.5",
+  "part": "chapter-7",
+  "title": "CHAPTER 7: STANDARDIZING CONNECTION (Social API)",
+  "module": "07",
+  "entries": {
+    "sec7-1": {
+      "title": "SEC 7.1: SOCIAL API (CELL MEMBRANE)",
+      "core_claim": "Clinically, deploying targeted emotion-regulation skills—such as **psychological distancing** and **acceptance**—acts as this semi-permeable buffer, reliably reducing your own physiological stress reactivity and actively mitigating the spread of **emotional contagion**.",
+      "query": "Does deploying psychological distancing, acceptance, or interpersonal emotion-regulation skills mitigate emotional contagion and reduce physiological stress reactivity?",
+      "controlled_studies": "ON",
+      "tier": "CONSENSUS",
+      "primary_anchors": [
+        "Lindsay et al., 2017, Psychoneuroendocrinology",
+        "Oveis et al., 2018, Journal of Experimental Psychology: General"
+      ],
+      "summary": "Experimental psychology and neurocognitive research demonstrate that deploying targeted emotion-regulation skills—specifically *psychological distancing* and *acceptance*—effectively reduces acute *physiological stress reactivity*. Utilizing supportive interpersonal regulation limits over-involvement and significantly dampens the transmission of emotional contagion.",
+      "full_audit": "https://www.dreammachine.systems/assets/pdf/dreammachine-halluzination-audit-sec7-1.pdf"
+    },
+    "sec7-1-1": {
+      "title": "SEC 7.1.1: PREDICTIVE EXPLOITATION (SOCIAL DDOS ATTACK)",
+      "core_claim": "Empirically, social media predictive ranking systems **maximize user engagement** by disproportionately amplifying content that triggers primal, high-arousal negative emotions like **moral outrage** and **out-group hostility**.",
+      "query": "Do social media predictive algorithms maximize user engagement by amplifying content that triggers fear and moral outrage?",
+      "controlled_studies": "OFF",
+      "tier": "CONSENSUS",
+      "primary_anchors": [
+        "Rathje et al., 2021, Proceedings of the National Academy of Sciences",
+        "Guess et al., 2023, Science"
+      ],
+      "summary": "Independent algorithmic audits and computational social science establish that predictive ranking algorithms create a feedback loop that *maximizes user engagement* by disproportionately amplifying content evoking *fear*, *moral outrage*, and *out-group hostility* because these primal triggers most reliably capture human attention.",
+      "full_audit": "https://www.dreammachine.systems/assets/pdf/dreammachine-halluzination-audit-sec7-1-1.pdf"
+    },
+    "sec7-3": {
+      "title": "SEC 7.3: README.MD (YOUR PERSONAL USER MANUAL)",
+      "core_claim": "Clinically, explicitly sharing your communication preferences and **physiological stress responses** actively reduces interpersonal conflict, provided it enables your partner to offer **responsive, matched support** rather than mismatched advice.",
+      "query": "Does explicitly sharing personal communication preferences and stress responses with a partner reduce interpersonal conflict?",
+      "controlled_studies": "ON",
+      "tier": "CONSENSUS",
+      "primary_anchors": [
+        "Doss et al., 2020, Journal of Consulting and Clinical Psychology",
+        "Ditzen et al., 2009, Biological Psychiatry"
+      ],
+      "summary": "Clinical psychology and relationship intervention studies demonstrate that explicit communication of stress responses and relational needs reduces couple conflict. The primary mechanism of conflict reduction relies on the partner using that information to provide *responsive, empathetic support* that accurately matches the individual's specific needs.",
+      "full_audit": "https://www.dreammachine.systems/assets/pdf/dreammachine-halluzination-audit-sec7-3.pdf"
+    },
+    "sec7-4-2": {
+      "title": "SEC 7.4.2: BANDWIDTH CHECK",
+      "core_claim": "Clinically, actively assessing a conversation partner's **empathic capacity** prior to a stressful disclosure prevents emotional overwhelm... forcing a disclosure onto an overwhelmed partner reliably increases **physiological stress** and communication breakdown.",
+      "query": "Does assessing a partner's emotional capacity before initiating stressful conversations improve communication and reduce emotional overwhelm?",
+      "controlled_studies": "ON",
+      "tier": "CONSENSUS",
+      "primary_anchors": [
+        "Levy-Gigi & Shamay-Tsoory, 2017, Journal of Behavior Therapy and Experimental Psychiatry",
+        "Brown et al., 2020, Personality and Social Psychology Bulletin"
+      ],
+      "summary": "Dyadic stress research and clinical observations indicate that the success of emotional disclosure depends on *partner responsiveness* and empathic capacity. Ensuring a partner is emotionally available before a stressful conversation prevents the *physiological stress contagion* associated with mismatched or suppressed support.",
+      "full_audit": "https://www.dreammachine.systems/assets/pdf/dreammachine-halluzination-audit-sec7-4-2.pdf"
+    },
+    "sec7-4-3": {
+      "title": "SEC 7.4.3: PROTOCOL VERIFICATION (ERROR 400 PREVENTION)",
+      "core_claim": "Clinically, responding to acute emotional distress with premature **logical problem-solving** decreases perceived support quality; establishing **emotional validation** first is required before action-oriented support becomes effective.",
+      "query": "Does providing emotional validation rather than logical problem-solving improve perceived support quality when a partner is distressed?",
+      "controlled_studies": "ON",
+      "tier": "CONSENSUS",
+      "primary_anchors": [
+        "Caceros et al., 2025, Cultural Diversity and Ethnic Minority Psychology",
+        "Verhofstadt et al., 2008, Emotion"
+      ],
+      "summary": "Clinical communication and dyadic coping research demonstrates that providing *emotional validation* during acute distress significantly improves perceived support quality. Premature *logical problem-solving* often decreases responsiveness; effective support requires a sequence where emotional validation is established before cognitive problem-solving becomes useful.",
+      "full_audit": "https://www.dreammachine.systems/assets/pdf/dreammachine-halluzination-audit-sec7-4-3.pdf"
+    },
+    "sec7-4-4": {
+      "title": "SEC 7.4.4: API SECURITY RULE (SUBJECT VS. OBJECT)",
+      "core_claim": "Clinically, chronic interpersonal domination acts as a severe **psychosocial stressor**, triggering autonomic and HPA-axis stress responses that actively inhibit **cognitive flexibility** and disrupt **neuroplasticity** in the prefrontal cortex.",
+      "query": "Does interpersonal objectification and coercive control trigger psychological stress responses that inhibit neuroplasticity and cognitive flexibility?",
+      "controlled_studies": "OFF",
+      "tier": "CONSENSUS",
+      "primary_anchors": [
+        "Alexander et al., 2007, Journal of Cognitive Neuroscience",
+        "Rahapsari & Levita, 2024, Trauma, Violence & Abuse"
+      ],
+      "summary": "Stress neurobiology and traumatology confirm that chronic interpersonal domination (coercive control and emotional abuse) acts as a severe psychosocial stressor. This prolonged stress chronically activates the *HPA-axis*, which alters prefrontal circuitry, actively inhibiting *cognitive flexibility* and impairing healthy *neuroplasticity*.",
+      "full_audit": "https://www.dreammachine.systems/assets/pdf/dreammachine-halluzination-audit-sec7-4-4.pdf"
+    },
+    "sec7-4-5": {
+      "title": "SEC 7.4.5: DATA SERIALIZATION (FILE FORMAT COMPATIBILITY)",
+      "core_claim": "Clinically, tailoring expressions of affection to align with a partner's preferred **communication style** optimizes \"perceived partner responsiveness,\" which is the primary, empirically proven driver of **emotional connection**.",
+      "query": "Does tailoring expressions of affection to match a romantic partner's preferred love language improve relationship satisfaction?",
+      "controlled_studies": "ON",
+      "tier": "CONSENSUS",
+      "primary_anchors": [
+        "Chen et al., 2025, BMC Psychology",
+        "Algoe & Zhaoyang, 2015, The Journal of Positive Psychology"
+      ],
+      "summary": "Relationship science and dyadic intervention studies confirm that tailoring affectionate behavior to a partner's preferred communication style significantly improves relationship satisfaction. The proven mechanism behind this is *perceived partner responsiveness*—affection is most effective when registered as empathetic and accurately matched to personal needs.",
+      "full_audit": "https://www.dreammachine.systems/assets/pdf/dreammachine-halluzination-audit-sec7-4-5.pdf"
+    },
+    "sec7-5": {
+      "title": "SEC 7.5: SOCIAL ITIL (INCIDENT & PROBLEM MANAGEMENT)",
+      "core_claim": "Clinically, prioritizing **emotional de-escalation** and nervous system regulation before attempting complex **logical problem-solving** significantly reduces aggression and improves constructive conflict resolution.",
+      "query": "Does prioritizing emotional de-escalation before engaging in logical problem-solving improve conflict resolution outcomes in relationships?",
+      "controlled_studies": "ON",
+      "tier": "CONSENSUS",
+      "primary_anchors": [
+        "Ben-Naim et al., 2013, Emotion",
+        "Hesser et al., 2017, Clinical Psychology & Psychotherapy"
+      ],
+      "summary": "Conflict management and emotion regulation literature establishes that acute emotional arousal impairs cognitive bandwidth and constructive reasoning. Prioritizing *emotional de-escalation* (lowering arousal and negative affect) before attempting *logical problem-solving* is empirically linked to significantly better conflict resolution.",
+      "full_audit": "https://www.dreammachine.systems/assets/pdf/dreammachine-halluzination-audit-sec7-5.pdf"
+    },
+    "sec7-6": {
+      "title": "SEC 7.6: CARBON LOG (FIELD NOTES FROM THE SYSTEM ARCHITECT)",
+      "core_claim": "Clinically, frequent digital notifications and constant social interruptions rapidly **deplete cognitive capacity**, severely degrading working memory, sustained attention, and overall **executive functioning**.",
+      "query": "Do frequent digital notifications and social interruptions degrade executive functioning and cognitive capacity?",
+      "controlled_studies": "ON",
+      "tier": "CONSENSUS",
+      "primary_anchors": [
+        "Castelo et al., 2025, PNAS Nexus",
+        "Upshaw et al., 2023, Biological Psychology"
+      ],
+      "summary": "Cognitive control and occupational health research demonstrates that frequent digital notifications and social interruptions actively degrade *executive functioning*. Interruption-rich environments deplete cognitive capacity by specifically impairing *working memory*, inhibitory control, and *sustained attention* during integrative tasks.",
+      "full_audit": "https://www.dreammachine.systems/assets/pdf/dreammachine-halluzination-audit-sec7-6.pdf"
+    }
+  }
+}

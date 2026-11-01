@@ -1,0 +1,152 @@
+{
+  "schema_version": 1,
+  "build": "v0.9.5",
+  "part": "chapter-4",
+  "title": "CHAPTER 4: SECURITY AUDITING (Shadow Work)",
+  "module": "04",
+  "entries": {
+    "sec4-1-1_1": {
+      "title": "SEC 4.1.1: DEPRECATION PROTOCOL (DO NOT RM -RF YOUR PAIN)",
+      "core_claim": "Attempting to **forcefully suppress** or avoid that code triggers a **paradoxical rebound effect**, resulting in emotional numbing and increased psychological distress.",
+      "query": "Does the deliberate suppression or active avoidance of traumatic memories lead to emotional numbing and increased psychological distress?",
+      "controlled_studies": "OFF",
+      "tier": "CONSENSUS",
+      "primary_anchors": [
+        "Seligowski et al., 2015, Cognitive Behaviour Therapy",
+        "Littleton et al., 2007, Journal of Traumatic Stress"
+      ],
+      "summary": "Extensive trauma research establishes that the *active avoidance* and forceful suppression of traumatic memories are maladaptive coping mechanisms. In high-distress states, suppression attempts frequently trigger *paradoxical symptom rebounds*, leading to emotional numbing and severe psychological distress.",
+      "full_audit": "https://www.dreammachine.systems/assets/pdf/dreammachine-halluzination-audit-sec4-1-1_1.pdf"
+    },
+    "sec4-1-1_2": {
+      "title": "SEC 4.1.1: DEPRECATION PROTOCOL (UPDATE THREAT LIBRARY)",
+      "core_claim": "**Update the Threat Library:** Slowly update the system's threat-detection libraries to prove to the physical hardware that the environment is **safe today**. This allows the obsolete survival script to gracefully deprecate itself.",
+      "query": "Does exposing the nervous system to environmental cues of safety facilitate the extinction of trauma-based physiological threat responses?",
+      "controlled_studies": "ON",
+      "tier": "CONSENSUS",
+      "primary_anchors": [
+        "Milad et al., 2009, Biological Psychiatry",
+        "Garfinkel et al., 2014, The Journal of Neuroscience"
+      ],
+      "summary": "Neurobiological conditioning studies demonstrate that exposing the nervous system to environmental safety cues facilitates the *extinction* of trauma-related physiological threat responses. This effect is robust when cues support *new safety learning*, helping to overwrite the failure to recall extinction memory.",
+      "full_audit": "https://www.dreammachine.systems/assets/pdf/dreammachine-halluzination-audit-sec4-1-1_2.pdf"
+    },
+    "sec4-2_1": {
+      "title": "SEC 4.2: SYSTEM BLOAT & EGO FIREWALL",
+      "core_claim": "**The Resource Drain:** The Ego monitors every single interaction to query: \"How does this make me look?\" This constant, paranoid **surveillance** consumes massive amounts of daily energy.",
+      "query": "Does continuous social self-monitoring and impression management cause cognitive fatigue and psychological energy depletion?",
+      "controlled_studies": "OFF",
+      "tier": "CONSENSUS",
+      "primary_anchors": [
+        "Vohs et al., 2005, Journal of Personality and Social Psychology",
+        "Klotz et al., 2018, Journal of Applied Psychology"
+      ],
+      "summary": "Applied psychology and organizational literature consistently shows that continuous *social self-monitoring* and impression management act as a severe *cognitive drain*. Effortful self-presentation requires sustained self-regulation that reliably depletes executive resources, leading to measurable cognitive fatigue.",
+      "full_audit": "https://www.dreammachine.systems/assets/pdf/dreammachine-halluzination-audit-sec4-2_1.pdf"
+    },
+    "sec4-2_2": {
+      "title": "SEC 4.2: SYSTEM BLOAT (MOTIVATED REASONING)",
+      "core_claim": "The Ego Firewall acts as a **packet-sniffer**: if incoming telemetry contradicts the BIOS, the Firewall immediately flags it as a malicious payload and **drops the packets**, prioritizing system comfort over objective accuracy.",
+      "query": "Does motivated reasoning cause individuals to selectively accept information that aligns with their preexisting beliefs while disproportionately scrutinizing or rejecting contradictory evidence?",
+      "controlled_studies": "OFF",
+      "tier": "CONSENSUS",
+      "primary_anchors": [
+        "Taber & Lodge, 2006, American Journal of Political Science",
+        "Hart et al., 2009, Psychological Bulletin"
+      ],
+      "summary": "A robust body of cognitive psychology research validates the biological reality of *motivated reasoning*. The brain exhibits asymmetric processing: it accepts belief-congruent data while actively deploying *executive resources* to counter-argue and reject contradictory evidence, prioritizing identity preservation over accuracy.",
+      "full_audit": "https://www.dreammachine.systems/assets/pdf/dreammachine-halluzination-audit-sec4-2_2.pdf"
+    },
+    "sec4-3_1": {
+      "title": "SEC 4.3: Display Mapping Errors: AR Projection",
+      "core_claim": "Take off the AR glasses: use the **Frankl Buffer** to allow the prefrontal cortex time to verify the actual, physical data in the room before the **autonomic nervous system** escalates the response.",
+      "query": "Does cognitive reappraisal engage the prefrontal cortex to inhibit amygdala reactivity and down-regulate autonomic stress responses?",
+      "controlled_studies": "ON",
+      "tier": "CONSENSUS",
+      "primary_anchors": [
+        "Rauch et al., 2006, Biological Psychiatry",
+        "Liberzon & Abelson, 2016, Neuron"
+      ],
+      "summary": "Current neuroimaging and affective neuroscience models indicate that *cognitive reappraisal* engages the prefrontal cortex to exert top-down inhibitory control over the amygdala. This regulatory pathway successfully dampens *threat reactivity* and mitigates autonomic stress responses.",
+      "full_audit": "https://www.dreammachine.systems/assets/pdf/dreammachine-halluzination-audit-sec4-3_1.pdf"
+    },
+    "sec4-3_2": {
+      "title": "SEC 4.3: DISPLAY MAPPING ERRORS (AR PROJECTION)",
+      "core_claim": "If the hippocampus fails to properly contextualize the current environment as safe, your brain overlays the **historical threat** onto the present moment. It initiates an **autonomic defense sequence** against the past.",
+      "query": "Do trauma-related sensory cues trigger rapid amygdala-driven threat responses while the hippocampus provides contextual memory comparison, leading to stress responses in objectively safe environments?",
+      "controlled_studies": "OFF",
+      "tier": "CONSENSUS",
+      "primary_anchors": [
+        "Keller et al., 2021, Frontiers in Psychiatry",
+        "Denny et al., 2015, Psychological Science"
+      ],
+      "summary": "Clinical neurobiology literature verifies that trauma-related sensory cues trigger rapid autonomic threat responses due to a *regulatory mismatch*: the amygdala appraises the cue as a danger, while the hippocampus fails to properly regulate the *context*, causing an exaggerated stress response.",
+      "full_audit": "https://www.dreammachine.systems/assets/pdf/dreammachine-halluzination-audit-sec4-3_2.pdf"
+    },
+    "sec4-3-1": {
+      "title": "SEC 4.3.1: PREDICTIVE EXPLOITATION (ECHO-CHAMBER LOOP)",
+      "core_claim": "It feeds the exact scripts that keep the local node trapped in **Victim Mode**, because a high-arousal, outraged node generates sustained system load (**engagement**).",
+      "query": "Do social media algorithms maximize user engagement by selectively prioritizing content that elicits fear and moral outrage?",
+      "controlled_studies": "OFF",
+      "tier": "CONSENSUS",
+      "primary_anchors": [
+        "Morey et al., 2015, Translational Psychiatry",
+        "Rauch et al., 2006, Biological Psychiatry"
+      ],
+      "summary": "Independent algorithmic audits and behavioral science studies establish that social media recommendation algorithms maximize engagement by amplifying *high-arousal negative emotional states*. Engagement-based sorting consistently prioritizes out-group hostility and *moral outrage* to maintain platform retention.",
+      "full_audit": "https://www.dreammachine.systems/assets/pdf/dreammachine-halluzination-audit-sec4-3-1.pdf"
+    },
+    "sec4-4-1": {
+      "title": "SEC 4.4.1: CATCHING THE PING (INTRUSION DETECTION)",
+      "core_claim": "**Action:** Execute the Latency Buffer. Inject a brief, physical pause before the motor cortex engages. By inserting **latency**, you can successfully buffer the behavioral output.",
+      "query": "Does introducing a brief temporal delay or behavioral pause prior to responding inhibit impulsive motor and vocal reactions during acute autonomic arousal?",
+      "controlled_studies": "ON",
+      "tier": "EMERGING",
+      "primary_anchors": [
+        "Korolczuk et al., 2025, PLOS ONE",
+        "Herman et al., 2019, Psychopharmacology"
+      ],
+      "summary": "Experimental cognitive control studies demonstrate that introducing a brief *temporal delay* before responding improves motor response inhibition. Injecting a physical pause strengthens *fronto-subcortical inhibitory circuits* to prevent impulsive behavioral output during acute autonomic arousal.",
+      "full_audit": "https://www.dreammachine.systems/assets/pdf/dreammachine-halluzination-audit-sec4-4-1.pdf"
+    },
+    "sec4-4-3_1": {
+      "title": "SEC 4.4.3: SOMATIC COMPILE (FEELING IS PROCESSING)",
+      "core_claim": "**Logic:** An emotion is a transient physiological payload. Execute a **90 to 120-second system hold** to ride out the initial plasma half-life of an acute sympathetic adrenaline cascade.",
+      "query": "Is the biological half-life and clearance window of acute stress-induced plasma adrenaline (epinephrine) and catecholamines approximately one to two minutes?",
+      "controlled_studies": "OFF",
+      "tier": "CONSENSUS",
+      "primary_anchors": [
+        "Prengel et al., 1992, Critical Care Medicine",
+        "Heradstveit et al., 2023, Resuscitation"
+      ],
+      "summary": "Pharmacokinetic studies and clinical endocrinology directly validate that the fast-acting sympathetic nervous system operates on a minute-scale timeline. The circulating half-life of stress-induced *plasma adrenaline* is 2 to 3.5 minutes. The **90 to 120-second metric** is a highly accurate behavioral approximation for riding out the acute physiological peak.",
+      "full_audit": "https://www.dreammachine.systems/assets/pdf/dreammachine-halluzination-audit-sec4-4-3_2.pdf"
+    },
+    "sec4-4-3_2": {
+      "title": "SEC 4.4.3: SOMATIC COMPILE (MINDFUL OBSERVATION)",
+      "core_claim": "**Action:** Breathe directly into the physical sensation. Do not judge it or force it away. **Observing the raw data stream** is your only task.",
+      "query": "Does sustained mindful observation of physical sensations without cognitive judgment facilitate the physiological down-regulation of acute autonomic stress responses?",
+      "controlled_studies": "ON",
+      "tier": "CONSENSUS",
+      "primary_anchors": [
+        "Pascoe et al., 2017, Psychoneuroendocrinology",
+        "Lindsay et al., 2017, Psychoneuroendocrinology"
+      ],
+      "summary": "Clinical dismantling trials and psychophysiology research show that sustained mindful observation of bodily sensations, paired with *nonjudgmental acceptance*, facilitates physiological down-regulation. Suspending cognitive judgment actively attenuates *sympathetic reactivity* and cardiovascular stress markers.",
+      "full_audit": "https://www.dreammachine.systems/assets/pdf/dreammachine-halluzination-audit-sec4-4-3_1.pdf"
+    },
+    "sec4-4-4": {
+      "title": "SEC 4.4.4: STATE CHANGE (THERMODYNAMICS)",
+      "core_claim": "Sweating is literal, mechanical **heat dissipation**. Weeping and psychogenic shaking are the mechanical discharge of high-arousal sympathetic tension. It is the nervous system executing a **physiological state change**.",
+      "query": "Does stress-induced sweating function as a thermoregulatory effector, while emotional crying and psychogenic tremors act as motor and cardiorespiratory expressions of acute autonomic arousal?",
+      "controlled_studies": "OFF",
+      "tier": "CONSENSUS",
+      "primary_anchors": [
+        "Asahina et al., 2015, Clinical Autonomic Research",
+        "Bigalke & Carter, 2025, Journal of Applied Physiology"
+      ],
+      "summary": "Human autonomic physiology frameworks establish that stress-induced sweating functions as a literal *thermoregulatory effector* to manage metabolic heat. Emotional crying and psychogenic tremors act as complex motor expressions of an acute *autonomic state change*, validating the mechanics of somatic discharge.",
+      "full_audit": "https://www.dreammachine.systems/assets/pdf/dreammachine-halluzination-audit-sec4-4-4.pdf"
+    }
+  }
+}

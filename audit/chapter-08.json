@@ -1,0 +1,139 @@
+{
+  "schema_version": 1,
+  "build": "v0.9.5",
+  "part": "chapter-8",
+  "title": "CHAPTER 8: COGNITIVE DOWNCLOCK (10 Bits vs. 1 Billion)",
+  "module": "08",
+  "entries": {
+    "sec8-0_1": {
+      "title": "SEC 8.0.1: PREFACE (CONTROL ILLUSION)",
+      "core_claim": "Clinically, neuroanatomical evidence confirms that while the left hemisphere is highly specialized for core **syntactic and linguistic computation**, the right hemisphere is distinctly specialized for integrating **prosody, social context, and relational meaning**.",
+      "query": "Does the left hemisphere specialize in core linguistic and syntactic processing while the right hemisphere specializes in processing prosody, social context, and relational meaning?",
+      "controlled_studies": "OFF",
+      "tier": "CONSENSUS",
+      "primary_anchors": [
+        "Friederici, 2011, Physiological Reviews",
+        "Vigneau et al., 2006, NeuroImage"
+      ],
+      "summary": "Functional brain mapping demonstrates that core linguistic and syntactic computations are strongly left-lateralized in the vast majority of adults, while right-perisylvian regions contribute uniquely to processing affective prosody, narrative coherence, and social discourse. Popular dichotomies implying total hemispheric isolation are significant neurobiological oversimplifications.",
+      "full_audit": "https://www.dreammachine.systems/assets/pdf/dreammachine-halluzination-audit-sec8-0_1.pdf"
+    },
+    "sec8-0_2": {
+      "title": "SEC 8.0.2: HUSTLE-CULTURE FIREWALL (SOMATIC TECHNICAL DEBT)",
+      "core_claim": "Clinically, chronic occupational strain and the **suppression of biological recovery** do not simply elevate baseline stress hormones; they cause severe **HPA-axis dysregulation**, flattening your natural diurnal cortisol rhythms and creating a cumulative physiological burden.",
+      "query": "Does chronic occupational stress and the suppression of physiological recovery lead to HPA-axis dysregulation and altered diurnal cortisol rhythms?",
+      "controlled_studies": "OFF",
+      "tier": "CONSENSUS",
+      "primary_anchors": [
+        "Miller et al., 2007, Psychological Bulletin",
+        "Allison et al., 2019, American Journal of Human Biology"
+      ],
+      "summary": "Longitudinal occupational stress surveys indicate that chronic workplace demands and the continuous suppression of physiological recovery disrupt the neuroendocrine system, leading directly to complex HPA-axis dysregulation. This systemic strain frequently manifests as flattened diurnal cortisol slopes and altered awakening responses.",
+      "full_audit": "https://www.dreammachine.systems/assets/pdf/dreammachine-halluzination-audit-sec8-0_2.pdf"
+    },
+    "sec8-1-1": {
+      "title": "SEC 8.1.1: SYSTEM SPECIFICATION (TOTAL PERIPHERAL ABSORPTION)",
+      "core_claim": "Clinically, human sensory systems encode massive, parallel streams of information outside of explicit awareness, while **conscious cognitive access** acts as a severe, late-stage **bottleneck** that relies on hierarchical **sensory gating** to prevent cognitive overload.",
+      "query": "Do human sensory systems process massive, parallel streams of data while conscious cognition functions as a severe, late-stage bottleneck requiring sensory gating?",
+      "controlled_studies": "OFF",
+      "tier": "CONSENSUS",
+      "primary_anchors": [
+        "Dehaene & Changeux, 2011, Neuron",
+        "Wyart et al., 2015, The Journal of Neuroscience"
+      ],
+      "summary": "Evoked potential data confirms that human sensory networks absorb massive, concurrent streams of environmental data completely outside of conscious awareness. Reportable conscious cognition instead functions as a late-stage attentional bottleneck, relying on hierarchical, multi-layered sensory gating to prevent informational overload.",
+      "full_audit": "https://www.dreammachine.systems/assets/pdf/dreammachine-halluzination-audit-sec8-1-1.pdf"
+    },
+    "sec8-1-3_1": {
+      "title": "SEC 8.1.3: PREDICTIVE RENDERING ENGINE (FRITH'S PATCH)",
+      "core_claim": "Clinically, a history of psychological trauma fundamentally alters the brain's **predictive processing frameworks**, causing the system to over-weight **danger priors**, fail to update from safety cues, and misclassify neutral signals as hostile threats.",
+      "query": "Does a history of psychological trauma alter predictive processing frameworks in the brain, leading to the perception of non-existent interpersonal threats?",
+      "controlled_studies": "OFF",
+      "tier": "CONSENSUS",
+      "primary_anchors": [
+        "Leone et al., 2022, Nature Communications",
+        "McLaughlin et al., 2020, BMC Medicine"
+      ],
+      "summary": "Computational threat-learning models demonstrate that psychological trauma profoundly alters predictive processing frameworks, causing the system to over-weight danger priors and exhibit distinct resistance when updating safety beliefs. In interpersonal contexts, this computational bias frequently manifests as hostile attribution.",
+      "full_audit": "https://www.dreammachine.systems/assets/pdf/dreammachine-halluzination-audit-sec8-1-3_1.pdf"
+    },
+    "sec8-1-3_2": {
+      "title": "SEC 8.1.3: DISSOCIATION EXPLOIT",
+      "core_claim": "Clinically, relying purely on cognitive reappraisal is highly unreliable for down-regulating acute autonomic stress responses; consistently clearing a **cortisol spike** requires dedicated **somatic**, relaxation, or mindfulness-based physical regulation.",
+      "query": "Do somatic and mindfulness-based regulation techniques more consistently down-regulate acute physiological stress biomarkers, such as cortisol, compared to cognitive reappraisal alone?",
+      "controlled_studies": "ON",
+      "tier": "CONSENSUS",
+      "primary_anchors": [
+        "Rogerson et al., 2023, Psychoneuroendocrinology",
+        "Lindsay et al., 2017, Psychoneuroendocrinology"
+      ],
+      "summary": "Randomized stress trials establish that while cognitive reappraisal effectively changes subjective emotional experience, its down-regulatory effects on acute endocrine and sympathetic stress biomarkers are highly context-dependent. Consistently mitigating immediate physiological arousal instead requires body-focused somatic, relaxation, or mindfulness-based practices.",
+      "full_audit": "https://www.dreammachine.systems/assets/pdf/dreammachine-halluzination-audit-sec8-1-3_2.pdf"
+    },
+    "sec8-1-4": {
+      "title": "SEC 8.1.4: GNWT ROUTING ALGORITHM (DARWINIAN PRIORITY)",
+      "core_claim": "Clinically, while perceived threats do not universally override all conscious processing, trauma-related neural signals and conditioned fear cues receive severe **preferential attention allocation**; they rapidly capture **early orienting networks** and disrupt ongoing cognitive tasks.",
+      "query": "Do trauma-related neural signals and conditioned fear cues receive preferential attention allocation, capturing early orienting networks and disrupting ongoing cognitive tasks?",
+      "controlled_studies": "OFF",
+      "tier": "CONSENSUS",
+      "primary_anchors": [
+        "Armony & Dolan, 2002, Neuropsychologia",
+        "Sperl et al., 2020, NeuroImage"
+      ],
+      "summary": "Electrophysiological and eye-tracking measures show that conditioned fear cues and trauma-relevant signals capture human attention priorities. While threat does not automatically capture all conscious attention in every context, these highly salient threat signals rapidly capture early orienting networks and disrupt ongoing tasks.",
+      "full_audit": "https://www.dreammachine.systems/assets/pdf/dreammachine-halluzination-audit-sec8-1-4.pdf"
+    },
+    "sec8-2-3": {
+      "title": "SEC 8.2.3: PATCH (PERMEABILITY & OPEN DOOR POLICY)",
+      "core_claim": "Clinically, meditative awareness practices significantly enhance this **interoceptive sensitivity** and somatic integration, structurally altering brain networks to allow the conscious mind to access, interpret, and regulate unconsciously processed bodily signals.",
+      "query": "Do meditative awareness practices improve interoceptive sensitivity and the conscious integration of somatic signals?",
+      "controlled_studies": "ON",
+      "tier": "CONSENSUS",
+      "primary_anchors": [
+        "Treves et al., 2025, Scientific Reports",
+        "Farb et al., 2012, Social Cognitive and Affective Neuroscience"
+      ],
+      "summary": "Longitudinal neuroimaging trials demonstrate that meditative awareness practices significantly improve self-reported interoceptive awareness and somatic self-regulation. Longitudinal practice alters structural and functional coordination across networks involving the insular cortex and anterior cingulate.",
+      "full_audit": "https://www.dreammachine.systems/assets/pdf/dreammachine-halluzination-audit-sec8-2-3.pdf"
+    },
+    "sec8-2-4": {
+      "title": "SEC 8.2.4: LIMITS OF THE BOARDROOM (GRACEFUL YIELDING)",
+      "core_claim": "Clinically, forcibly suppressing the physical expression of intense emotion actively increases **sympathetic arousal** and autonomic stress; allowing the physiological response to run its course through **acceptance** avoids this autonomic cost and prevents further escalation.",
+      "query": "Does suppressing the physical expression of emotion increase sympathetic arousal and physiological stress compared to acceptance and non-suppression?",
+      "controlled_studies": "ON",
+      "tier": "CONSENSUS",
+      "primary_anchors": [
+        "Gross, 1998, Journal of Personality and Social Psychology",
+        "Hofmann et al., 2009, Behaviour Research and Therapy"
+      ],
+      "summary": "Experimental emotion-regulation studies establish that forcing the suppression of intense emotional behaviors carries a measurable autonomic cost, escalating heart rate, blood pressure, and cortisol responses. Conversely, dropping behavioral inhibition through mindful acceptance and non-suppression reliably avoids this extra sympathetic payload.",
+      "full_audit": "https://www.dreammachine.systems/assets/pdf/dreammachine-halluzination-audit-sec8-2-4.pdf"
+    },
+    "sec8-4-1": {
+      "title": "SEC 8.4.1: EXFORMATION (CONTEXT)",
+      "core_claim": "Clinically, your amygdala and central autonomic network rapidly process these **salient non-verbal cues** to generate a physical sensation just before your prefrontal cortex fully completes its conscious appraisal, triggering a **fast, recurrent loop** between bodily arousal and cognitive evaluation.",
+      "query": "Do the autonomic nervous system and amygdala process non-verbal physiological cues like pupil dilation and respiration shifts prior to conscious appraisal by the prefrontal cortex?",
+      "controlled_studies": "OFF",
+      "tier": "CONSENSUS",
+      "primary_anchors": [
+        "Sun et al., 2023, Translational Psychiatry",
+        "Lamotte et al., 2021, Autonomic Neuroscience"
+      ],
+      "summary": "Intracranial recording data validates that subcortical and central autonomic systems evaluate salient, non-verbal cues rapidly, triggering somatic changes well before the prefrontal cortex completes full conscious evaluation. These early signals establish a recurrent feedback loop with cortical regions to dynamically shape conscious meaning.",
+      "full_audit": "https://www.dreammachine.systems/assets/pdf/dreammachine-halluzination-audit-sec8-4-1.pdf"
+    },
+    "sec8-6": {
+      "title": "SEC 8.6: SOCIAL EXCHANGE (JOURNALING UTILITY)",
+      "core_claim": "Clinically, structured expressive writing—specifically prompts that combine emotional disclosure with **cognitive reappraisal**—effectively reduces **intrusive rumination**, mitigating how unresolved stress spills over into interpersonal behavior.",
+      "query": "Does structured expressive writing that combines emotional disclosure with cognitive reappraisal reduce intrusive rumination and improve working memory capacity?",
+      "controlled_studies": "ON",
+      "tier": "CONSENSUS",
+      "primary_anchors": [
+        "Klein & Boals, 2001, Journal of Experimental Psychology: General",
+        "Lu & Stanton, 2010, Psychology & Health"
+      ],
+      "summary": "Written disclosure experiments confirm that structured expressive writing—especially exercises utilizing insight and causal language to combine disclosure with cognitive reappraisal—reliably reduces intrusive rumination. Offloading this acute cognitive noise effectively reduces the disruptive spillover of stress.",
+      "full_audit": "https://www.dreammachine.systems/assets/pdf/dreammachine-halluzination-audit-sec8-6.pdf"
+    }
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "build": "v0.9.5",
+  "part": "directory-d",
+  "title": "DIRECTORY D: THEORETICAL SANDBOX - END-OF-LIFECYCLE THEORIES (Receiver Hypothesis)",
+  "module": null,
+  "entries": {
+    "secD-1": {
+      "title": "SEC D.1: HARDWARE BUG (MATERIALISTIC REDUCTIONISM)",
+      "core_claim": "Clinically, prospective studies show that between 4% and 18% (and up to 39.3% in recent monitored cohorts) of cardiac arrest survivors report conscious **Near-Death Experiences (NDEs)**, though it remains heavily contested whether these experiences occur during absolute **electrocerebral silence** or during periods of covert, residual brain activity.",
+      "query": "Do patients report conscious near-death experiences (NDEs) occurring during periods of clinical flatline or zero measurable brain activity?",
+      "controlled_studies": "OFF",
+      "tier": "CONSENSUS",
+      "primary_anchors": [
+        "Parnia et al., 2023, Resuscitation",
+        "Van Lommel et al., 2001, The Lancet"
+      ],
+      "summary": "Extensive clinical resuscitation research demonstrates that a significant minority of cardiac arrest survivors (typically between 4% and 18%, and up to 39.3% in recently monitored clinical cohorts) report conscious *Near-Death Experiences (NDEs)* following clinical death. However, whether these vivid subjective experiences occur during documented periods of absolute *zero measurable brain activity* (electrocerebral silence) or during states of covert, residual, or resurgent brain activity remains highly contested.",
+      "full_audit": "https://www.dreammachine.systems/assets/pdf/dreammachine-halluzination-audit-secD-1.pdf"
+    },
+    "secD-3_1": {
+      "title": "SEC D.3: RECEIVER HYPOTHESIS (BRAIN AS TRANSCEIVER)",
+      "core_claim": "Clinically, prospective cohorts demonstrate that 9% to 21% of cardiac arrest survivors report highly lucid, organized experiences occurring during states of severe **brain ischemia**, a condition where only **fragmented delirium** would neurobiologically be expected.",
+      "query": "Do patients report highly structured and lucid conscious experiences during cardiac arrest when brain function is clinically compromised or absent?",
+      "controlled_studies": "OFF",
+      "tier": "CONSENSUS",
+      "primary_anchors": [
+        "Parnia et al., 2023, Resuscitation",
+        "Van Lommel et al., 2001, The Lancet"
+      ],
+      "summary": "A robust body of near-death studies establishes that a significant proportion of cardiac arrest survivors (typically 9% to 21% for core Near-Death Experiences, and up to 39.3% for broader memories) report highly structured, lucid, and coherent conscious experiences. This presents a neurobiological paradox: severe *cerebral ischemia* and low-flow states during resuscitation typically produce chaotic *delirium* and fragmented cognitive function, yet these patients report hyper-lucid, highly organized memory formation while their neurological hardware is critically compromised.",
+      "full_audit": "https://www.dreammachine.systems/assets/pdf/dreammachine-halluzination-audit-secD-3_1.pdf"
+    },
+    "secD-3_2": {
+      "title": "SEC D.3.2: NEURAL INTEGRITY DECOUPLING (EGO DISSOLUTION)",
+      "core_claim": "Clinically, neuroimaging demonstrates that classic psychedelics induce a significant decrease in default mode network integration, mirroring changes found during intense self-transcendent contemplative states.",
+      "query": "Do classic psychedelics and meditation significantly decrease functional connectivity in the default mode network (DMN) and correlate with subjective ego dissolution?",
+      "controlled_studies": "ON",
+      "tier": "CONSENSUS",
+      "primary_anchors": [
+        "Mason et al., 2020, Neuropsychopharmacology",
+        "Avram et al., 2024, Molecular Psychiatry"
+      ],
+      "summary": "Current neuropharmacological models demonstrate that the administration of classic psychedelics (such as psilocybin or LSD) reliably induces a significant decrease in functional connectivity, blood flow, and network integrity within the *Default Mode Network (DMN)*. This measurable neurobiological down-regulation strongly correlates with the subjective clinical experience of \"ego dissolution\" and expanded awareness. Deep meditation practices also frequently demonstrate a similar, albeit highly state-dependent, reduction in DMN activity.",
+      "full_audit": "https://www.dreammachine.systems/assets/pdf/dreammachine-halluzination-audit-secD-3_2.pdf"
+    },
+    "secD-4": {
+      "title": "SEC D.4: PANORAMIC RECALL SYSTEM (LIFE REVIEW)",
+      "core_claim": "Clinically, the panoramic life review acts as a recognized, structured phenomenological matrix within near-death events, inducing reflective interpersonal and value-based evaluations.",
+      "query": "Is the panoramic life review a recognized but less frequent feature of near-death experiences that can involve moral-emotional appraisals of how one's actions affected others?",
+      "controlled_studies": "OFF",
+      "tier": "CONSENSUS",
+      "primary_anchors": [
+        "Cassol et al., 2018, PLOS ONE",
+        "Martial et al., 2024, International Journal of Clinical and Health Psychology"
+      ],
+      "summary": "Phenomenological research into near-death states clarifies that the *panoramic life review* is a recognized but secondary feature of Near-Death Experiences (NDEs), occurring less frequently than core features like out-of-body perceptions or feelings of peace. While literal \"hyper-empathic perspective-shifting\" is sparsely documented, a subset of patients who experience a life review do report profound *moral-emotional appraisals*, confronting the direct consequences and emotional impacts their actions had on other people.",
+      "full_audit": "https://www.dreammachine.systems/assets/pdf/dreammachine-halluzination-audit-secD-4.pdf"
+    },
+    "secD-5_1": {
+      "title": "SEC D.5: SYSTEM PAYOFF (DELETING FEAR SUBROUTINE)",
+      "core_claim": "Clinically, this sustained drop in **death anxiety** correlates with a downstream decrease in **defensive psychological behaviors**, such as worldview defense and threat avoidance.",
+      "query": "Does surviving a near-death experience result in a significant long-term reduction in the fear of death and decreased defensive psychological behaviors?",
+      "controlled_studies": "OFF",
+      "tier": "CONSENSUS",
+      "primary_anchors": [
+        "Greyson, 1992, Death Studies",
+        "Van Lommel et al., 2001, The Lancet"
+      ],
+      "summary": "Longitudinal psychological studies indicate that surviving a near-death experience is robustly associated with a significant, long-term reduction in the *fear of death*. While direct behavioral tracking of survivors is limited, Terror Management Theory and related clinical proxies suggest that this profound drop in death anxiety naturally reduces distal *defensive psychological behaviors*, such as worldview defense and social avoidance.",
+      "full_audit": "https://www.dreammachine.systems/assets/pdf/dreammachine-halluzination-audit-secD-5_1.pdf"
+    },
+    "secD-5_2": {
+      "title": "SEC D.5: SILICON LOG (MORTALITY SALIENCE)",
+      "core_claim": "Clinically, chronic death anxiety and **mortality salience** act as a persistent **cognitive load** that depletes self-regulatory resources; this existential stress reliably triggers **defensive responding**, which frequently manifests as materialistic resource hoarding and heightened vigilance toward interpersonal threats.",
+      "query": "Does chronic death anxiety or mortality salience increase cognitive load, defensive resource hoarding, and perceived interpersonal threats?",
+      "controlled_studies": "OFF",
+      "tier": "CONSENSUS",
+      "primary_anchors": [
+        "Burke et al., 2010, Personality and Social Psychology Review",
+        "Kasser & Sheldon, 2000, Psychological Science"
+      ],
+      "summary": "Existential psychology and Terror Management Theory establish that chronic death anxiety and mortality salience act as a persistent *cognitive load*, actively depleting the brain's self-regulatory resources. According to Terror Management Theory, this existential background stress reliably triggers *defensive psychological responding*, which frequently manifests as materialistic resource hoarding, worldview defense, and heightened vigilance toward interpersonal social threats.",
+      "full_audit": "https://www.dreammachine.systems/assets/pdf/dreammachine-halluzination-audit-secD-5_2.pdf"
+    }
+  }
+}

@@ -24,9 +24,11 @@ It does **not** hold the manuscript. Prose, field stories, exercises and the aud
 
 ```text
 modules/          One spec per book chapter (CH 1–12)
+errors/           Error code registry (bugs, malware, Directory F incidents)
+glossary/         System syntax, one file per term (source for dreammachine.systems/docs/syntax)
+audit/            Empirical audit logs per chapter (claims, queries, sources, tiers)
+deck/             Human Debug Deck: card IDs mapped to modules and error codes
 patches/          Third-party frameworks mapped onto the OS, with evidence tier
-glossary/         System syntax (single source for dreammachine.systems/docs/syntax)
-audit/            Empirical audit logs (claims, queries, sources)
 rfcs/             Proposals for new modules or architectural changes
 ```
 
