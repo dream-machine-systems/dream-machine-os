@@ -19,6 +19,19 @@ One module per chapter of *The Dream Machine*. A module specifies the logic; the
 
 **Status values:** `PLANNED` (no spec yet), `DRAFT` (spec exists, not yet audited against the current build), `STABLE` (matches the tagged build).
 
+## Phases
+
+The book groups the twelve theory chapters into four phases. Each phase opens with a required dependency, an exit condition and a somatic checksum. Phases order the theory; the deployment order on the running system is the tier model of the [runbook](../runbook/) (Tiers 0 to 4).
+
+| Phase | Modules | Required dependency | Exit condition | Somatic checksum |
+| --- | --- | --- | --- | --- |
+| I Architecture of the Self | 01 to 03 | Radical Responsibility (CH 1.4) | The Sudo Admin can isolate internal background processes and parse cognitive error logs without a Kernel Panic. | Mapping trauma on a whiteboard is not enough: the chassis must have discharged autonomic tension before ports open to the network. |
+| II System Integration & Networking | 04 to 09 | The Viktor Frankl Buffer (CH 3.5). Battery dead: return to Phase I and run Safe Mode. | An active P2P connection with another node holds without the Ego Firewall dropping packets or defaulting to defensive routing. | The hardware stays down-regulated while processing high-voltage emotional I/O; shallow chest breathing in conflict means still in Sandbox Mode. |
+| III Deployment & Hardening | 10 to 11 | The Love Protocol (CH 9) and Stateless Communication | The macro-topology of the environment is mapped and network-wide routing (The Honorable Harvest) runs without zero-sum hoarding. | Deploy to the live grid with the hardware you have, honoring physical limits without shame. |
+| IV Unified Field | 12 | The Validation Protocol (Anti-Spiritual Bypassing) | No endpoint: runtime is permanent; success is MTBF and the speed of Graceful Degradation recovery. | Intellectualizing physical pain or using the metaphors to avoid biological reality means the system is compromised: log off, discharge the hardware. |
+
+Source: the phase introductions of the book (Phase I to IV).
+
 ## Status source
 
 [`status.json`](status.json) is the single machine-readable source of module status. [dreammachine.systems/source](https://www.dreammachine.systems/source) reads it at build time from `main`, so keep its path and keys stable.
