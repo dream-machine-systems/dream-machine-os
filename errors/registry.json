@@ -400,8 +400,8 @@
       "module": "06",
       "also": [],
       "book_ref": "CH 6.4.1",
-      "glossary": null,
-      "summary": "An energy deficit of the hardware misdiagnosed as a personality or software flaw."
+      "glossary": "hardware-brownout",
+      "summary": null
     },
     {
       "code": "HERD_SCRIPT",
@@ -691,8 +691,8 @@
       "module": "08",
       "also": [],
       "book_ref": "CH 8.0",
-      "glossary": null,
-      "summary": "The biological cost of using bandwidth upgrades as a productivity hack (hustle culture)."
+      "glossary": "somatic-technical-debt",
+      "summary": null
     },
     {
       "code": "SPIRITUAL_BYPASSING",
