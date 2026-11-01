@@ -99,7 +99,7 @@
       "id": "12",
       "title": "Data Sovereignty",
       "book_ref": "CH 12",
-      "status": "DRAFT",
+      "status": "STABLE",
       "path": "modules/12-data-sovereignty/",
       "briefing": "ch12"
     }

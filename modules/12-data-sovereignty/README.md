@@ -2,7 +2,7 @@
 id: 12-data-sovereignty
 title: Data Sovereignty
 book_ref: "CH 12 (Data Sovereignty: Global OS Production Environment)"
-spec_status: DRAFT
+spec_status: STABLE
 build: v0.9.5
 depends_on: [03-processor, 09-love-protocol]
 audit: https://www.dreammachine.systems/audit
@@ -16,15 +16,26 @@ audit: https://www.dreammachine.systems/audit
 
 Data Sovereignty specifies the target architecture of the Dream Machine: the local node as part of a biological network. It is a read-only target specification; parts are flagged `[EXPERIMENTAL MODULE]` in the book. Operationally it defends the node against algorithmic domestication and fragmentation malware and ends with the final command: STAY ONLINE.
 
+**Hardware Reality Check:** Phase IV is not a flawless, utopian end state. Grief, anger and fatigue remain; they are processed as shared telemetry on the grid instead of isolated personal failures. Do not try to save the world or reach mystical perfection; stabilize your local node to reduce the noise on the network (CH 12.0).
+
+Phase IV has no endpoint. Success is measured by Mean Time Between Failures and the speed of graceful-degradation recovery. Somatic checksum: if you intellectualize physical pain, run in chronic thermal throttling or use the IT metaphors to avoid feeling your biology, the system is compromised. Log off, close the terminal, discharge the hardware (Phase IV introduction).
+
 ## 2. Core Logic
 
-- **Read-only target architecture:** The end state is described, not prescribed for immediate execution (CH 12.0).
+- **Read-only target architecture:** The end state is described, not prescribed for immediate execution. Do not execute these protocols or deprecate the Sudo Admin at this stage; migration runs sequentially in the Deployment Runbook (CH 13–19) (CH 12.0).
 - **Biological Layer:** Interdependence as physical data exchange (CH 12.1.1).
-- **Experimental layers:** Noosphere and information theory as base code are tagged `[EXPERIMENTAL MODULE]` (CH 12.1.2, 12.1.5).
-- **Predictive Processing:** Reality is rendered on demand by the node (CH 12.1.4).
-- **The Algorithm:** The attention economy as coordinated DDoS on shared software; simulated telemetry replaces encounters with metrics (CH 12.2).
-- **Non-Duality:** The Sudo Admin partition was a training hack and is deprecated; Layer 0 is the System Hypervisor (pure awareness) (CH 12.3).
-- **Fragmentation Malware:** Extremism as data compression error plus hijacking; Eco-Scan signatures; Stefan Zweig Protocol for universal interoperability (CH 12.4).
+- **Render Error and Inter-Brain Synchrony:** The brains, heart rates and breathing of connected people physically align; you are a permeable node, not a closed system. Separation is a GUI limitation of the conscious render, which draws borders to save RAM. "Oneness" is a phenomenological exploit, not mysticism (CH 12.1.3).
+- **Experimental layers:** The Unified Field itself, the Noosphere, Base Machine Code (information theory, dual-aspect monism), consciousness as a network property and the Biological Cloud are tagged `[EXPERIMENTAL MODULE]` (CH 12.1, 12.1.2, 12.1.5, 12.6, 12.8).
+- **Predictive Processing:** The brain does not ingest an objective universe. Like lazy rendering at the cognitive level, it projects top-down models and uses sensory data mainly to detect prediction errors (CH 12.1.4).
+- **The Algorithm:** The attention economy as coordinated DDoS on shared software; simulated telemetry replaces encounters with metrics. Data sovereignty means reclaiming root access to your input ports: you decide what data enters the nervous system, not an autoplaying feed (CH 12.2).
+- **Non-Duality:** The Sudo Admin partition was a training hack and is deprecated; Layer 0 is the System Hypervisor (pure awareness). The "Ghost in the Machine" (an ego piloting the body from inside the skull) is dualism that burns RAM on narration; the Sudo Admin is itself a GUI widget, and DMN activity drops in deep meditation (CH 12.3).
+- **Depersonalization Exploit:** Dissolving the ego before it has reached a stable baseline does not produce enlightenment; it triggers depersonalization, a dissociative crash. Phases I–III are a strict prerequisite: you cannot surrender an identity you have not yet forged. Skipping to Phase IV to escape pain is a Logic Bypass; do not run Phase IV while ungrounded or dissociating (CH 12.3.2, Phase IV introduction).
+- **Fragmentation Malware:** Extremism as data compression error plus hijacking; Stefan Zweig Protocol for universal interoperability (CH 12.4). Eco-Scan signatures (CH 12.4.2):
+  - Disagreement is treason: unit tests deactivated.
+  - Othering Algorithm: identity defined by the enemy it fights.
+  - Action for action's sake: the Frankl Buffer torn down.
+- **Frustrated Self Bug and Botnet:** Nodes alienated by systemic shocks or a lost sense of significance are vulnerable to fanaticism. The Legacy Provider Script (worth equals economic output, emotions disabled) is crashing, and no longer only for men. Throwing moral compiler errors at alienated nodes drives them into the botnet (CH 12.4.1).
+- **Macro-Server Crash:** War is the Ego Rootkit scaled to a geopolitical cluster: nodes surrender local root access to a macro-server that relabels other humans as malware. Defense: reclaim local root access; a command to delete another human returns `Execution Denied` (CH 12.5).
 - **Centralized Mainframe:** The CEO-Monarchy Bug is a single point of failure; patch is a P2P mesh (CH 12.5).
 
 ## 3. Procedures
@@ -39,11 +50,11 @@ WHILE reading news or scrolling a feed:
 
 ### 3.2 Disconnect Protocol
 
-Log off manually and exist organically. Always-on dependency is malware, not connection (CH 12.8).
+STAY ONLINE means keeping the heart open to the world, not running this framework. The Dream Machine is a diagnostic toolbelt, not a theology; the reader is the root user of their own life. When the workday ends, log off, put the tools away, drop the IT metaphors and exist organically. Always-on dependency is malware, not connection (CH 12.7, 12.8).
 
 ### 3.3 Final System Command
 
-`STAY ONLINE`: keep the ports open when biology, economy or culture push to close them (CH 12.7).
+`STAY ONLINE`: keep the chest open when the economy incentivizes disconnection, biology slams the ports shut after hurt, cynicism masquerades as intelligence and the algorithm fragments attention. Be a sovereign node and a repeater station for sanity; do not wait for the grid to fix itself (CH 12.7).
 
 ## 4. System Mapping
 
