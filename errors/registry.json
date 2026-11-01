@@ -516,6 +516,16 @@
       "summary": null
     },
     {
+      "code": "MONOLITHIC_SELF",
+      "name": "Monolithic Self",
+      "hex": null,
+      "module": null,
+      "also": [],
+      "book_ref": "Directory A (A.1)",
+      "glossary": null,
+      "summary": "The virtualization error that a single CEO behind the eyes makes the decisions; the \"I\" is the PR Department explaining them afterwards."
+    },
+    {
       "code": "OTHERING_ALGORITHM",
       "name": "Othering Algorithm",
       "hex": null,

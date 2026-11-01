@@ -2,7 +2,7 @@
 id: dir-d-theoretical-sandbox
 title: Theoretical Sandbox (End-of-Lifecycle Theories)
 book_ref: "Directory D (Theoretical Sandbox: End-of-Lifecycle Theories, Receiver Hypothesis)"
-spec_status: DRAFT
+spec_status: STABLE
 build: v0.9.5
 related: [03-processor, 09-love-protocol, 12-data-sovereignty]
 audit: https://www.dreammachine.systems/audit
@@ -26,7 +26,7 @@ Crash signature: a severe aversion to a hard crash. The system hoards resources,
 - **Hardware Shutdown Sequence (AWARE data):** Death is a phased biological process, not a binary switch (Parnia). After cardiac arrest the system may run a Graceful Shutdown: a final Core Dump of the memory cache on residual energy before the hardware degrades (D.2).
 - **Receiver Hypothesis `[EXPERIMENTAL MODULE]`:** Greyson's paradox: 9% to 21% of survivors (up to 39.3% in some monitored studies) report lucid, organized experience during severe ischemia, when only fragmented delirium would be expected. Under this hypothesis the brain is a transceiver, not a generator; the signal would exist independently of the device. Smashing a television does not end the broadcast (D.3).
 - **Offline Overclocking:** You cannot run a high-bandwidth simulation on a shattered GPU, yet users report hyper-lucidity when the processor is failing. Materialist models attribute it to a terminal surge of cortical activity; proponents of the Receiver Hypothesis cite it as their primary anomaly (D.3.1).
-- **Hardware Filter (Tuning Knob):** The Default Mode Network throttles the broadband signal down to a 10-bit survival frequency. Vipassana and Flow relax the DMN manually and widen the bandwidth; psychedelics deactivate it chemically for a few hours (Temporary Root Access) (D.3.1).
+- **Hardware Filter (Tuning Knob):** The Default Mode Network throttles the broadband signal down to a 10-bit survival frequency. Vipassana and Flow relax the DMN manually and widen the bandwidth; psychedelics deactivate it chemically for a few hours (Temporary Root Access) (D.3.1). Not a recommendation: stabilise the hardware first (Safe Mode before Deep Surgery, CH 3.3.1, [module 03](../../modules/03-processor/)).
 - **Comprehensive Network Audit (Life Review):** A documented minority of experiencers report a panoramic life review, sometimes with a moral-emotional appraisal of how their actions affected others: they experience the ripple effect across the network. Speculative implication at root-access level: zero latency and zero separation between nodes; inside this sandbox the Love Protocol models the speculative physics of the network (D.4).
 - **System Payoff (Deleting the Fear Subroutine):** Near-death survivors often return with a long-term reduction in thanatophobia, which correlates with less worldview defense and threat avoidance. Whether the Receiver Hypothesis is processed as literal physics or as a psychological construct, the output is the same: a system no longer afraid of a hard crash runs antifragile (D.5).
 - **Cognitive cost of `thanatophobia.exe`:** Chronic death anxiety and mortality salience act as a persistent cognitive load; they trigger defensive responding such as materialistic hoarding and vigilance toward interpersonal threats, i.e. Thermal Throttling and other nodes seen as threats (Directory D, Silicon Log).
