@@ -83,7 +83,7 @@
       "id": "10",
       "title": "Hardened Infrastructure",
       "book_ref": "CH 10",
-      "status": "DRAFT",
+      "status": "STABLE",
       "path": "modules/10-hardened-infrastructure/",
       "briefing": "ch10"
     },

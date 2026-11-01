@@ -2,9 +2,9 @@
 id: 10-hardened-infrastructure
 title: Hardened Infrastructure
 book_ref: "CH 10 (Hardened Infrastructure: Chaos Engineering)"
-spec_status: DRAFT
+spec_status: STABLE
 build: v0.9.5
-depends_on: [03-processor, 06-hardware-calibration]
+depends_on: [03-processor, 06-hardware-calibration, 09-love-protocol]
 audit: https://www.dreammachine.systems/audit
 ---
 
@@ -16,16 +16,20 @@ audit: https://www.dreammachine.systems/audit
 
 Hardened Infrastructure applies chaos engineering to the human node. Controlled, acute stress (hormesis) builds adaptation; chronic stress destroys hardware. The module defines micro-doses of entropy, an extreme stress suite with hard abort conditions, the 5-second execution trigger with a threat-verification fork, and redundant power through a distributed mesh.
 
+Severe trauma, systemic poverty or abuse are not chaos engineering. They are DDoS attacks: they do not make the hardware stronger, they wear down the motherboard (Allostatic Load). The architecture does not romanticize trauma; it runs controlled drills so the system does not brick when an uncontrolled attack hits (CH 10.0).
+
+**Compassion Patch:** If your life already feels like chaos, this module adds no new stress. It tests the coping mechanisms you built by surviving this long (CH 10.0).
+
 ## 2. Core Logic
 
-- **Root-level interrupt:** A steel spine so the chest can stay soft. Emotional flatlining or numbing is a failed run, not progress (CH 10.1).
+- **Root-level interrupt:** A steel spine so the chest can stay soft. Emotional flatlining or numbing is a failed run, not progress. Harden the nervous system, do not callous the heart: callousing makes you numb, hardening lets you feel the full impact of reality without snapping (CH 10.0, 10.1).
 - **2 % Protocol:** Small daily doses of analog friction instead of jumps from comfort to extremes (CH 10.1.1).
-- **Extreme Stress Suite:** Thermal shock (cold), power supply cut (fasting), input/output cut (silence) as controlled faults (CH 10.1.2).
+- **Extreme Stress Suite:** Thermal Shock (cold, 11 °C or lower), Power Supply Cut (16–24 h fasting), Input/Output Cut (24 h without digital input) as controlled faults. Strictly optional sandbox experiments, never mandatory for deployment. Contraindicated with cardiovascular conditions, a history of eating disorders, pregnancy, seizure disorders, dysautonomia or severe panic disorders; seek medical clearance first. Lower-risk alternative: cold water on the face triggers the dive reflex without full thermal shock. Digital fasting is contraindicated with atypical arousal regulation (e.g. ADHD), where stimulation can be a necessary aid (CH 10.0, 10.1.2).
 - **Affective RAM Expansion:** Restriction trains cross-domain regulation, not moral discipline (CH 10.1.3).
-- **Acute vs. Chronic:** Acute stress is constructive, chronic stress is rot; Simulated Annealing as the engineering model (CH 10.2).
+- **Acute vs. Chronic:** Acute stress is constructive, chronic stress is rot; Simulated Annealing as the engineering model. Intensity without recovery equals injury: the goal is the fastest return to baseline, not the longest endurance (CH 10.2, 10.6).
 - **Breathing Loop:** Voltage regulation and retention ("the void") (CH 10.3).
-- **Safe Mode Precedence:** No load tests while the hardware is in incident response (CH 10.6).
-- **Distributed Mesh:** Remove the single point of failure; N+1 redundancy in relationships and support (CH 10.5).
+- **Safe Mode Precedence (Mode 0x02 Lockout):** Chaos Engineering is forbidden in [MODE 0x02] INCIDENT RESPONSE; cold or fasting on a redlining or depleted system is abusive, not optimizing. Verify a stable, rested baseline first; otherwise skip the chapter, seek human warmth, eat nourishing food and sleep (CH 10.1, 10.6).
+- **Distributed Mesh:** Remove the single point of failure; N+1 redundancy in relationships and support. SPOF Bug: a partner as the only backup power supply shares your failure domain, and the legacy logic wrongly implies that unpartnered nodes cannot achieve redundancy (CH 10.5).
 
 ## 3. Procedures
 
@@ -42,8 +46,17 @@ Refusal is always a valid output.
 ### 3.2 Load Test Gate
 
 1. Check mode: incident response => System Idle, no test (Safe Mode Precedence).
-2. Start with 2 % daily friction: micro-deployments instead of an overnight overhaul (Kaizen).
-3. Abort on numbing or emotional flatlining.
+2. No trauma stacking: never run extreme physical stress while actively auditing severe trauma (Tier 3); split physical hardening from psychological repair (CH 10.0).
+3. Start with 2 % daily friction: micro-deployments instead of an overnight overhaul (Kaizen). On 1 % battery or with an injury, the escalator is power management, not moral failure (CH 10.1.1).
+4. Abort on numbing or emotional flatlining.
+
+### 3.3 Stress Suite Runs (CH 10.1.2)
+
+| Fault | Legacy reaction | Hardening |
+| --- | --- | --- |
+| Thermal Shock: water at 11 °C or lower | Fight-or-flight; chest clamps, CPU spikes | Frankl Buffer as manual override: relax the jaw, slow the breath; the Sudo Admin holds root access, not the survival script |
+| Power Supply Cut: 16–24 h without food | Blood sugar crash, "hangry" script toward the people closest | Hunger is a low-battery notification while the chassis switches from glucose to ketones, not a critical hardware error |
+| Input/Output Cut: 24 h without phone, music or books | Boredom, anxiety, compulsive search for stimulation | Confront the internal noise without distraction; reduces cue-reactivity |
 
 ## 4. System Mapping
 
@@ -78,6 +91,7 @@ Codes are defined once in [`errors/registry.json`](../../errors/registry.json). 
 
 - [03-processor](../03-processor/): Processor (Consciousness Management)
 - [06-hardware-calibration](../06-hardware-calibration/): Hardware Calibration
+- [09-love-protocol](../09-love-protocol/): Love Protocol (Phase III required dependency)
 
 ## 7. Evidence
 
