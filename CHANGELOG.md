@@ -1,36 +1,37 @@
 # Changelog
 
-All notable changes to the **Love Protocol** will be documented in this file.
-The format is based on [Keep a Changelog](https://keepachangelog.com/).
+All notable changes to the specification. Versions track the build of *The Dream Machine* ([Version Control](https://www.dreammachine.systems/version-control)). Format based on [Keep a Changelog](https://keepachangelog.com/).
 
-## [0.1.0-ALPHA] - 2026-01-17
-
-### Added
-- **Initial System Architecture:** Defined the core directory structure (`/core`, `/patches`, `/docs`, `/assets`, `/legal`, `/research`, `/book-metadata`).
-- **Multi-Branch Infrastructure:** Initialized `main` (stable), `develop` (integration), `feature/` (logic), and `draft/` (prosa) branches.
-- **Identity BIOS Config:** Established "The Architect" <signal@loveprotocol.io> as the primary system identity.
-- **Core Manifesto:** Created `README.md` including the "Signal Synchronization" (newsletter uplink) for community scaling.
-- **System Layer Definition:** Added `ARCHITECTURE.md` to define the 4-layer logic of human connection.
-- **Directory Mapping:** Added `DIRECTORY.md` with alphabetical root sorting for high-performance navigation.
-- **Open-Core Governance:** Added `CONTRIBUTING.md` (No-Guru Standard) and `REVENUE_MODEL.md` to ensure financial and ethical transparency.
-- **Book Metadata Layer:** Initialized `SUMMARY.md` and `SAMPLE_CHAPTER.md` placeholders to bridge the gap between logic and commercial prose.
-- **Noise Reduction:** Implemented a specialized `.gitignore` to maintain repository signal quality.
-- **Legal Hardening:** Integrated Apache 2.0 License and trademark protection clauses.
-
-### Added (Feature)
-- **Core Module:** Initialized `core/identity-bios.md`.
-- **Logic Specification (BIOS):** Defined the "Agency-Flag" and the mathematical Processing Gap formula ($G = t_{response} - t_{stimulus}$).
-- **Communication Layer:** Initialized `core/communication-filter.md`.
-- **Transmission Logic:** Defined the 50-Bit Bottleneck and the mandatory Handshake Requirement for data exchange.
-- **External Patch:** Integrated Gottman Method Logic (`patches/gottman-patch.md`).
-- **Error Handling:** Refactored the "Four Horsemen" into actionable System Bugs (`LOGIC_ATTACK`, `SYSTEM_HIERARCHY_ERROR`, etc.).
-- **System Constraints:** Established the "Zero-Blame Policy" and "Root Access" requirements for Living Nodes.
-- **Security Patch:** Integrated Terry Real's Boundary Logic (`patches/terry-real-patch.md`).
-- **Port Security:** Defined the "Relational Firewall" to filter incoming projections.
-- **Hardware Patch:** Integrated Joe Dispenza’s Neural Refactoring logic (`patches/dispenza-patch.md`).
-- **Bio-Memory:** Defined protocol for overwriting legacy hardware loops via coherence states.
+## [Unreleased] – target v0.9.5
 
 ### Changed
-- **Versioning:** Refactored from `v1.0.0-STABLE` to `v0.1.0-ALPHA` to reflect the active development and "Ongoing Refactoring" phase.
-- **Signal Routing:** Updated system endpoint to `signal@loveprotocol.io` for improved operational modularity.
-- **Asset Refactoring:** Corrected naming convention for `assets/icon.txt` (removed redundant file extension).
+
+- **Scope:** Repository renamed from `love-protocol` to `dream-machine-os`. It now specifies the whole OS; the Love Protocol is module 09.
+- **License:** Specification relicensed from Apache 2.0 to CC BY-NC-SA 4.0, aligned with the book's dual-track licensing. Commercial use requires an enterprise license. Earlier versions remain available under Apache 2.0.
+- **Bandwidth constants:** Updated from 50 bit/s vs. 11 million bit/s to 10 bit/s vs. ~1 billion bit/s (Zheng & Meister, 2024, *Neuron*).
+- **Structure:** `core/` moved to `modules/01-identity-bios` and `modules/08-cognitive-downclock`. Patches renamed and tagged with evidence tiers.
+
+### Added
+
+- `modules/09-love-protocol`: specification derived from Directory C of the book.
+- Governance: `CONTRIBUTING.md`, `GOVERNANCE.md`, `CODE_OF_CONDUCT.md`, `SAFETY.md`, `TRADEMARKS.md`, `COMMERCIAL-USE.md`, `CLA.md` (draft).
+- Issue forms (Errata, Evidence, RFC), PR template, `CODEOWNERS`.
+- `glossary/`, `audit/`, `rfcs/` as entry points.
+
+### Removed
+
+- `book-metadata/`: described a standalone "Love Protocol" book that was merged into *The Dream Machine*.
+- `ARCHITECTURE.md`, `DIRECTORY.md`: replaced by `modules/README.md`.
+- Unenforceable "Vesting-Protokoll" clause and the liability statement from the README.
+
+## [0.2.0-ALPHA] – 2026-06-15
+
+### Changed
+
+- README: Anti-Amnesia patch (Stateless API vs. Stateful DB), 10-bit / 1-billion-bit constants, compassion parameter in the handshake CLI.
+
+## [0.1.0-ALPHA] – 2026-01-17
+
+### Added
+
+- Initial repository: Identity BIOS, Communication Filter, Gottman, Terry Real and Dispenza patches. Licensed under Apache 2.0.
