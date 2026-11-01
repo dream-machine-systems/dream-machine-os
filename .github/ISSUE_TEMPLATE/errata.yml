@@ -1,0 +1,56 @@
+name: Errata
+description: Typo, wrong number, broken link or contradiction in the spec or the book.
+title: "[ERRATA] "
+labels: ["type:errata"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This issue is public and permanent. Do not include personal or health data.
+  - type: dropdown
+    id: location
+    attributes:
+      label: Where
+      options:
+        - Spec (this repository)
+        - Book, eBook
+        - Book, print
+        - Audiobook
+        - Website
+    validations:
+      required: true
+  - type: input
+    id: build
+    attributes:
+      label: Build version
+      placeholder: v0.9.5
+  - type: input
+    id: section
+    attributes:
+      label: Module, chapter or section
+      placeholder: "09-love-protocol / CH 9.3 / Directory C"
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - Typo / grammar
+        - Wrong fact or number
+        - Broken link or reference
+        - Contradiction between modules or chapters
+        - Unclear wording or metaphor
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: wrong
+    attributes:
+      label: What is wrong
+    validations:
+      required: true
+  - type: textarea
+    id: fix
+    attributes:
+      label: Suggested fix

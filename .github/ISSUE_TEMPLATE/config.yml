@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Personal field report (private)
+    url: https://www.dreammachine.systems/telemetry
+    about: Experiences with the protocol. Never post personal or health data in public issues.
+  - name: Safety concern (private)
+    url: https://www.dreammachine.systems/feedback
+    about: A module could cause harm as written. Choose the category "Safety concern".
+  - name: Enterprise license
+    url: https://www.dreammachine.systems/contact/
+    about: Commercial use of the specification (coaching, seminars, corporate training).

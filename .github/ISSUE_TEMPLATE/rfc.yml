@@ -1,0 +1,36 @@
+name: RFC (Request for Comments)
+description: New module, new patch or a change to core logic.
+title: "[RFC] "
+labels: ["type:rfc"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: Which bug, gap or contradiction does this solve?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposal
+      description: Logic, procedure, error codes. Spec, not prose.
+    validations:
+      required: true
+  - type: input
+    id: modules
+    attributes:
+      label: Affected modules
+      placeholder: "09-love-protocol, 01-identity-bios"
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence
+      description: Primary sources and proposed tier. Mark models and metaphors as such.
+  - type: textarea
+    id: safety
+    attributes:
+      label: Safety
+      description: Could this cause harm when executed as written? For whom?
+    validations:
+      required: true

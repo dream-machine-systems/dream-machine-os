@@ -1,0 +1,48 @@
+name: Evidence
+description: Add, correct or challenge a source behind a claim.
+title: "[EVIDENCE] "
+labels: ["type:evidence"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Consensus Gate: state the claim, name a primary source, propose a tier. No personal anecdotes.
+  - type: input
+    id: claim_ref
+    attributes:
+      label: Claim location
+      placeholder: "sec1-8-1 / 08-cognitive-downclock §5"
+    validations:
+      required: true
+  - type: textarea
+    id: claim
+    attributes:
+      label: The claim, in one sentence
+    validations:
+      required: true
+  - type: dropdown
+    id: direction
+    attributes:
+      label: Your evidence
+      options:
+        - Supports the claim
+        - Weakens or contradicts the claim
+        - Refines the claim (scope, effect size, population)
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: Primary sources
+      description: Author, year, journal, DOI or link. Peer-reviewed sources first.
+    validations:
+      required: true
+  - type: dropdown
+    id: tier
+    attributes:
+      label: Proposed evidence tier
+      options:
+        - "TIER 1: CLINICAL"
+        - "TIER 2: PHILOSOPHICAL"
+        - "TIER 3: EXPERIMENTAL"
+        - Not sure

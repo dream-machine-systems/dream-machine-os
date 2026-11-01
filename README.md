@@ -1,109 +1,70 @@
-# ❤️ Love Protocol | Standardizing Human Connection
+# Dream Machine OS | Open Specification
 
 <p align="center">
-  <img src="https://www.loveprotocol.io/loveprotocol-logo.png" width="180" alt="Love Protocol Logo">
+  <img src="https://img.shields.io/badge/spec-v0.9.5-4A90E2?style=flat-square" alt="Spec version">
+  <img src="https://img.shields.io/badge/license-CC%20BY--NC--SA%204.0-lightgrey?style=flat-square" alt="License: CC BY-NC-SA 4.0">
+  <img src="https://img.shields.io/badge/status-accepting%20pull%20requests-success?style=flat-square" alt="Accepting pull requests">
 </p>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/build-UNIFIED__FIELD__2026-success?style=flat-square&color=4A90E2" alt="Build Target">
-  <img src="https://img.shields.io/badge/version-v0.2.0__ALPHA-orange?style=flat-square&color=FFA500" alt="Version">
-  <img src="https://img.shields.io/badge/latency-ZERO__MS-important?style=flat-square&color=FF2A6D" alt="Latency">
-  <img src="https://img.shields.io/badge/license-Apache__2.0-blue?style=flat-square" alt="License">
-</p>
+**Upstream manual:** *The Dream Machine – Operating System for the Soul* ([dreammachine.systems](https://www.dreammachine.systems))
+**Short link:** [dreammachine.systems/source](https://www.dreammachine.systems/source)
+**Spec build:** `v0.9.5` (tracks the book build, see [Version Control](https://www.dreammachine.systems/version-control))
 
 ---
 
-**Status:** `v0.2.0-ALPHA (Ongoing Refactoring)`  
-**Parent Infrastructure:** [Dream Machine | Systems](https://www.dreammachine.systems)  
-**Primary Documentation:** [loveprotocol.io](https://loveprotocol.io)
+## What this repository is
 
----
+The book is the implementation. This repository is the specification.
 
-## 🛰️ Project Overview
+It holds the machine-readable layer of the Dream Machine OS: one module per chapter, the system glossary, error codes, third-party patches and the evidence behind each claim. Every change is a commit. Every fix carries a name in the changelog.
 
-The **Love Protocol** is a high-performance application layer designed to refactor human communication from a "Stateful" mess into a **Stateless Data Exchange**, while safely preserving the underlying **Stateful Database** of human connection. 
+It does **not** hold the manuscript. Prose, field stories, exercises and the audio edition stay in the book.
 
-In legacy "World OS" interactions, social latency is caused by the **10-Bit Bottleneck**. The conscious mind tries to compress complex emotional histories (1 Billion bits) into low-bandwidth language, resulting in packet loss, "Emotional Lag," and defensive firewalls.
-
-**The Solution:** By separating our historical database from our real-time API, the protocol enables **Permeability**. It opens the firewall between nodes, allowing the full sensory stream of human resonance to flow without crashing the logic processor.
-
-In the context of the global **Polycrisis**, this protocol serves as a stabilizing utility to decrease system entropy:
-
-$$\Delta S_{system} < 0$$
-
----
-
-## 🛠️ Architectural Principles
-
-* **Stateless API & Stateful DB (Anti-Amnesia Exploit)**: Human attachment is a permanent, historical database. We do not use "statelessness" to force-delete the pain we cause others (The Amnesia Exploit). Instead, we keep our real-time *communication* (API) stateless—sending clean packets without hidden payloads of past resentment. If the past needs debugging, we run an explicit, dedicated query together. 
-* **Port Security (ACL)**: **Signal != Access.** We radiate the protocol unconditionally (Open Signal), but we restrict ingress traffic based on trust (Access Control List). Toxic nodes are sandboxed (Read-Only), never given Root Access.
-* **Permeability Logic**: Instead of building a thicker wall (Ego), we install a "Screen Door." This allows the **1-Billion-bit signal** of connection to pass through while keeping the **10-bit logic** organized.
-* **Node Integrity (Identity BIOS)**: Designed for nodes that have initialized the **Radical Responsibility** lock. You are the Architect; you have Root Access to your own response scripts.
-* **Heart-Interface Handshaking**: Symmetric connection established through transparency. We establish a "High-Speed Fiber" link (Presence) before transmitting high-value emotional payloads.
-
----
-
-## ⚖️ Trademark & Open Source Governance
-
-This project is released under the **Apache License 2.0**. We believe in open logic, but we enforce strict architectural integrity.
-
-* **Trademark Protection**: **LOVE PROTOCOL™** and **DREAM MACHINE™** are proprietary trademarks. While the code is open, the use of these names for commercial "forks" or derivative systems requires explicit authorization.
-* **Commercial Integration**: Usage within third-party coaching programs or organizational consulting is encouraged but requires adherence to the **Vesting-Protokoll** to ensure system alignment.
-* **Professional Liability**: This architecture operates under a professional liability shield with a coverage limit of **EUR 2,400,000.00**.
-* **Jurisdiction**: All standard agreements and legal disputes are governed by the laws of the **European Union (Austria)**.
-
----
-
-## 👨‍💻 Notes from the Architect
-
-> Living Nodes, I am not your guru. I am an Architect who experienced a total system crash and realized that the 'Love' we’ve been taught is a buggy, stateful mess. 
->
-> We are not just building software; we are engineering the medium of connection. I originally wanted a protocol that could wipe the cache so I wouldn't have to face my own historical database. That was an error. True connection requires the friction of history. By separating your corrupted historical database from the real-time API, you stop bottlenecking connection through your 10-bit conscious processor and unlock the full 1 Billion-bit bandwidth of autonomic resonance.
-
----
-
-## 📦 Deployment & Contribution
-
-### 1. Initialization
-Ensure your **Identity BIOS** is locked to **Radical Responsibility**.
+## Directory map
 
 ```text
-sudo DM-SYSTEM --init-bios --mode architect
+modules/          One spec per book chapter (CH 1–12)
+patches/          Third-party frameworks mapped onto the OS, with evidence tier
+glossary/         System syntax (single source for dreammachine.systems/docs/syntax)
+audit/            Empirical audit logs (claims, queries, sources)
+rfcs/             Proposals for new modules or architectural changes
 ```
 
-### 2. Protocol Handshake
-Before daily data transmission, always synchronize the connection:
+Module status lives in [`modules/README.md`](modules/README.md).
 
-```text
-./love-protocol --handshake --target [NODE_UID] --type [COMPASSION|LOGIC]
-```
+## How to contribute
 
-### 3. Database Sync (Resolving History)
-When historical logs are creating active friction, do not weaponize them in a standard handshake. Open a secure terminal and query the Stateful Database explicitly:
+Read [`CONTRIBUTING.md`](CONTRIBUTING.md). Short version:
 
-```text
-./love-protocol --query-db --target [NODE_UID] --resolve-history
-```
+| You found | Do this |
+| --- | --- |
+| A typo, wrong number, broken link | Open an **Errata** issue |
+| A missing or contradicting source | Open an **Evidence** issue or a PR |
+| A better model, a new patch, a structural change | Open an **RFC** issue first |
+| A personal experience with the protocol | **Not here.** Use [dreammachine.systems/telemetry](https://www.dreammachine.systems/telemetry). Public issues are permanent. |
+
+Pull requests require a signed [Contributor License Agreement](CLA.md).
+
+## License
+
+The specification is released under [**CC BY-NC-SA 4.0**](LICENSE).
+
+| Use | Allowed under CC BY-NC-SA 4.0 |
+| --- | --- |
+| Personal use, study groups, non-profit communities | Yes, with attribution |
+| Adapting and sharing the spec non-commercially | Yes, under the same license |
+| Paid coaching, seminars, corporate training, commercial products | No. Requires an enterprise license, see [`COMMERCIAL-USE.md`](COMMERCIAL-USE.md) |
+
+The text of the book is licensed separately (CC BY-NC-ND 4.0). Versions of this repository published before November 2026 under Apache 2.0 remain available under Apache 2.0.
+
+## Trademarks
+
+**Dream Machine®** (EU trade mark No. 019307121) and **Love Protocol®** (EU trade mark No. 019307122) are registered trade marks of Dream Machine Systems FlexCo. The license above covers the text, not the names. See [`TRADEMARKS.md`](TRADEMARKS.md).
+
+## System boundary
+
+This is an architectural framework, not psychotherapy. If you are in crisis, stop here and read [`SAFETY.md`](SAFETY.md).
 
 ---
 
-## 📡 Signal Synchronization (Newsletter)
-
-Stay updated with the latest system patches, field reports, and the upcoming book release. Subscribe to the **Signal** to receive encrypted updates directly from the Architect.
-
-### [👉 Subscribe at loveprotocol.io](https://loveprotocol.io)
-
-*Join the network and be the first to receive the official Sample Chapter.*
-
----
-
-## 📩 Contact & Uplink
-
-* **System Signal**: `signal@loveprotocol.io`
-* **System Hub**: [dreammachine.systems](https://www.dreammachine.systems)
-* **Technical Specs**: [loveprotocol.io](https://loveprotocol.io)
-
----
-
-© 2026 **Robert Seyfriedsberger** & **Dream Machine | Systems**.  
-*Engineered for High-Availability Living.*
+© 2026 Robert Seyfriedsberger & Dream Machine Systems FlexCo
