@@ -10,6 +10,7 @@ About 15 minutes a day: your individual vital 20% (Pareto Protocol, CH 23.1). Th
 
 Timing: 0 to 15 minutes after your eyes open. Do not touch the phone first.
 
+<!-- verbatim: CH 23.2 -->
 ```text
 SYSTEM_BOOT_SEQUENCE
 
@@ -45,6 +46,7 @@ IF System_Battery > 10% (Normal Operations):
 
 Timing: noon (lunch break).
 
+<!-- verbatim: CH 23.3 -->
 ```text
 > RUN SYSTEM_DIAGNOSTIC
 
@@ -62,6 +64,7 @@ STATUS_CHECK:
 
 Timing: end of workday or before sleep.
 
+<!-- verbatim: CH 23.4 -->
 ```text
 SYSTEM_SHUTDOWN_SEQUENCE
 

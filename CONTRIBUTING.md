@@ -46,6 +46,7 @@ The repository uses the tiers of the book's dependency index:
 
 - English, Markdown, one module per directory, YAML front matter as in the existing modules.
 - A new module or a status change updates `modules/status.json`, the table in `modules/README.md` and the front matter together. Check with `node scripts/check-module-status.mjs`.
+- A table or code block that copies the book word for word carries a `<!-- verbatim: <book ref> -->` line right above it (e.g. `<!-- verbatim: CH 15.1 -->`). The manuscript repository checks every marked block against the book on each manuscript change; edit such a block only together with the book.
 - A status change of a directory, the runbook or the toolkit updates `spec-status.json`, the map in `directories/README.md` and the front matter together. Check with `node scripts/check-spec-status.mjs`.
 - Glossary, audit, error codes and the deck mapping are data. Check every change with `node scripts/check-data.mjs`.
 - Markdown is linted on every PR. Check locally with `npx markdownlint-cli2@0.18.1`.

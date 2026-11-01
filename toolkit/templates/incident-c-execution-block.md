@@ -6,6 +6,7 @@ Source: *The Dream Machine*, CH 22.3. Copy it, print it, rewrite it in your own 
 
 > **Before you start.** IF System_State == PANIC: close this template and run the [Emergency Protocol](../README.md#2-emergency-protocol). In an acute crisis, contact a person: [`SAFETY.md`](../../SAFETY.md).
 
+<!-- verbatim: CH 22.3 -->
 ```text
 INCIDENT_REPORT_TYPE_C: EXECUTION_BLOCK (STALLED PROGRESS)
 
