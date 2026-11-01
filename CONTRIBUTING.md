@@ -2,6 +2,8 @@
 
 The system ships as a book. The specification evolves here. Every accepted contribution lands in the next build and carries your name in the changelog.
 
+First contribution? Pick one of the [good first issues](https://github.com/dream-machine-systems/dream-machine-os/contribute). Most are data work on `glossary/`, `errors/registry.json` or `deck/cards.json` and need no code.
+
 ## Before you push anything
 
 1. **No personal data.** Issues and PRs are public and permanent. No health data, relationship details or third-party identifiers. Field reports go to [dreammachine.systems/telemetry](https://www.dreammachine.systems/telemetry).
