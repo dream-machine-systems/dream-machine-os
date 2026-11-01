@@ -2,7 +2,7 @@
 id: 02-operating-system
 title: Operating System (Narrative Layer)
 book_ref: "CH 2 (Operating System: Narrative Layer)"
-spec_status: DRAFT
+spec_status: STABLE
 build: v0.9.5
 depends_on: [01-identity-bios]
 audit: https://www.dreammachine.systems/audit
@@ -14,16 +14,19 @@ audit: https://www.dreammachine.systems/audit
 
 ## 1. Abstract
 
-The Operating System manages daily logic on top of the Identity BIOS. It runs a hybrid kernel of Dharma (systemic alignment) and Cognitive Behavioral Therapy: Vipassana for root-cause analysis, CBT for patching logic errors, and a task scheduler that turns intent into binary actions. The Graceful Degradation Clause applies: grief, heartbreak and systemic inequity are not bugs to be debugged away.
+The Operating System manages daily logic on top of the Identity BIOS. It runs a hybrid kernel of Dharma (systemic alignment) and Cognitive Behavioral Therapy: the 4 Noble Truths for root-cause analysis, Vipassana for routing thoughts without opening their payload, CBT for patching logic errors, and a task scheduler that turns intent into binary actions. The Graceful Degradation Clause applies: grief, heartbreak and systemic inequity are not bugs to be debugged away. The framework is not a dogma: keep the scripts that compile cleanly on your hardware and discard the ones that do not (*Kritikfähigkeit*, CH 2.0.1).
 
 ## 2. Core Logic
 
+- **The Lens:** Three layers: Human Hardware (Bare Metal), Legacy OS (dirty lens) and Dream Machine OS (clean lens). The target is uninstalling the Legacy OS, not overclocking or altering the Bare Metal (CH 2.0).
 - **Debugging Protocol (4 Noble Truths):** Symptom recognition (Dukkha), root cause analysis (Samudaya: a memory leak of clinging), target state (Nirodha: clear cache), patch (Magga: the 8-Fold Path) (CH 2.1).
 - **Instruction Set (8-Fold Path):** An I/O security protocol in three layers: Logic (Wisdom), I/O Security (Ethics), Thread Management (Concentration) (CH 2.2).
 - **Routing Protocol:** Deep Packet Inspection of every thought (bug) vs. Layer-3 routing that forwards packets without inspecting the payload (CH 2.3.2).
+- **Epistemic Bottleneck:** The Ego Rootkit demands certainty before a transformation and evaluates the future state with current survival parameters. Patch: Reversible Micro-Commits, e.g. lower the firewall by 10 % for a single interaction, with Root Access to abort at any time (CH 2.3.3).
 - **Neuroplasticity Patch:** Hardcoded macros are physically wired; new code is pre-compiled in a Virtual Sandbox (mental rehearsal) (CH 2.4).
-- **Cognitive Refactoring:** Belief => prediction => emotion. Distortions (catastrophizing, personalization) are unit-tested before they execute (CH 2.5).
-- **Fuzzy Logic:** Healing is a continuous variable, not a boolean. Ambiguity Tolerance holds concurrent states (CH 2.6).
+- **Cognitive Refactoring:** Belief Loop: BIOS belief => OS thought => hardware emotion. Trace the emotion back to the belief. Distortions (catastrophizing, personalization) are unit-tested before they execute (CH 2.5).
+- **Logic Bypass and Kernel Panic Failsafe:** Unit-testing valid pain (grief, a broken heart) is Spiritual Bypassing; the Validation Protocol separates a logic error from valid telemetry first. Under extreme load the system falls back to the Legacy OS (fight, flight or freeze); judging the crash slows recovery (CH 2.5.4).
+- **Fuzzy Logic:** Healing is a continuous variable, not a boolean. Ambiguity Tolerance holds concurrent states. Scope: internal state evaluation only; physical execution reverts to binary (CH 2.6).
 - **Momentum Protocol:** Action causes motivation, not the reverse; run the Friction vs. Depletion fork first (CH 2.7).
 - **Stateless Clean Code:** Every lie spawns a background process. Truth runs stateless at zero RAM cost (CH 2.8).
 
@@ -33,15 +36,16 @@ The Operating System manages daily logic on top of the Identity BIOS. It runs a 
 
 Applies to cognitive distortions only, never to legitimate grief or physical pain (CH 2.5.3).
 
-1. Isolate the automatic thought.
-2. Query the evidence: hard data or hardware hallucination?
-3. If the data is null, refactor the thought and let the emotion recompile.
+1. Is this thought verified by cold, hard data?
+2. Does running this script actually help you get through the day?
+3. Refactor: rewrite the code to match the concrete reality.
 
 ### 3.2 Diagnostic Fork: Friction vs. Depletion
 
 ```text
-IF healthy AND avoiding task (anxiety, boredom)  => Task Friction => Momentum Protocol (act first)
-IF battery depleted OR autonomic lockdown        => Depletion     => no override; restore power (module 06)
+IF healthy AND avoiding task (anxiety, boredom)  => Task Friction => Behavioral Activation: run_walk.exe (act first)
+IF battery depleted OR autonomic lockdown        => Depletion     => Gentle Boot Protocol: run_rest.exe
+                                                   (no forced override; micro-titrate: sit up, change rooms)
 ```
 
 ### 3.3 Strategic Deployment Protocol (SDP)

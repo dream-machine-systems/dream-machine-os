@@ -19,7 +19,7 @@
       "id": "02",
       "title": "Operating System (Narrative Layer)",
       "book_ref": "CH 2",
-      "status": "DRAFT",
+      "status": "STABLE",
       "path": "modules/02-operating-system/",
       "briefing": "ch2"
     },
