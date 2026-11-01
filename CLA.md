@@ -52,7 +52,7 @@ You can end this agreement at any time by notice via [dreammachine.systems/conta
 
 ## 9. Personal data
 
-To document your signature, Dream Machine Systems stores your GitHub user name and ID, the date and time, the pull request link, your signing comment and the version of this agreement, in a private repository, for as long as a Contribution is used and for the statutory limitation period after that (Art. 6(1)(b) GDPR). Details: [dreammachine.systems/privacy](https://www.dreammachine.systems/privacy).
+To document your signature, Dream Machine Systems stores your GitHub user name and ID, the date and time, the pull request link, your signing comment and the version of this agreement, in a private repository, for as long as a Contribution is used and for the statutory limitation period after that (Art. 6(1)(b) GDPR). Details: [dreammachine.systems/privacy#cla](https://www.dreammachine.systems/privacy#cla).
 
 ## 10. Changes
 
