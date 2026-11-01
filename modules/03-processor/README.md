@@ -2,7 +2,7 @@
 id: 03-processor
 title: Processor (Consciousness Management)
 book_ref: "CH 3 (Processor: Consciousness Management)"
-spec_status: DRAFT
+spec_status: STABLE
 build: v0.9.5
 depends_on: [01-identity-bios, 02-operating-system]
 audit: https://www.dreammachine.systems/audit
@@ -14,19 +14,20 @@ audit: https://www.dreammachine.systems/audit
 
 ## 1. Abstract
 
-The Processor module tunes the mind as compute engine. The conscious foreground thread runs at ~10 bit/s; peripheral awareness monitors the rest. The module stabilises attention (Shamatha) before deep audits (Vipassana), parses live data with the See / Hear / Feel API, and inserts the Viktor Frankl Buffer between stimulus and response.
+The Processor module tunes the mind as compute engine. The conscious foreground thread runs at ~10 bit/s; peripheral awareness monitors the rest. The module stabilises attention (Shamatha) before deep audits (Vipassana), parses live data with the See / Hear / Feel API, and inserts the Viktor Frankl Buffer between stimulus and response. The tuning is not meant to turn the node into an efficiency bot; it optimises the system so exhausted hardware can finally rest (CH 3.0).
 
 ## 2. Core Logic
 
-- **Attention vs. Awareness:** Foreground thread (spotlight, 10 bit/s) vs. background monitor (floodlight). Under threat the spotlight collapses (CH 3.1).
-- **Transceiver Architecture:** The brain is modelled as a transceiver, not a standalone hard drive (CH 3.2). Model, not a clinical claim.
+- **Attention vs. Awareness:** Foreground thread (spotlight, 10 bit/s) vs. background monitor (floodlight). Under threat, awareness collapses: the spotlight locks onto a single threat vector and the floodlight drops out (Collapsed Awareness, CH 3.1.1). Fear throttles the frontal lobe and reroutes execution to Fight, Flight or Freeze; it is not a motivational tool but a Denial of Service attack on the highest cognitive functions (Fear Blockade, CH 3.1.2).
+- **Transceiver Architecture:** The brain is modelled as a transceiver, not a standalone hard drive. Non-consensus architecture: a philosophical hypothesis offered as an optional runtime, not an empirical claim. Using non-local consciousness to dissociate from the body or bypass trauma is an invalid operation; somatic hardware maintenance is a strict prerequisite (CH 3.2).
 - **Safe Mode before Deep Surgery:** Stabilise the hardware before heavy configuration changes (retreats, psychedelics) (CH 3.3.1).
-- **Shamatha Cooling System:** Sati, Samadhi, Piti, Passaddhi, Upekkha (CH 3.3.2).
+- **Shamatha Cooling System:** Sati, Samadhi, Piti, Passaddhi, Upekkha (CH 3.3.2). Building Shamatha is Process Synchronization: the Sub-Minds are aligned so a deep insight is accepted without internal resistance. Micromanaging Sub-Minds directly is an invalid operation; only the algorithm that decides which process may publish to the display can be trained (CH 3.0, 3.3.3).
 - **Suffering = Pain x Resistance:** A mnemonic heuristic, not an algebraic identity. Pain is real; resistance is the variable under control (CH 3.4.2).
-- **Viktor Frankl Buffer:** System Latency Buffer, target ~500 ms. Graceful Yielding when the limbic payload exceeds the 10-bit navigator (CH 3.5).
+- **Viktor Frankl Buffer:** System Latency Buffer, target ~500 ms. Graceful Yielding when the limbic payload exceeds the 10-bit navigator (CH 3.5). A somatic panic response is a fire alarm, not a bad line of code: force-quitting it triggers a Kernel Panic, and severing the feedback loop induces dissociation. The required response is grounding, breathwork and logging the somatic feedback (CH 3.5.2).
 - **Single-Threaded Throughput:** Multitasking is context switching. Deep work runs in 90-120 minute sprints (CH 3.6).
 - **Flow Logic Gate:** Challenge slightly above skill; Headless Mode shuts down the self-monitoring GUI (CH 3.7).
-- **Utility Virus Failsafe:** Not every cycle needs ROI. Sandbox Mode runs unmetered (CH 3.9).
+- **Passion Build:** Passion is compiled, not discovered: interest, the unglamorous mastery work, dopamine as competence grows, then cooling (deep sleep, recovery). Attach the reward to the effort, not to the extrinsic outcome (CH 3.8, 3.8.1).
+- **Utility Virus Failsafe:** Not every cycle needs ROI. Sandbox Mode runs unmetered: disable all system telemetry at least once a week (CH 3.9).
 
 ## 3. Procedures
 
@@ -38,14 +39,21 @@ The Processor module tunes the mind as compute engine. The conscious foreground 
 
 ### 3.2 Packet Sniffing (See / Hear / Feel)
 
-Label each incoming packet as `SEE`, `HEAR` or `FEEL` (image, inner talk, body sensation). Labelling an unreadable stream reduces load.
+Categorise each incoming packet into one of three endpoints:
+
+1. **`SEE`:** Are you looking at a physical object in the room, or is the hardware rendering an internal image of a worst-case scenario?
+2. **`HEAR`:** Are you listening to someone speak, or to the internal voice (legacy script) narrating your failure?
+3. **`FEEL`:** Where exactly in the chassis is the heat, pressure or tightness?
+
+Example: a tight chest (`FEEL`), an image of getting fired (`SEE`) and an internal voice yelling (`HEAR`) turn one high-load anxiety attack into three manageable data streams (CH 3.4.1).
 
 ### 3.3 Frankl Buffer
 
 ```text
 ON stimulus:
     hold ~500ms
-    IF limbic payload > navigator capacity => Graceful Yielding (Sudo Drop), no force
+    IF limbic payload > navigator capacity => Graceful Yielding (Sudo Drop), no force:
+        ground, regulate via breathwork, log the somatic feedback
     ELSE choose response
 ```
 

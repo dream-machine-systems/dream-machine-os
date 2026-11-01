@@ -6,7 +6,7 @@ One module per chapter of *The Dream Machine*. A module specifies the logic; the
 | --- | --- | --- | --- | --- |
 | 01 | [Identity BIOS](01-identity-bios/) | CH 1 | `STABLE` | [ch1](https://www.dreammachine.systems/briefings/ch1) |
 | 02 | [Operating System (Narrative Layer)](02-operating-system/) | CH 2 | `STABLE` | [ch2](https://www.dreammachine.systems/briefings/ch2) |
-| 03 | [Processor (Consciousness Management)](03-processor/) | CH 3 | `DRAFT` | [ch3](https://www.dreammachine.systems/briefings/ch3) |
+| 03 | [Processor (Consciousness Management)](03-processor/) | CH 3 | `STABLE` | [ch3](https://www.dreammachine.systems/briefings/ch3) |
 | 04 | [Security Auditing (Shadow Work)](04-security-auditing/) | CH 4 | `DRAFT` | [ch4](https://www.dreammachine.systems/briefings/ch4) |
 | 05 | [Low-Level Utilities](05-low-level-utilities/) | CH 5 | `DRAFT` | [ch5](https://www.dreammachine.systems/briefings/ch5) |
 | 06 | [Hardware Calibration](06-hardware-calibration/) | CH 6 | `DRAFT` | [ch6](https://www.dreammachine.systems/briefings/ch6) |
