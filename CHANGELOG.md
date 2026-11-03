@@ -8,6 +8,7 @@ All notable changes to the specification. Versions track the build of *The Dream
 
 - **Scope:** Repository renamed from `love-protocol` to `dream-machine-os`. It now specifies the whole OS; the Love Protocol is module 09.
 - **License:** Specification relicensed from Apache 2.0 to CC BY-NC-SA 4.0, aligned with the book's dual-track licensing. Commercial use requires an enterprise license. Earlier versions remain available under Apache 2.0.
+- **Commercial use:** `COMMERCIAL-USE.md` no longer mentions certified integrators, as no certification program exists. The partner link now reads "Partner program and licensing".
 - **Bandwidth constants:** Updated from 50 bit/s vs. 11 million bit/s to 10 bit/s vs. ~1 billion bit/s (Zheng & Meister, 2024, *Neuron*).
 - **Structure:** `core/` moved to `modules/01-identity-bios` and `modules/08-cognitive-downclock`. Patches renamed and tagged with evidence tiers.
 - **Module 02:** Reviewed line by line against CH 2 and set to `STABLE`. Root-cause analysis is credited to the 4 Noble Truths, the Belief Loop and the Unit Test follow the book's wording, the Depletion path runs the Gentle Boot Protocol. Added: The Lens, Epistemic Bottleneck, Logic Bypass and Kernel Panic Failsafe, the scope limit of Fuzzy Logic, the critique clause.

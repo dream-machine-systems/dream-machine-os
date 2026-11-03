@@ -35,13 +35,13 @@ Copyright protects the text, not the ideas. Applying the method in conversation,
 | **Corporate** | Companies and public authorities, for internal programs | Use of the material in internal learning and development, by headcount |
 | **Product** | Apps, online courses, certifications, translations for sale | Individual agreement |
 
-Licenses run per year. Certified integrators receive the Solo Practitioner license for their first year. Non-profit organizations that charge fees receive a reduced rate. Current prices on request.
+Licenses run per year. Non-profit organizations that charge fees receive a reduced rate. Current prices on request.
 
 ## Request a license
 
 [dreammachine.systems/contact/licensing](https://www.dreammachine.systems/contact/licensing/) with the subject `ENTERPRISE LICENSE`. State the organization, the use case, the tier and the expected reach. If you are unsure whether your use is commercial, ask.
 
-Certified deployment through the partner network: [dreammachine.systems/integrator](https://www.dreammachine.systems/integrator.php).
+Partner program and licensing: [dreammachine.systems/integrator](https://www.dreammachine.systems/integrator.php).
 
 ## Contributions
 
