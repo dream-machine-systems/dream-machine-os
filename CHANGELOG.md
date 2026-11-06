@@ -2,7 +2,7 @@
 
 All notable changes to the specification. Versions track the build of *The Dream Machine* ([Version Control](https://www.dreammachine.systems/version-control)). Format based on [Keep a Changelog](https://keepachangelog.com/).
 
-## [Unreleased] – target v0.9.5
+## [0.9.5] – 2026-11-07
 
 ### Changed
 
@@ -40,7 +40,7 @@ All notable changes to the specification. Versions track the build of *The Dream
 - `modules/09-love-protocol`: specification derived from Directory C of the book.
 - Governance: `CONTRIBUTING.md`, `GOVERNANCE.md`, `CODE_OF_CONDUCT.md`, `SAFETY.md`, `TRADEMARKS.md`, `COMMERCIAL-USE.md`, `CLA.md`.
 - `CLA.md` version 1.0: non-exclusive licence to Dream Machine Systems FlexCo, public availability of every accepted contribution under CC BY-NC-SA 4.0 or a more permissive Creative Commons license, opt-out for future contributions at any time.
-- CLA check (`.github/workflows/cla.yml`, `scripts/cla.cjs`): signature by PR comment, stored in a private repository. Inactive until switched on.
+- CLA check (`.github/workflows/cla.yml`, `scripts/cla.cjs`): signature by PR comment, stored in a private repository. Required check `cla` on `main`.
 - `COMMERCIAL-USE.md`: CC definition of NonCommercial, examples, license tiers (Community, Solo Practitioner, Studio, Corporate, Product).
 - Issue forms (Errata, Evidence, RFC), PR template, `CODEOWNERS`.
 - `glossary/`, `audit/`, `rfcs/` as entry points.

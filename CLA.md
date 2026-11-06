@@ -1,6 +1,6 @@
 # Contributor License Agreement (Individual) – Version 1.0
 
-> **Status:** Version 1.0, published 2026-11. Signing opens when the CLA check is switched on for this repository. Until then, pull requests that add substantial text are held open with `status:blocked-cla`.
+> **Status:** Version 1.0, published 2026-11. In force: the CLA check asks for your signature on your first pull request.
 
 This agreement is between you ("Contributor") and Dream Machine Systems FlexCo, Lindengasse 56/18-19, 1070 Vienna, Austria, FN 675013 t, Commercial Court Vienna ("Dream Machine Systems").
 

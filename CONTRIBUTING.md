@@ -39,7 +39,7 @@ The repository uses the tiers of the book's dependency index:
 1. Fork, branch from `main`.
 2. Commit with [Conventional Commits](https://www.conventionalcommits.org): `fix(09-love-protocol): correct ACL level numbering`, `feat(glossary): add Frankl Buffer`, `docs(audit): add source for sec8-1`.
 3. Open a PR using the template. One topic per PR.
-4. Sign the [CLA](CLA.md) when the bot asks (first PR only): post the signing sentence from the CLA as a comment. Until the CLA check is switched on, PRs that add substantial text are held open with `status:blocked-cla`; errata and small fixes merge as usual.
+4. Sign the [CLA](CLA.md) when the bot asks (first PR only): post the signing sentence from the CLA as a comment.
 5. The maintainer reviews, squashes and merges. Your name goes into [CHANGELOG.md](CHANGELOG.md).
 
 ## Style
@@ -56,7 +56,7 @@ The repository uses the tiers of the book's dependency index:
 
 ## Maintainer: CLA check
 
-The workflow `.github/workflows/cla.yml` (logic in `scripts/cla.cjs`) does nothing until it is switched on:
+The workflow `.github/workflows/cla.yml` (logic in `scripts/cla.cjs`) is active. It was switched on with these steps:
 
 1. Create the private repository `dream-machine-systems/cla-signatures`.
 2. Create a fine-grained personal access token for that repository only, permission Contents: read and write. Store it in this repository as the Actions secret `CLA_SIGNATURES_TOKEN`.
