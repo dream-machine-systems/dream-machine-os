@@ -17,7 +17,7 @@ One module per chapter of *The Dream Machine*. A module specifies the logic; the
 | 11 | [Wisdom Nodes](11-wisdom-nodes/) | CH 11 | `STABLE` | [ch11](https://www.dreammachine.systems/briefings/ch11) |
 | 12 | [Data Sovereignty](12-data-sovereignty/) | CH 12 | `STABLE` | [ch12](https://www.dreammachine.systems/briefings/ch12) |
 
-**Status values:** `PLANNED` (no spec yet), `DRAFT` (spec exists, not yet audited against the current build), `STABLE` (matches the tagged build).
+**Status values:** `PLANNED` (no spec yet), `DRAFT` (spec exists, not yet audited against the current build), `STABLE` (matches the book: the tagged build plus the corrections listed under `[Unreleased]` in [CHANGELOG.md](../CHANGELOG.md)).
 
 ## Phases
 
@@ -62,4 +62,4 @@ Sections in order: Abstract, Core Logic, Procedures, System Mapping, Error Codes
 
 ## Scope rule
 
-A module specifies what the tagged build of the book contains, nothing more. Section references (`CH 3.5`) point to the book. New logic, new error codes or new procedures go through an [RFC](../rfcs/README.md) first and land in the book and the spec together.
+A module specifies what the book contains, nothing more: the tagged build plus the corrections already made in the manuscript since then, listed under `[Unreleased]` in [CHANGELOG.md](../CHANGELOG.md). Section references (`CH 3.5`) point to the book. New logic, new error codes or new procedures go through an [RFC](../rfcs/README.md) first and land in the book and the spec together.

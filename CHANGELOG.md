@@ -7,6 +7,7 @@ All notable changes to the specification. Versions track the build of *The Dream
 ### Changed
 
 - **Data Lake:** The Subconscious Data Lake no longer stores the whole 1-billion-bit sensory stream. As in the corrected CH 8.1.2, the 8.7 mapping table and Directory B, the sensory gates filter out most of it; only a small retained fraction reaches the Data Lake. `glossary/data-lake.md` now reads as printed in Directory B (DATA LAKE (SUBCONSCIOUS)), and module 08 follows the book in its abstract, the Data Lake bullet of the core logic and the mapping row "The Subconscious". Module 08 stays `STABLE`.
+- **Versioning:** `build` keeps naming the last book build published on Leanpub (v0.9.5) until the next one; corrections made in the manuscript in between are listed here under `[Unreleased]`, without interim tags. `STABLE` now reads "matches the book: the tagged build plus the corrections listed under [Unreleased]" (`modules/README.md`, `directories/README.md`, `modules/status.json`, `spec-status.json`); `GOVERNANCE.md` describes the rule.
 
 ## [0.9.5] – 2026-11-07
 
