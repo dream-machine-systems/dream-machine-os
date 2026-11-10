@@ -1,0 +1,61 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "./schemas/audit.schema.json",
+  "title": "Audit Chapter",
+  "type": "object",
+  "properties": {
+    "schema_version": {
+      "type": "integer"
+    },
+    "build": {
+      "type": "string"
+    },
+    "part": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "module": {
+      "type": "string"
+    },
+    "entries": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "properties": {
+          "title": {
+            "type": "string"
+          },
+          "core_claim": {
+            "type": "string"
+          },
+          "query": {
+            "type": "string"
+          },
+          "controlled_studies": {
+            "type": "string"
+          },
+          "tier": {
+            "type": "string"
+          },
+          "primary_anchors": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "summary": {
+            "type": "string"
+          },
+          "full_audit": {
+            "type": "string",
+            "format": "uri"
+          }
+        },
+        "additionalProperties": true
+      }
+    }
+  },
+  "additionalProperties": true
+}
