@@ -2,6 +2,12 @@
 
 All notable changes to the specification. Versions track the build of *The Dream Machine* ([Version Control](https://www.dreammachine.systems/version-control)). Format based on [Keep a Changelog](https://keepachangelog.com/).
 
+## [Unreleased]
+
+### Changed
+
+- **Data Lake:** The Subconscious Data Lake no longer stores the whole 1-billion-bit sensory stream. As in the corrected CH 8.1.2, the 8.7 mapping table and Directory B, the sensory gates filter out most of it; only a small retained fraction reaches the Data Lake. `glossary/data-lake.md` now reads as printed in Directory B (DATA LAKE (SUBCONSCIOUS)), and module 08 follows the book in its abstract, the Data Lake bullet of the core logic and the mapping row "The Subconscious". Module 08 stays `STABLE`.
+
 ## [0.9.5] – 2026-11-07
 
 ### Changed

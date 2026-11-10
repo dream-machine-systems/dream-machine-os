@@ -14,12 +14,12 @@ audit: https://www.dreammachine.systems/audit
 
 ## 1. Abstract
 
-Conscious processing runs at roughly 10 bit/s; total peripheral absorption is on the order of 1 billion bit/s. Most of that stream goes to the Subconscious Data Lake. The module replaces the dictator model of attention with the Boardroom Protocol, treats language as lossy compression and moves connection to the carrier wave of presence.
+Conscious processing runs at roughly 10 bit/s; total peripheral absorption is on the order of 1 billion bit/s. Most of that stream is filtered out; only a small retained fraction goes to the Subconscious Data Lake. The module replaces the dictator model of attention with the Boardroom Protocol, treats language as lossy compression and moves connection to the carrier wave of presence.
 
 ## 2. Core Logic
 
 - **Namespace split:** `SENSORY_INTAKE` (~10^9 bit/s, an order-of-magnitude heuristic for raw peripheral data) vs. `AFFECTIVE_BANDWIDTH` (unquantified: emotion, intuition, presence). Sensors are measured in bits, presence in bandwidth; treating connection as a 1-billion-bit calculation is a category error. The 10 vs. 10^9 comparison bridges two differently derived measurements and is an approximation (CH 8.1, 8.1.1).
-- **Subconscious Data Lake:** Unprocessed bits are stored, not lost (CH 8.1.2).
+- **Subconscious Data Lake:** The sensory gates filter and discard most of the 1 billion bits before they reach any storage layer. The small fraction retained without passing the 10-bit bottleneck lands in the Data Lake as raw, unstructured telemetry: the 10-bit mind cannot query it with standard logic, but the nervous system keeps reacting to it (CH 8.1.2).
 - **Predictive Rendering Engine:** The brain renders a prediction of the world to conserve bandwidth; it does not record passively. Do not weaponize "simulation" to gaslight yourself out of physical reality: a hallucinated threat still generates a real fire in the hardware (Dissociation Exploit) (CH 8.1.3).
 - **GNWT routing:** Content competes for the global workspace by Darwinian priority (CH 8.1.4).
 - **User Illusion:** Analysing an emotional conflict with the 10-bit channel plays an 8K feed on a calculator display. The channel clogs, the nodes fight over the metadata (the words) because the payload (grief, fear) cannot pass, and the compressed text-string is mistaken for understanding (CH 8.1.5).
@@ -58,7 +58,7 @@ Source: CH 8.7 of the book.
 | Language | Mistaking the verbal pointer for reality (The Zip-File Error) | 10-Bit Dial-Up (Recognizing language as a lossy compression format) |
 | Attention | The Dictator (Micromanaging all inputs via the 10-bit bottleneck) | The Boardroom (Focus / 10-Bit Logical Processing applied selectively) |
 | Awareness | Suppressed or overridden by the noisy executive UI | The Staff (Intuition / Broadband Analog Processing) |
-| The Subconscious | Feared as a chaotic void or ignored entirely | The Data Lake (Unstructured repository for 1-Billion-bit telemetry) |
+| The Subconscious | Feared as a chaotic void or ignored entirely | The Data Lake (Unstructured repository for telemetry stored outside conscious access) |
 | Intuition | Dismissed as irrational noise (Descartes' Error) | Somatic Marker (Physical data compression / Valid gut feeling API) |
 | Graceful Yielding | Fighting a limbic crash with pure willpower (Thermal Throttling) | Biological Cache-Clear (Surrendering to limbic overload to process native data) |
 | Meditation | Misused as a productivity hack or spiritual bypassing firewall | Open Door Protocol (Permeability / High-Bandwidth Insight) |
