@@ -6,6 +6,7 @@ All notable changes to the specification. Versions track the build of *The Dream
 
 ### Changed
 
+- **Audit logs:** `audit/README.md` follows the corrected CH 27.4. The book now states that the empirical JSON logs are open-sourced in this repository and names the decentralized node cluster as the remaining failover step; the README no longer calls the publication a promise the book still makes.
 - **Glossary:** IMMUTABLE EVENT SOURCING reads as printed in the corrected Directory B: "To change the output, add new, resolving transactions to the ledger", was "you must add". An instruction is an imperative; the meaning is unchanged.
 - **Module 05:** The mapping row "Soul Retrieval" of the System Mapping table follows the corrected CH 5.5 table: "Data Recovery Protocol (Reclaiming isolated disk sectors)", was "(Reclaiming lost bandwidth)". Orphaned partitions are a storage fault, not a bandwidth fault. Module 05 stays `STABLE`.
 - **Data Lake:** The Subconscious Data Lake no longer stores the whole 1-billion-bit sensory stream. As in the corrected CH 8.1.2, the 8.7 mapping table and Directory B, the sensory gates filter out most of it; only a small retained fraction reaches the Data Lake. `glossary/data-lake.md` now reads as printed in Directory B (DATA LAKE (SUBCONSCIOUS)), and module 08 follows the book in its abstract, the Data Lake bullet of the core logic and the mapping row "The Subconscious". Module 08 stays `STABLE`.

@@ -1,6 +1,6 @@
 # Audit Logs
 
-Empirical audit data for every footnoted claim in the book: 150 sections in one JSON file per chapter or directory. The book (CH 27.4, SPOF boundary) commits to open-sourcing these logs; this directory keeps that promise. The website renders them at [dreammachine.systems/audit](https://www.dreammachine.systems/audit). The full audit PDFs stay on the website and are linked from each entry.
+Empirical audit data for every footnoted claim in the book: 150 sections in one JSON file per chapter or directory. The book (CH 27.4, SPOF boundary) states that these logs are open-sourced in this repository; this directory holds them. The website renders them at [dreammachine.systems/audit](https://www.dreammachine.systems/audit). The full audit PDFs stay on the website and are linked from each entry.
 
 ## File format
 
