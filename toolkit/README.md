@@ -57,44 +57,44 @@ The repository license ([CC BY-NC-SA 4.0](../LICENSE)) covers personal copies an
 
 ## 4. Protocol Dashboard
 
-Source: CH 21. A one-pane Network Operations Center: one look shows which layer is failing. Outbound networking (layer 4) on a corrupted BIOS (layer 1) is an architectural impossibility; inbound emergency help (layer 0) is always authorized, regardless of system state (CH 21.0).
+Source: CH 21. A one-pane Network Operations Center: one look shows which layer is failing. Outbound networking (tier 4) on a corrupted BIOS (tier 1) is an architectural impossibility; inbound emergency help (tier 0) is always authorized, regardless of system state (CH 21.0).
 
 ### 4.1 Full Stack Architecture
 
-Source: CH 21.1, verbatim. Layers 0 to 4 match tiers 0 to 4 of the [runbook](../runbook/#5-tiered-deployment). This is not the L0 to L5 stack of [Directory A](../directories/a-backend-schematic/).
+Source: CH 21.1, verbatim. Tiers 0 to 4 are the tiers of the [runbook](../runbook/#5-tiered-deployment). This is not the L0 to L5 stack of [Directory A](../directories/a-backend-schematic/).
 
 <!-- verbatim: CH 21.1 -->
 ```yaml
 system_topology:
-  layer_0:
+  tier_0:
     component: "OOB SUPPORT (Clinical & Community Co-Regulation)"
     status_options: ["Supported", "Isolated"]
     protocol: "Inbound Assistance"
     tools: ["Therapy", "Caregivers", "Medical Support"]
     goal: "Emergency baseline stability when the local hardware cannot self-regulate."
 
-  layer_1:
+  tier_1:
     component: "BIOS & KERNEL (Identity & Foundation)"
     status_options: ["Admin", "User"]
     protocol: "Radical Responsibility"
     tools: ["'Sudo Admin' Patch", "CBT (Unit Testing)", "Gratitude"]
     goal: "Stable Root Access. 'I own the hardware.'"
 
-  layer_2:
+  tier_2:
     component: "PROCESSOR (Focus & Execution)"
     status_options: ["Flow", "Throttled"]
     protocol: "Deep Work, Single-Threading"
     tools: ["Frankl Buffer (The Pause)", "Flow State", "Input Throttling"]
     goal: "Maximum cognitive throughput without overheating."
 
-  layer_3:
+  tier_3:
     component: "HARDENING (Security & Infrastructure)"
     status_options: ["Secure", "Vulnerable"]
     protocol: "Shadow Work, Chaos Engineering"
     tools: ["Mirror Server (Projection)", "Cold Exposure", "Breathwork"]
     goal: "System resilience against environmental stress."
 
-  layer_4:
+  tier_4:
     component: "THE NETWORK (Connection & Scaling)"
     status_options: ["Online", "Offline"]
     protocol: "Love (Stateless)"
@@ -107,13 +107,13 @@ system_topology:
 Source: CH 21.2, verbatim. Do not guess; follow the signal path to the broken layer.
 
 <!-- verbatim: CH 21.2 -->
-| Symptom & layer | Debug question | System command (action) |
+| Symptom & tier | Debug question | System command (action) |
 | --- | --- | --- |
-| **Drowning / Total Failure** (Layer 0: OOB Support) | "Is my system currently too damaged to self-repair?" | Plug into an external, regulated node. Seek clinical or community support. |
-| **Helpless / Victim** (Layer 1: BIOS) | "Who actually holds Root Access right now?" | Execute `sudo chown`. Reclaim the Admin keys. |
-| **Overwhelmed / Scattered** (Layer 2: Processor) | "Am I aggressively Rapid Context Switching?" | Kill the background tabs. Force Single-Thread mode. |
-| **Triggered / Angry** (Layer 3: Hardening) | "Is this a real external threat, or a Mirror Reflection of my code?" | **Triage.** If hostile: Drop connection (Iron Gate). If safe: Audit the Shadow Rootkit. |
-| **Lonely / Misunderstood** (Layer 4: Network) | "Is the target node toxic, or am I transmitting Corrupted Data?" | **Triage.** If hostile: Secure ports. If safe: Switch to Clean Data (NVC). |
+| **Drowning / Total Failure** (Tier 0: OOB Support) | "Is my system currently too damaged to self-repair?" | Plug into an external, regulated node. Seek clinical or community support. |
+| **Helpless / Victim** (Tier 1: BIOS) | "Who actually holds Root Access right now?" | Execute `sudo chown`. Reclaim the Admin keys. |
+| **Overwhelmed / Scattered** (Tier 2: Processor) | "Am I aggressively Rapid Context Switching?" | Kill the background tabs. Force Single-Thread mode. |
+| **Triggered / Angry** (Tier 3: Hardening) | "Is this a real external threat, or a Mirror Reflection of my code?" | **Triage.** If hostile: Drop connection (Iron Gate). If safe: Audit the Shadow Rootkit. |
+| **Lonely / Misunderstood** (Tier 4: Network) | "Is the target node toxic, or am I transmitting Corrupted Data?" | **Triage.** If hostile: Secure ports. If safe: Switch to Clean Data (NVC). |
 | **Chronic Pain / Grief** (Hardware Constraint) | "Is this a software bug I can fix, or a permanent physical/environmental reality?" | **Execute `NOT_PATCHABLE`.** Cease optimization. Route to Graceful Degradation, accommodation, and radical acceptance. |
 
 ## 5. Incident Reports

@@ -6,6 +6,7 @@ All notable changes to the specification. Versions track the build of *The Dream
 
 ### Changed
 
+- **Toolkit:** The Protocol Dashboard numbers its levels as tiers, as printed in the corrected CH 21: `tier_0` to `tier_4` in the topology YAML and "Tier 0" to "Tier 4" in the If-Then matrix, was `layer_0` to `layer_4` and "Layer 0" to "Layer 4". The dashboard levels are the tiers of the runbook; "Layer 0" stays reserved for the System Hypervisor (module 12, glossary).
 - **Audit logs:** `audit/README.md` follows the corrected CH 27.4. The book now states that the empirical JSON logs are open-sourced in this repository and names the decentralized node cluster as the remaining failover step; the README no longer calls the publication a promise the book still makes.
 - **Glossary:** IMMUTABLE EVENT SOURCING reads as printed in the corrected Directory B: "To change the output, add new, resolving transactions to the ledger", was "you must add". An instruction is an imperative; the meaning is unchanged.
 - **Module 05:** The mapping row "Soul Retrieval" of the System Mapping table follows the corrected CH 5.5 table: "Data Recovery Protocol (Reclaiming isolated disk sectors)", was "(Reclaiming lost bandwidth)". Orphaned partitions are a storage fault, not a bandwidth fault. Module 05 stays `STABLE`.
