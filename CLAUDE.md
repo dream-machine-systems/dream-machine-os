@@ -1,0 +1,3 @@
+# Company knowledge (dream-machine-wiki)
+
+Durable company knowledge of Dream Machine | Systems (offer, audience, hook and messaging, trademarks, editions, platform rules) lives in the private repo dream-machine-systems/dream-machine-wiki. Read its INDEX.md first, then only the files the task needs. This repo’s own contracts stay here and win for this repo’s area. When a sprint produces a durable company-wide decision, propose one small wiki PR following the wiki’s CLAUDE.md and NEVER.md; the owner merges. This repo is public and the wiki is private: never copy, paraphrase or cite wiki content in a file, commit, issue or PR of this repo.
