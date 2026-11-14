@@ -69,7 +69,7 @@ Source: CH 5.5 of the book.
 | Drums | Cortical lockout (Trapped in the surface-level GUI) | Sonic Driver (Hardware Entrainment for Subconscious Access) |
 | Visuals | Raw limbic data is unreadable (Incomprehensible noise) | Symbolic GUI (Making raw data navigable) |
 | Power Animals | System freeze when handling heavy emotional payloads | Heuristic Avatars (Compression Widgets for heavy payloads) |
-| Soul Retrieval | Orphaned partitions (Permanently quarantined data) | Data Recovery Protocol (Reclaiming lost bandwidth) |
+| Soul Retrieval | Orphaned partitions (Permanently quarantined data) | Data Recovery Protocol (Reclaiming isolated disk sectors) |
 | Process Deprecation | High CPU drain from anxious defense loops | Unburdening Protocol (Spinning down obsolete loops) |
 | Sleep Mode | Basic physical shutdown (Isolated offline node) | Background Sync (Connecting to the Non-Local Cloud) |
 | Lucidity | Read-Only permissions (Victim of the background simulation) | Root Access (Admin Privileges in the Sandbox) |
