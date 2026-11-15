@@ -96,12 +96,14 @@ function notes(tag) {
     .find((t) => tagCommit(t));
 
   const out = [];
-  const when = s.date ? `, published on Leanpub on ${s.date}` : '';
-  out.push(
-    `Specification build **${tag}**. It mirrors build ${tag} of *The Dream Machine – Operating System for the Soul*${when}.`,
-    '',
-    s.body,
-  );
+  if (STABLE.test(version)) {
+    const when = s.date ? `, published on Leanpub on ${s.date}` : '';
+    out.push(
+      `Specification build **${tag}**. It mirrors build ${tag} of *The Dream Machine – Operating System for the Soul*${when}.`,
+      '',
+    );
+  }
+  out.push(s.body);
   if (prev && commit) {
     const log = git('log', '--first-parent', '--format=- %s (%h)', `${prev}..${commit}`);
     if (log) out.push('', `### Merged since ${prev}`, '', log);
