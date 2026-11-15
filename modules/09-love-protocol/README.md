@@ -149,7 +149,7 @@ Source: CH 9.9 of the book.
 | Karuna (Compassion) | Empathic burnout / Mirroring the pain matrix and crashing | Support Protocol (Active energy routing without absorbing the crash) |
 | Mudita (Sympathetic Joy) | Zero-sum envy / Resenting other nodes' successful execution | Positive Network Sync (Hacking the network for free liquid cooling) |
 | Human Attachment | Ephemeral, purely stateless interactions / Discarding history | Stateful Database (Organic, historical storage of trust metrics) |
-| Amnesia Exploit | Forcing a "spiritual" cache clear to avoid personal accountability | Quarantined (Stateful trust metrics and relational history must be honored) |
+| Amnesia Exploit | Forcing a "spiritual" cache clear to avoid personal accountability | Quarantined (Honor stateful trust metrics and relational history) |
 | Empathy | Unfiltered raw data mirroring (Severe Buffer Overflow risk) | Intrusion Detection (Pre-requisite data gathering before executing Karuna) |
 | Karma as Code | Self-serving network manipulation / Corrupted P2P sync | P2P Data Sync (Zero Network Corruption / Clean systemic output) |
 | Boundaries | Monolithic concrete walls or completely porous borders | Access Control List / ACL (Secure SSH Key management / Granular access) |
