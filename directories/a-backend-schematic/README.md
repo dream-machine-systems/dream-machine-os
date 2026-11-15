@@ -3,7 +3,7 @@ id: dir-a-backend-schematic
 title: Backend Schematic (Multi-Agent Architecture)
 book_ref: "Directory A (Backend Schematic: Multi-Agent Architecture)"
 spec_status: STABLE
-build: v0.9.5
+build: v0.9.6
 related: [01-identity-bios, 02-operating-system, 03-processor, 08-cognitive-downclock]
 audit: https://www.dreammachine.systems/audit
 ---

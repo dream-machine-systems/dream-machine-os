@@ -3,7 +3,7 @@ id: 09-love-protocol
 title: Love Protocol
 book_ref: "CH 9 (Stateless Communication); Directory C (Technical Specification)"
 spec_status: STABLE
-build: v0.9.5
+build: v0.9.6
 depends_on: [01-identity-bios, 03-processor, 06-hardware-calibration, 07-social-api, 08-cognitive-downclock]
 audit: https://www.dreammachine.systems/audit
 landing: https://www.loveprotocol.io

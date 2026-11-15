@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "build": "v0.9.5",
+  "build": "v0.9.6",
   "status_values": {
     "PLANNED": "no spec yet",
     "DRAFT": "spec exists, not yet audited against the current build",

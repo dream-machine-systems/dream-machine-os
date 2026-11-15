@@ -1,14 +1,14 @@
 # Dream Machine OS | Open Specification
 
 <p align="center">
-  <img src="https://img.shields.io/badge/spec-v0.9.5-4A90E2?style=flat-square" alt="Spec version">
+  <img src="https://img.shields.io/badge/spec-v0.9.6-4A90E2?style=flat-square" alt="Spec version">
   <img src="https://img.shields.io/badge/license-CC%20BY--NC--SA%204.0-lightgrey?style=flat-square" alt="License: CC BY-NC-SA 4.0">
   <img src="https://img.shields.io/badge/status-accepting%20pull%20requests-success?style=flat-square" alt="Accepting pull requests">
 </p>
 
 **Upstream manual:** *The Dream Machine – Operating System for the Soul* ([dreammachine.systems](https://www.dreammachine.systems))
 **Short link:** [dreammachine.systems/source](https://www.dreammachine.systems/source)
-**Spec build:** `v0.9.5` (tracks the book build, see [Version Control](https://www.dreammachine.systems/version-control))
+**Spec build:** `v0.9.6` (tracks the book build, see [Version Control](https://www.dreammachine.systems/version-control))
 
 ---
 

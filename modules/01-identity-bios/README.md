@@ -3,7 +3,7 @@ id: 01-identity-bios
 title: Identity BIOS
 book_ref: "CH 1 (Identity BIOS: Base Firmware)"
 spec_status: STABLE
-build: v0.9.5
+build: v0.9.6
 depends_on: []
 audit: https://www.dreammachine.systems/audit
 ---

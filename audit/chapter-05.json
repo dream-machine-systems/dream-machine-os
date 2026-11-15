@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "build": "v0.9.5",
+  "build": "v0.9.6",
   "part": "chapter-5",
   "title": "CHAPTER 5: LOW-LEVEL UTILITIES (Shamanic Root Access)",
   "module": "05",

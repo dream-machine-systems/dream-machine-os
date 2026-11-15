@@ -3,7 +3,7 @@ id: 07-social-api
 title: Social API
 book_ref: "CH 7 (Standardizing Connection: Social API)"
 spec_status: STABLE
-build: v0.9.5
+build: v0.9.6
 depends_on: [01-identity-bios, 03-processor]
 audit: https://www.dreammachine.systems/audit
 ---

@@ -48,7 +48,7 @@ id: 09-love-protocol
 title: Love Protocol
 book_ref: "CH 9; Directory C"
 spec_status: DRAFT
-build: v0.9.5
+build: v0.9.6
 depends_on: [01-identity-bios, 08-cognitive-downclock]
 audit: https://www.dreammachine.systems/audit
 ---

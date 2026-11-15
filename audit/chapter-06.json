@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "build": "v0.9.5",
+  "build": "v0.9.6",
   "part": "chapter-6",
   "title": "CHAPTER 6: HARDWARE CALIBRATION (Structural Synchronization)",
   "module": "06",

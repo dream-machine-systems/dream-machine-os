@@ -3,7 +3,7 @@ id: 05-low-level-utilities
 title: Low-Level Utilities
 book_ref: "CH 5 (Low-Level Utilities: Shamanic Root Access)"
 spec_status: STABLE
-build: v0.9.5
+build: v0.9.6
 depends_on: [03-processor, 04-security-auditing]
 audit: https://www.dreammachine.systems/audit
 ---

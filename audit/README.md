@@ -9,7 +9,7 @@ Empirical audit data for every footnoted claim in the book: 150 sections in one 
 ```json
 {
   "schema_version": 1,
-  "build": "v0.9.5",
+  "build": "v0.9.6",
   "part": "chapter-1",
   "title": "CHAPTER 1: IDENTITY BIOS (Base Firmware)",
   "module": "01",

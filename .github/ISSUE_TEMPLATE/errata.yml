@@ -25,7 +25,7 @@ body:
     id: build
     attributes:
       label: Build version
-      placeholder: v0.9.5
+      placeholder: v0.9.6
   - type: input
     id: section
     attributes:
