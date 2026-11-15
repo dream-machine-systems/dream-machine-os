@@ -61,7 +61,7 @@ Source: CH 21. A one-pane Network Operations Center: one look shows which layer 
 
 ### 4.1 Full Stack Architecture
 
-Source: CH 21.1, verbatim. Tiers 0 to 4 are the tiers of the [runbook](../runbook/#5-tiered-deployment). This is not the L0 to L5 stack of [Directory A](../directories/a-backend-schematic/).
+Source: CH 21.1, verbatim. Tiers 0 to 4 are the tiers of the [runbook](../runbook/#5-tiered-deployment). "Layer 0" is not a tier: it stays reserved for the [System Hypervisor](../glossary/system-hypervisor.md) ([module 12](../modules/12-data-sovereignty/)).
 
 <!-- verbatim: CH 21.1 -->
 ```yaml
