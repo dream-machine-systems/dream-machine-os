@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "build": "v0.9.5",
+  "build": "v0.9.6",
   "part": "directory-a",
   "title": "DIRECTORY A: BACKEND SCHEMATIC (Multi-Agent Architecture)",
   "module": null,

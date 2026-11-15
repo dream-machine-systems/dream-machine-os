@@ -3,7 +3,7 @@ id: dir-f-troubleshooting-guide
 title: Troubleshooting Guide (System Error Logs)
 book_ref: "Directory F (Troubleshooting Guide: System Error Logs)"
 spec_status: STABLE
-build: v0.9.5
+build: v0.9.6
 related: [01-identity-bios, 02-operating-system, 03-processor, 04-security-auditing, 07-social-api, 09-love-protocol, 10-hardened-infrastructure]
 audit: https://www.dreammachine.systems/audit
 ---

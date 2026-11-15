@@ -3,7 +3,7 @@ id: 12-data-sovereignty
 title: Data Sovereignty
 book_ref: "CH 12 (Data Sovereignty: Global OS Production Environment)"
 spec_status: STABLE
-build: v0.9.5
+build: v0.9.6
 depends_on: [03-processor, 09-love-protocol]
 audit: https://www.dreammachine.systems/audit
 ---

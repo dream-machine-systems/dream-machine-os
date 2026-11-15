@@ -3,7 +3,7 @@ id: 11-wisdom-nodes
 title: Wisdom Nodes
 book_ref: "CH 11 (Wisdom Nodes: Ancestral Cloud Storage)"
 spec_status: STABLE
-build: v0.9.5
+build: v0.9.6
 depends_on: [05-low-level-utilities, 08-cognitive-downclock, 09-love-protocol]
 audit: https://www.dreammachine.systems/audit
 ---

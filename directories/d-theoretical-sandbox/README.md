@@ -3,7 +3,7 @@ id: dir-d-theoretical-sandbox
 title: Theoretical Sandbox (End-of-Lifecycle Theories)
 book_ref: "Directory D (Theoretical Sandbox: End-of-Lifecycle Theories, Receiver Hypothesis)"
 spec_status: STABLE
-build: v0.9.5
+build: v0.9.6
 related: [03-processor, 09-love-protocol, 12-data-sovereignty]
 audit: https://www.dreammachine.systems/audit
 ---

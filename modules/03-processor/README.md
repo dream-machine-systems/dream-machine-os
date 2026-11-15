@@ -3,7 +3,7 @@ id: 03-processor
 title: Processor (Consciousness Management)
 book_ref: "CH 3 (Processor: Consciousness Management)"
 spec_status: STABLE
-build: v0.9.5
+build: v0.9.6
 depends_on: [01-identity-bios, 02-operating-system]
 audit: https://www.dreammachine.systems/audit
 ---

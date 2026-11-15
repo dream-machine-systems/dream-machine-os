@@ -3,7 +3,7 @@ id: 06-hardware-calibration
 title: Hardware Calibration
 book_ref: "CH 6 (Hardware Calibration: Structural Synchronisation)"
 spec_status: STABLE
-build: v0.9.5
+build: v0.9.6
 depends_on: [01-identity-bios, 02-operating-system]
 audit: https://www.dreammachine.systems/audit
 ---

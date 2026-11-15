@@ -3,7 +3,7 @@ id: 10-hardened-infrastructure
 title: Hardened Infrastructure
 book_ref: "CH 10 (Hardened Infrastructure: Chaos Engineering)"
 spec_status: STABLE
-build: v0.9.5
+build: v0.9.6
 depends_on: [03-processor, 06-hardware-calibration, 09-love-protocol]
 audit: https://www.dreammachine.systems/audit
 ---

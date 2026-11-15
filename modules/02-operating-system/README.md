@@ -3,7 +3,7 @@ id: 02-operating-system
 title: Operating System (Narrative Layer)
 book_ref: "CH 2 (Operating System: Narrative Layer)"
 spec_status: STABLE
-build: v0.9.5
+build: v0.9.6
 depends_on: [01-identity-bios]
 audit: https://www.dreammachine.systems/audit
 ---

@@ -4,6 +4,8 @@ All notable changes to the specification. Versions track the build of *The Dream
 
 ## [Unreleased]
 
+## [0.9.6] – 2026-11-15
+
 ### Changed
 
 - **Releases:** Every build gets its tag and its GitHub release without a manual step. Merging the release PR sets the tag `vX.Y.Z` on the commit that adds `## [X.Y.Z]` to this file and publishes the release with this section, the commits merged since the previous build and a compare link (`.github/workflows/release.yml`, `scripts/release.mjs`). `v0.9.5` was tagged this way after the fact. The tags and pre-releases `v0.1.0-ALPHA` and `v0.2.0-ALPHA` and the branch `draft/book-prose` were removed: they describe the standalone repository before the reboot, and its commits stay in the history of `main`.

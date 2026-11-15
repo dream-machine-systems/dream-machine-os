@@ -3,7 +3,7 @@ id: 08-cognitive-downclock
 title: Cognitive Downclock
 book_ref: "CH 8 (Cognitive Downclock: 10 Bits vs. 1 Billion)"
 spec_status: STABLE
-build: v0.9.5
+build: v0.9.6
 depends_on: [03-processor, 07-social-api]
 audit: https://www.dreammachine.systems/audit
 ---
