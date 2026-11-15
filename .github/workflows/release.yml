@@ -3,17 +3,19 @@ name: Release
 # Every build in CHANGELOG.md gets its tag and its GitHub release, without a
 # manual step.
 #
-# - Push to main that touches CHANGELOG.md (the release PR) or this workflow:
+# - Push to main that touches CHANGELOG.md (the release PR), scripts/release.mjs
+#   or this workflow:
 #   for every "## [X.Y.Z] – YYYY-MM-DD" section without a tag, the tag vX.Y.Z
 #   is set on the commit of main that added that heading, and the release is
 #   published. Versions with a suffix (X.Y.Z-ALPHA) are never tagged here.
-# - Push of a tag v* (set by hand): the release for that tag is published.
-# - "Run workflow": with a tag, (re)publishes that release; without one, runs
+# - Owner fallback only: a tag v* pushed by hand gets its release published;
+#   "Run workflow" with a tag (re)publishes that release, without one it runs
 #   the same reconcile as a push to main.
 #
 # Notes come from scripts/release.mjs: the CHANGELOG section of the build on
-# main, the commits merged since the previous build and a compare link. A tag
-# with a suffix becomes a pre-release; the newest plain build becomes "Latest".
+# main, the commits merged since the previous build and a compare link. The
+# newest plain build becomes "Latest"; a suffixed tag (fallback only) would be
+# a pre-release.
 # Tags pushed by this workflow do not trigger it again (GITHUB_TOKEN).
 
 on:
@@ -61,7 +63,7 @@ jobs:
           publish() { # publish <tag> <latest|older>
             local tag="$1" latest="$2"
             node scripts/release.mjs notes "$tag" > notes.md
-            local flags=(--title "Build $tag" --notes-file notes.md)
+            local flags=(--title "Build $tag" --notes-file notes.md --draft=false)
             case "$tag" in
               *-*) flags+=(--prerelease --latest=false) ;;
               *) if [ "$latest" = "latest" ]; then flags+=(--latest); else flags+=(--latest=false); fi ;;
@@ -83,7 +85,7 @@ jobs:
 
           node scripts/release.mjs plan > plan.txt
           cat plan.txt
-          while read -r tag commit state latest; do
+          while read -r tag commit state latest <&3; do
             if [ "$state" = "missing" ]; then
               git tag -a "$tag" "$commit" -m "Build $tag"
               git push origin "refs/tags/$tag"
@@ -91,4 +93,4 @@ jobs:
             elif ! gh release view "$tag" >/dev/null 2>&1; then
               publish "$tag" "$latest"
             fi
-          done < plan.txt
+          done 3< plan.txt

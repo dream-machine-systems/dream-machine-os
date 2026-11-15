@@ -105,7 +105,7 @@ function notes(tag) {
   }
   out.push(s.body);
   if (prev && commit) {
-    const log = git('log', '--first-parent', '--format=- %s (%h)', `${prev}..${commit}`);
+    const log = git('log', '--first-parent', '--format=- %s, %h', `${prev}..${commit}`);
     if (log) out.push('', `### Merged since ${prev}`, '', log);
   }
   out.push('', '---', '');
