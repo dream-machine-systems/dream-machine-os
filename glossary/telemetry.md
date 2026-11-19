@@ -7,4 +7,4 @@ book_ref: "Directory B"
 short: "Raw, internal data feedback (emotions, sensations)."
 ---
 
-Raw, internal data feedback (emotions, sensations). The physical sensations and tight chests used strictly for objective system diagnostics.
+Raw, internal data feedback (physiological arousal, sensations). The physical sensations and tight chests used strictly for objective system diagnostics.

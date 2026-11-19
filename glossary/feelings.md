@@ -7,4 +7,4 @@ book_ref: "Directory B"
 short: "Software rendering."
 ---
 
-Software rendering. The conscious, subjective mental experience of the body's physical changes. The mind's GUI interpretation of the raw hardware emotion.
+Software rendering. The conscious, subjective mental experience of the body's physical changes. The mind's GUI interpretation of the raw hardware telemetry.
