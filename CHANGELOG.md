@@ -4,6 +4,17 @@ All notable changes to the specification. Versions track the build of *The Dream
 
 ## [Unreleased]
 
+### Changed
+
+- **Glossary:** Seven definitions read as printed in the corrected Directory B. The book used five of these terms in a second sense that the glossary entry did not name, and EMOTIONS contradicted Directory A.5.
+  - EGO FIREWALL names both filter directions: "Inbound, it drops data packets that contradict the Identity BIOS (criticism), prioritizing system comfort over objective accuracy. Internally, it blocks, represses, or throttles overwhelming analog emotional payloads", was "It actively blocks, represses, or throttles overwhelming analog emotional payloads" only (CH 4.2).
+  - EMOTIONS follows Directory A.5: "Predictive Software. The brain's real-time construction that categorizes raw hardware telemetry (e.g., cortisol release, elevated heart rate, pupil dilation) based on context and past experience. Not a hardwired reflex", was "Hardware telemetry. The automatic, unconscious physiological response of the body to stimuli [...]. The physical alert system acting before conscious thought."
+  - FEELINGS: "The mind's GUI interpretation of the raw hardware telemetry", was "of the raw hardware emotion".
+  - TELEMETRY: "Raw, internal data feedback (physiological arousal, sensations)", was "(emotions, sensations)". An emotion is constructed from telemetry and is no longer listed as raw data.
+  - VIRTUAL SANDBOX (MENTAL REHEARSAL / LUCID DREAMING), was VIRTUAL SANDBOX (LUCID DREAMING), names both environments: "Awake: Mental Rehearsal, where the Admin simulates a trigger in stillness and pre-compiles the new response (Chapter 2.4.1). Asleep: Lucid Dreaming, a state where the conscious Admin retains Root Access while the physical hardware is in sleep mode (Chapter 5.4)." The file name `virtual-sandbox.md` stays.
+  - HEADLESS MODE adds the second use: "In the Love Protocol, the term also names the mode in which the handshake runs: the screen and the quantified metrics are bypassed for a direct, unencrypted physical link between human nodes (Chapter 9.1.2, Chapter 12.2.1)."
+  - INTRUSION DETECTION SYSTEM adds: "The term is also used for other monitors that detect a signal before any response, for example empathy (Chapter 9.4.1) and sleep-tracking peripherals (Chapter 5.4.2)."
+
 ## [0.9.6] – 2026-11-15
 
 ### Changed
