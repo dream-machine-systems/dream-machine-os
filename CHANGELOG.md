@@ -6,6 +6,7 @@ All notable changes to the specification. Versions track the build of *The Dream
 
 ### Changed
 
+- **Directory A:** Hemispheric Asymmetry follows the corrected Directory A.1.2: "both hemispheres take part in the same tasks but render them differently", was "process the same tasks". The book read "process the exact same tasks", which contradicted CH 8.0: there the left hemisphere is "highly specialized for core syntactic and linguistic computation" (audit sec8-0_1). Directory A stays `STABLE`.
 - **Glossary:** Seven definitions read as printed in the corrected Directory B. The book used five of these terms in a second sense that the glossary entry did not name, and EMOTIONS contradicted Directory A.5.
   - EGO FIREWALL names both filter directions: "Inbound, it drops data packets that contradict the Identity BIOS (criticism), prioritizing system comfort over objective accuracy. Internally, it blocks, represses, or throttles overwhelming analog emotional payloads", was "It actively blocks, represses, or throttles overwhelming analog emotional payloads" only (CH 4.2).
   - EMOTIONS follows Directory A.5: "Predictive Software. The brain's real-time construction that categorizes raw hardware telemetry (e.g., cortisol release, elevated heart rate, pupil dilation) based on context and past experience. Not a hardwired reflex", was "Hardware telemetry. The automatic, unconscious physiological response of the body to stimuli [...]. The physical alert system acting before conscious thought."
