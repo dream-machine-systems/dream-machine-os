@@ -73,11 +73,11 @@ Source: CH 6.9 of the book.
 | Resonant Frequency | Desynchronized clock / Erratic autonomic rhythm | Clock Syncing (Synchronizing heart rate to 5.5-second cadence) |
 | Zone 2 Cardio | Depleted biological battery / Tiny RAM reserves | Battery Capacity Expansion (Multiplying Baseline Energy / RAM) |
 | Zero-Dependency Conditioning | Vendor Lock-in (Dependent on commercial gyms) | Autonomous Hardware Maintenance (Eliminating Vendor Lock-in) |
-| HIIT | Stagnant cortisol / Imbalanced Body Budget | System Overclocking (Rapidly burning excess cortisol) |
+| HIIT | Unspent physiological arousal / Imbalanced Body Budget | System Overclocking (Controlled arousal spike driving cross-stressor adaptation) |
 | Strict Execution | Sloppy movement / Disrespecting the chassis | Quality Assurance / QA (Training structural integrity) |
 | Nutrition | Dirty fuel triggering autonomic survival scripts | Power Supply Unit / PSU (Clean Voltage) |
 | Hardware Brownout | Misdiagnosing energy deficits as software bugs | Low-Voltage Warning (Recognizing depression/anxiety as ATP Deficit) |
-| Secondary Motherboard | Degraded gut flora / Severe neurochemical deficit | Gut-Brain Axis (Manufacturing baseline Serotonin/Dopamine code) |
+| Secondary Motherboard | Degraded gut flora / Severe neurochemical deficit | Gut-Brain Axis (Manufacturing baseline Serotonin code) |
 | Load Balancing | High-friction dietary paranoia / Extreme diets | 80/20 Rule (Sustainable fuel ingestion without friction) |
 | Supplements | Running the biological grid on chemical deficits | Grid Deficit Patches (Restoring base-level Vitamins/Minerals) |
 | Adaptogens | Highly vulnerable to external cortisol spikes | Surge Protectors (Buffering nervous system against spikes) |
